@@ -153,7 +153,14 @@ public class SellGui implements Listener {
             if (!onClose) p.closeInventory();
             return;
         }
-        plugin.vault().get().depositPlayer(p, q.total);
+        net.milkbowl.vault.economy.EconomyResponse dp = plugin.vault().get().depositPlayer(p, q.total);
+        if (dp == null || !dp.transactionSuccess()) {
+            // khong cong duoc tien: tra lai het de chong mat do
+            giveBack(p, q.items);
+            p.sendMessage(plugin.msg("messages.no-economy"));
+            if (!onClose) p.closeInventory();
+            return;
+        }
         // ghi lich su + spent RIENG theo tung category (de len level dung)
         Map<String, Double> spentByCat = new HashMap<>();
         for (ItemStack it : q.items) {

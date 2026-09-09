@@ -226,16 +226,21 @@ public class ShopGui implements Listener {
             p.sendMessage(plugin.msg("messages.not-enough-space"));
             return;
         }
+        net.milkbowl.vault.economy.EconomyResponse wd = plugin.vault().get().withdrawPlayer(p, total);
+        if (wd == null || !wd.transactionSuccess()) {
+            p.sendMessage(plugin.msg("messages.not-enough-balance"));
+            return;
+        }
         Map<Integer, ItemStack> overflow = p.getInventory().addItem(new ItemStack(it.material, amount));
         if (!overflow.isEmpty()) {
-            // hiem khi xay ra (ai do nhan do giua chung): go phan da them, khong tru tien
+            // hiem khi xay ra (ai do nhan do giua chung): go phan da them + hoan tien
             int added = amount;
             for (ItemStack o : overflow.values()) added -= o.getAmount();
             if (added > 0) p.getInventory().removeItem(new ItemStack(it.material, added));
+            plugin.vault().get().depositPlayer(p, total);
             p.sendMessage(plugin.msg("messages.not-enough-space"));
             return;
         }
-        plugin.vault().get().withdrawPlayer(p, total);
         Map<String, String> ph = new HashMap<>();
         ph.put("amount", String.valueOf(amount));
         ph.put("item", strip(it.displayName));
