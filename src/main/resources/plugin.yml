@@ -4,6 +4,8 @@ main: vn.pika.pikashop.PikaShop
 api-version: 1.21
 author: PikaMC
 description: Shop rieng cua PikaMC (shop 2 buoc, sell tha do, multiplier, shard v2)
+depend: [Vault]
+softdepend: [PlaceholderAPI]
 commands:
   shop:
     description: Mo menu shop chinh

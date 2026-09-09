@@ -5,6 +5,11 @@ level-prices: [25000, 150000, 500000, 1000000, 5000000, 25000000]
 level-bonus-per-level: 0.05
 messages:
   prefix: "&d&lPikaShop &7» &f"
-  developing: "tinh nang dang phat trien (R6 scaffold)."
+  developing: "tinh nang Sell/Multiplier dang phat trien (R8-R9)."
   no-permission: "&cBan khong co quyen."
   reloaded: "&aDa reload cau hinh PikaShop."
+  no-economy: "&cChua ket noi duoc Vault/Economy, bao admin kiem tra."
+  not-enough-balance: "&cBan khong du tien."
+  not-enough-space: "&cTui do khong du cho trong."
+  buying: "&aDa mua %amount%x %item% voi gia $%total%."
+  category-not-found: "&cKhong tim thay gian hang."
