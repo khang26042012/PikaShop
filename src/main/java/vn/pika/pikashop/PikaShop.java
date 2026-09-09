@@ -11,7 +11,7 @@ import java.util.Map;
 
 /**
  * PikaShop - shop rieng cua PikaMC, tu viet (clean-room).
- * R7: Shop mua 2 buoc that. R8: Sell tha-do + history + worth. R9: Multiplier.
+ * R7: Shop mua 2 buoc that. R8: Sell tha-do + history + worth. R9: Multiplier. R13: Shards v2.
  */
 public class PikaShop extends JavaPlugin implements CommandExecutor {
 
@@ -23,6 +23,11 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
     private SellGui sellGui;
     private Multiplier multi;
     private MultiGui multiGui;
+    private ShardStore shards;
+    private ShardAfk afk;
+    private ShardListener shardListener;
+    private ShardGui shardGui;
+    private ShardShop shardShop;
 
     @Override
     public void onEnable() {
@@ -35,12 +40,24 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
         sellGui = new SellGui(this);
         multi = new Multiplier(this);
         multiGui = new MultiGui(this);
+        shards = new ShardStore(this);
+        afk = new ShardAfk(this);
+        shardListener = new ShardListener(this);
+        shardGui = new ShardGui(this);
+        shardShop = new ShardShop(this);
         shops.load(this);
         sells.load(this);
         store.load();
+        shards.load();
+        afk.load();
+        shardShop.load();
+        afk.start();
         getServer().getPluginManager().registerEvents(gui, this);
         getServer().getPluginManager().registerEvents(sellGui, this);
         getServer().getPluginManager().registerEvents(multiGui, this);
+        getServer().getPluginManager().registerEvents(shardListener, this);
+        getServer().getPluginManager().registerEvents(shardGui, this);
+        register("pshard");
         register("pshop");
         register("psell");
         register("psellmulti");
@@ -63,6 +80,11 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
     public SellGui sellGui() { return sellGui; }
     public Multiplier multi() { return multi; }
     public MultiGui multiGui() { return multiGui; }
+    public ShardStore shards() { return shards; }
+    public ShardAfk afk() { return afk; }
+    public ShardListener shardListener() { return shardListener; }
+    public ShardGui shardGui() { return shardGui; }
+    public ShardShop shardShop() { return shardShop; }
 
     private void register(String name) {
         if (getCommand(name) != null) {
@@ -120,7 +142,126 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
             multiGui.open(p);
             return true;
         }
+        if (name.equals("pshard")) {
+            return shardCommand(p, args);
+        }
         p.sendMessage(msg("messages.developing"));
+        return true;
+    }
+
+    /** /pshard <balance|pay|shop|top|afk|set|give|take|see|setafk>. */
+    public boolean shardCommand(Player p, String[] args) {
+        if (args.length == 0 || args[0].equalsIgnoreCase("balance")) {
+            java.util.Map<String, String> ph = new java.util.HashMap<>();
+            ph.put("balance", String.valueOf(shards.balance(p.getUniqueId())));
+            p.sendMessage(msg("messages.shard-balance", ph));
+            return true;
+        }
+        String sub = args[0].toLowerCase();
+        if (sub.equals("shop")) {
+            shardGui.openShop(p);
+            return true;
+        }
+        if (sub.equals("top") || sub.equals("leaderboard")) {
+            shardGui.openTop(p, 0);
+            return true;
+        }
+        if (sub.equals("afk")) {
+            shardListener.startAfkTeleport(p);
+            return true;
+        }
+        if (sub.equals("pay") && args.length == 3) {
+            Player t = getServer().getPlayerExact(args[1]);
+            if (t == null) {
+                java.util.Map<String, String> ph = new java.util.HashMap<>();
+                ph.put("target", args[1]);
+                p.sendMessage(msg("messages.player-not-found", ph));
+                return true;
+            }
+            if (t.getUniqueId().equals(p.getUniqueId())) {
+                p.sendMessage(msg("messages.shard-cant-self"));
+                return true;
+            }
+            long amount;
+            try {
+                amount = Long.parseLong(args[2]);
+            } catch (NumberFormatException e) {
+                p.sendMessage(msg("messages.shard-usage"));
+                return true;
+            }
+            if (amount <= 0 || !shards.take(p.getUniqueId(), amount)) {
+                p.sendMessage(msg("messages.shard-no-enough"));
+                return true;
+            }
+            shards.add(t.getUniqueId(), amount);
+            java.util.Map<String, String> ph = new java.util.HashMap<>();
+            ph.put("amount", String.valueOf(amount));
+            ph.put("target", t.getName());
+            p.sendMessage(msg("messages.shard-paid", ph));
+            java.util.Map<String, String> ph2 = new java.util.HashMap<>();
+            ph2.put("amount", String.valueOf(amount));
+            ph2.put("from", p.getName());
+            t.sendMessage(msg("messages.shard-received", ph2));
+            return true;
+        }
+        // admin: set/give/take/see/setafk
+        if (sub.equals("setafk")) {
+            if (!p.hasPermission("pikashop.admin")) {
+                p.sendMessage(msg("messages.no-permission"));
+                return true;
+            }
+            afk.save(p.getLocation());
+            p.sendMessage(msg("messages.shard-afk-set"));
+            return true;
+        }
+        if ((sub.equals("set") || sub.equals("give") || sub.equals("take") || sub.equals("see"))
+                && args.length == (sub.equals("see") ? 2 : 3)) {
+            if (!p.hasPermission("pikashop.admin")) {
+                p.sendMessage(msg("messages.no-permission"));
+                return true;
+            }
+            @SuppressWarnings("deprecation")
+            org.bukkit.OfflinePlayer t = getServer().getOfflinePlayer(args[1]);
+            if (t.getName() == null) {
+                java.util.Map<String, String> ph = new java.util.HashMap<>();
+                ph.put("target", args[1]);
+                p.sendMessage(msg("messages.player-not-found", ph));
+                return true;
+            }
+            if (sub.equals("see")) {
+                java.util.Map<String, String> ph = new java.util.HashMap<>();
+                ph.put("target", t.getName());
+                ph.put("balance", String.valueOf(shards.balance(t.getUniqueId())));
+                p.sendMessage(msg("messages.shard-see", ph));
+                return true;
+            }
+            long amount;
+            try {
+                amount = Long.parseLong(args[2]);
+            } catch (NumberFormatException e) {
+                p.sendMessage(msg("messages.shard-admin-usage"));
+                return true;
+            }
+            java.util.Map<String, String> ph = new java.util.HashMap<>();
+            ph.put("target", t.getName());
+            ph.put("amount", String.valueOf(amount));
+            if (sub.equals("set")) {
+                shards.set(t.getUniqueId(), amount);
+                p.sendMessage(msg("messages.shard-set", ph));
+            } else if (sub.equals("give")) {
+                shards.add(t.getUniqueId(), amount);
+                p.sendMessage(msg("messages.shard-gave", ph));
+            } else {
+                if (!shards.take(t.getUniqueId(), amount)) {
+                    p.sendMessage(msg("messages.shard-no-enough"));
+                    return true;
+                }
+                p.sendMessage(msg("messages.shard-took", ph));
+            }
+            return true;
+        }
+        p.sendMessage(msg(p.hasPermission("pikashop.admin")
+                ? "messages.shard-admin-usage" : "messages.shard-usage"));
         return true;
     }
 

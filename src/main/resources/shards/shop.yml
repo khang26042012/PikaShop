@@ -1,0 +1,23 @@
+# PikaShop shard shop (tu thiet ke; sua lenh cho khop plugin server truoc khi live).
+items:
+  key-common:
+    slot: 10
+    material: TRIPWIRE_HOOK
+    name: "&2Common Key"
+    price: 200
+    commands:
+      - "crates give %player% common_crate 1"
+  spawner-pig:
+    slot: 13
+    material: SPAWNER
+    name: "&dPig Spawner"
+    price: 250
+    commands:
+      - "spawner give %player% pig 1"
+  spawner-blaze:
+    slot: 14
+    material: SPAWNER
+    name: "&dBlaze Spawner"
+    price: 1000
+    commands:
+      - "spawner give %player% blaze 1"

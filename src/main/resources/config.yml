@@ -3,6 +3,17 @@
 level-prices: [25000, 150000, 500000, 1000000, 5000000, 25000000]
 # base-bonus moi level (cong them vao base-multiplier cua category).
 level-bonus-per-level: 0.05
+shards:
+  kill-enabled: true
+  kill-base: 15
+  kill-extra-ten: 10
+  kill-extra-twenty: 20
+  kill-cooldown-seconds: 300
+  afk-enabled: true
+  afk-per-interval: 10
+  afk-interval-seconds: 60
+  afk-radius: 10.0
+  afk-countdown-seconds: 5
 messages:
   prefix: "&d&lPikaShop &7» &f"
   developing: "tinh nang nay dang phat trien."
@@ -24,3 +35,27 @@ messages:
   worth-hand: "&e%item%: &a$%unit%/cai &7(dang cam tri gia $%total%)."
   worth-empty-hand: "&cCam vat pham len tay truoc khi xem gia."
   level-up: "&6&lLEVEL UP! &eGian hang %category% len Lv %level%, he so ban tang!"
+  shard-balance: "&eShard cua ban: &d%balance%"
+  shard-see: "&eShard cua %target%: &d%balance%"
+  shard-paid: "&aDa gui %amount% shard cho %target%."
+  shard-received: "&aBan nhan duoc %amount% shard tu %from%."
+  shard-no-enough: "&cBan khong du shard."
+  shard-cant-self: "&cKhong tu gui shard cho minh."
+  shard-usage: "&cDung: /pshard <balance|pay|shop|top|afk>"
+  shard-admin-usage: "&cDung: /pshard <set|give|take> <player> <so>"
+  shard-set: "&aDa dat shard cua %target% = %amount%."
+  shard-gave: "&aDa cho %target% %amount% shard."
+  shard-took: "&aDa lay %amount% shard cua %target%."
+  shard-kill: "&a+%amount% shard (ha %victim%)!"
+  shard-kill-blocked: "&cGiet lap lai qua nhanh, khong duoc thuong (chong farm)."
+  shard-not-enough: "&cCan %price% shard, ban thieu."
+  shard-bought: "&aDa mua %product% voi gia %price% shard!"
+  shard-refunded: "&cMua that bai, da hoan shard."
+  shard-afk-not-set: "&cChua dat diem AFK (OP: /pshard setafk)."
+  shard-afk-busy: "&cBan dang dich chuyen roi."
+  shard-afk-countdown: "&eDich chuyen den khu AFK sau %time%s (dung yen)!"
+  shard-afk-done: "&aDa den khu AFK. Dung trong khu de nhan shard!"
+  shard-afk-cancelled: "&cDa huy dich chuyen (ban di chuyen)."
+  shard-afk-set: "&aDa dat diem AFK tai cho nay."
+  shard-afk-reward: "&a+%amount% shard AFK!"
+  player-not-found: "&cKhong tim thay nguoi choi %target%."

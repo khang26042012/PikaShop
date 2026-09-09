@@ -22,6 +22,9 @@ commands:
   pworth:
     description: Xem gia tri vat pham (PikaShop)
     usage: /pworth
+  pshard:
+    description: Tien Shard (PikaShop v2)
+    usage: /pshard <balance|pay|shop|top|afk>
   pikashop:
     description: Lenh admin PikaShop
     usage: /pikashop reload
@@ -33,3 +36,9 @@ permissions:
   pikashop.admin:
     description: Admin PikaShop
     default: op
+  pikashop.shard.extra_ten:
+    description: Bonus shard khi giet (+10)
+    default: false
+  pikashop.shard.extra_twenty:
+    description: Bonus shard khi giet (+20)
+    default: false
