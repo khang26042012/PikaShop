@@ -9,8 +9,8 @@
 - [x] SELL thả-đồ: GUI mở bằng /sell, đóng inventory = bán hết đồ hợp lệ, tiền qua Vault
 - [x] Multiplier theo category: base-multiplier + level-prices (mốc tổng $ đã bán), GUI tiến trình WORKING/INCOMPLETE/COMPLETE
 - [x] Lệnh: /shop /sell /sellmulti /sellhistory /worth (+ admin /pikashop reload, /sellprice)
-- [ ] SHARDS (v2): tiền tệ riêng SQLite, kiếm từ giết player (chống farm cooldown) + AFK zone, /shard pay/shop/leaderboard
-- [ ] Không có license, không gọi mạng ra ngoài, không bStats (hoặc tự nguyện sau)
+- [x] SHARDS (v2, R13): số dư data.yml, giết player base 15 + bonus perm (cooldown farm 300s/cặp) + AFK zone, /pshard balance/pay/shop/top/afk (+admin set/give/take/see/setafk)
+- [x] Không có license, không gọi mạng ra ngoài, không bStats (code đã rà: không import java.net/http)
 
 ## 2. Lệnh & quyền
 | Lệnh | Quyền | Mô tả |
@@ -72,5 +72,11 @@ sell/
 - R7: Shop 2-bước đọc config + mua Vault.
 - R8: Sell thả-đồ + history + worth.
 - R9: Multiplier + GUI tiến trình.
-- R10: Cân giá từ all_items.txt + test checklist + build Actions ra jar.
-- Sau event thứ 7 mới thay EconomyShopGUI (hiện shop cũ đang KHÓA). Shards v2 sau nữa.
+- R10: Cân giá từ all_items.txt + test checklist + build Actions ra jar (xong, 1.0.0).
+- R11: Stage jar lên server + SMOKE_TEST (xong).
+- R12: Đổi lệnh p-prefix (pshop/psell/.../pshard) chống trùng EconomyShopGUI (xong, build-4).
+- R13: Shards v2 (xong, build-5).
+- R14: Đồng bộ SMOKE_TEST theo lệnh p- + shard v2 (docs, xong).
+- R15: /psellprice admin + onDisable lưu shard + reload nạp shard shop (xong, build-6, SPEC đủ 100%).
+- R16: Audit bảo mật tiền/đồ — check Vault response, lỗi hoàn tiền/trả đồ (xong, build-7).
+- Sau event thứ 7 mới thay EconomyShopGUI (hiện shop cũ đang KHÓA). Chờ restart để smoke test thật.
