@@ -1,0 +1,9 @@
+# Menu shop chinh (y tuong hoc tu DonutShop, tu viet lai).
+Title: "SHOP"
+Size: 27
+categories:
+  gear:
+    displayName: "&aGEAR"
+    material: TOTEM_OF_UNDYING
+    slot: 13
+    file: "gear.yml"

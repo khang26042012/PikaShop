@@ -1,0 +1,33 @@
+name: PikaShop
+version: 0.1.0
+main: vn.pika.pikashop.PikaShop
+api-version: 1.21
+author: PikaMC
+description: Shop rieng cua PikaMC (shop 2 buoc, sell tha do, multiplier, shard v2)
+commands:
+  shop:
+    description: Mo menu shop chinh
+    usage: /shop
+  sell:
+    description: Mo GUI ban do
+    usage: /sell
+  sellmulti:
+    description: Xem tien trinh multiplier
+    usage: /sellmulti
+  sellhistory:
+    description: Xem lich su ban
+    usage: /sellhistory
+  worth:
+    description: Xem gia tri vat pham
+    usage: /worth
+  pikashop:
+    description: Lenh admin PikaShop
+    usage: /pikashop reload
+    permission: pikashop.admin
+permissions:
+  pikashop.use:
+    description: Dung shop/sell co ban
+    default: true
+  pikashop.admin:
+    description: Admin PikaShop
+    default: op

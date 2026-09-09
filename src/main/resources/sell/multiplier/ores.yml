@@ -1,0 +1,9 @@
+# Vi du category sell (gia tam, SE can lai; khong copy bang gia goc).
+base-multiplier: 1.0
+inventory-slot: 10
+progress-title: "ORES PROGRESS"
+allowed-types:
+  COAL:
+    price-per-unit: 13
+  DIAMOND:
+    price-per-unit: 130

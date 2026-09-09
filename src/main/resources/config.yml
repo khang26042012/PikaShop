@@ -1,0 +1,10 @@
+# PikaShop 0.1.0 - khung MVP (R6). Gia tri that se can lai truoc khi live.
+# level-prices: moc tong $ da ban trong 1 category de len multiplier level.
+level-prices: [25000, 150000, 500000, 1000000, 5000000, 25000000]
+# base-bonus moi level (cong them vao base-multiplier cua category).
+level-bonus-per-level: 0.05
+messages:
+  prefix: "&d&lPikaShop &7» &f"
+  developing: "tinh nang dang phat trien (R6 scaffold)."
+  no-permission: "&cBan khong co quyen."
+  reloaded: "&aDa reload cau hinh PikaShop."

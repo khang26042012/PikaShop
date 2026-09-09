@@ -1,0 +1,10 @@
+# Vi du category (gia tam, SE can lai truoc khi live).
+Title: "SHOP - GEAR"
+Size: 27
+items:
+  obsidian:
+    slot: 9
+    displayName: "&fObsidian"
+    material: OBSIDIAN
+    price: 100
+    max-stack: 64

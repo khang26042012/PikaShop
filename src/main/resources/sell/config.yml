@@ -1,0 +1,6 @@
+# Sell MVP: GUI tha do + multiplier theo category.
+sell-multiplier:
+  enabled: true
+Multiplier-Menu:
+  Title: "Sell Categories"
+  Size: 27
