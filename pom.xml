@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>vn.pika.pikashop</groupId>
     <artifactId>PikaShop</artifactId>
-    <version>0.1.0</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,7 +39,7 @@
         </repository>
     </repositories>
     <build>
-        <finalName>PikaShop-0.1.0</finalName>
+        <finalName>PikaShop-1.0.0</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

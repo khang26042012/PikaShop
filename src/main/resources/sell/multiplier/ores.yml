@@ -1,9 +1,71 @@
-# Vi du category sell (gia tam, SE can lai; khong copy bang gia goc).
-base-multiplier: 1.0
-inventory-slot: 10
-progress-title: "ORES PROGRESS"
 allowed-types:
+  BRICK:
+    price-per-unit: 7.35
+  CHARCOAL:
+    price-per-unit: 2.1
+  CLAY:
+    price-per-unit: 7.0
   COAL:
     price-per-unit: 13
+  COAL_ORE:
+    price-per-unit: 2.51
+  COPPER_BLOCK:
+    price-per-unit: 24.84
+  COPPER_INGOT:
+    price-per-unit: 2.76
+  DEEPSLATE_COAL_ORE:
+    price-per-unit: 6.67
+  DEEPSLATE_COPPER_ORE:
+    price-per-unit: 5.0
+  DEEPSLATE_DIAMOND_ORE:
+    price-per-unit: 66.67
+  DEEPSLATE_EMERALD_ORE:
+    price-per-unit: 50.0
+  DEEPSLATE_GOLD_ORE:
+    price-per-unit: 10.0
+  DEEPSLATE_IRON_ORE:
+    price-per-unit: 6.67
+  DEEPSLATE_LAPIS_ORE:
+    price-per-unit: 18.33
+  DEEPSLATE_REDSTONE_ORE:
+    price-per-unit: 6.67
   DIAMOND:
     price-per-unit: 130
+  DIAMOND_BLOCK:
+    price-per-unit: 1417.5
+  EMERALD_BLOCK:
+    price-per-unit: 1063.26
+  GLOWSTONE_DUST:
+    price-per-unit: 21.0
+  GOLD_BLOCK:
+    price-per-unit: 45
+  GOLD_INGOT:
+    price-per-unit: 5
+  GOLD_NUGGET:
+    price-per-unit: 0.28
+  IRON_BLOCK:
+    price-per-unit: 45
+  IRON_INGOT:
+    price-per-unit: 5
+  IRON_NUGGET:
+    price-per-unit: 0.2
+  LAPIS_BLOCK:
+    price-per-unit: 194.94
+  LAPIS_LAZULI:
+    price-per-unit: 21.66
+  QUARTZ:
+    price-per-unit: 5
+  RAW_COPPER:
+    price-per-unit: 0.29
+  RAW_GOLD:
+    price-per-unit: 2.63
+  RAW_IRON:
+    price-per-unit: 1.75
+  REDSTONE:
+    price-per-unit: 10.5
+  REDSTONE_BLOCK:
+    price-per-unit: 94.5
+base-multiplier: 1.0
+inventory-slot: 10
+progress-icon-material: DIAMOND
+progress-title: ORES PROGRESS

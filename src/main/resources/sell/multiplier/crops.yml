@@ -1,0 +1,25 @@
+allowed-types:
+  BEETROOT:
+    price-per-unit: 8.0
+  CARROT:
+    price-per-unit: 6.67
+  COCOA_BEANS:
+    price-per-unit: 2.0
+  MELON_SLICE:
+    price-per-unit: 1.0
+  NETHER_WART:
+    price-per-unit: 4.0
+  POTATO:
+    price-per-unit: 6.67
+  PUMPKIN:
+    price-per-unit: 6.67
+  SUGAR_CANE:
+    price-per-unit: 0.13
+  SWEET_BERRIES:
+    price-per-unit: 6.67
+  WHEAT:
+    price-per-unit: 6.67
+base-multiplier: 1.0
+inventory-slot: 13
+progress-icon-material: WHEAT
+progress-title: CROPS PROGRESS

@@ -1,5 +1,5 @@
 name: PikaShop
-version: 0.1.0
+version: 1.0.0
 main: vn.pika.pikashop.PikaShop
 api-version: 1.21
 author: PikaMC

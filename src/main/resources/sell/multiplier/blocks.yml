@@ -1,0 +1,23 @@
+allowed-types:
+  COBBLESTONE:
+    price-per-unit: 0.23
+  DIRT:
+    price-per-unit: 1.0
+  GLASS:
+    price-per-unit: 2.1
+  GRAVEL:
+    price-per-unit: 2.67
+  OAK_LOG:
+    price-per-unit: 1.0
+  OAK_PLANKS:
+    price-per-unit: 1.48
+  OBSIDIAN:
+    price-per-unit: 10
+  SAND:
+    price-per-unit: 2.0
+  STONE:
+    price-per-unit: 0.24
+base-multiplier: 1.0
+inventory-slot: 12
+progress-icon-material: COBBLESTONE
+progress-title: BLOCKS PROGRESS

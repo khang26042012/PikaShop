@@ -46,7 +46,7 @@ public class MultiGui implements Listener {
             double spent = plugin.store().getSpent(id, c.id);
             double next = plugin.multi().nextMark(id, c.id);
             boolean max = next < 0;
-            Material icon = firstMaterial(c);
+            Material icon = c.icon != null ? c.icon : firstMaterial(c);
             ItemStack it = new ItemStack(icon);
             ItemMeta meta = it.getItemMeta();
             if (meta != null) {

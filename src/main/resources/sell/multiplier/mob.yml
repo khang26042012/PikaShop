@@ -1,15 +1,55 @@
-# Vi du category mob (gia tam, SE can lai; khong copy bang gia goc).
-base-multiplier: 1.0
-inventory-slot: 11
-progress-title: "MOB DROPS PROGRESS"
 allowed-types:
-  STRING:
-    price-per-unit: 0.5
+  ARMADILLO_SCUTE:
+    price-per-unit: 5
+  BEEF:
+    price-per-unit: 6.0
+  BLAZE_ROD:
+    price-per-unit: 6
   BONE:
     price-per-unit: 2
+  BREEZE_ROD:
+    price-per-unit: 26.67
+  CHICKEN:
+    price-per-unit: 6.0
+  CLAY_BALL:
+    price-per-unit: 1.67
+  COOKED_CHICKEN:
+    price-per-unit: 50.4
+  DRAGON_BREATH:
+    price-per-unit: 36.64
+  ENDER_PEARL:
+    price-per-unit: 9
+  FEATHER:
+    price-per-unit: 32.0
+  GUNPOWDER:
+    price-per-unit: 82.67
+  INK_SAC:
+    price-per-unit: 1.67
+  LANTERN:
+    price-per-unit: 2.17
+  LEATHER:
+    price-per-unit: 8
+  MAGMA_CREAM:
+    price-per-unit: 10.68
+  PHANTOM_MEMBRANE:
+    price-per-unit: 166.87
+  RABBIT_HIDE:
+    price-per-unit: 2.67
   ROTTEN_FLESH:
     price-per-unit: 1
-  LEATHER:
-    price-per-unit: 40
-  ENDER_PEARL:
-    price-per-unit: 75
+  SCUTE:
+    price-per-unit: 5
+  SHULKER_SHELL:
+    price-per-unit: 1666.67
+  SLIME_BALL:
+    price-per-unit: 6.67
+  SPIDER_EYE:
+    price-per-unit: 18.67
+  STRING:
+    price-per-unit: 2
+  WIND_CHARGE:
+    price-per-unit: 14.0
+base-multiplier: 1.0
+inventory-slot: 11
+progress-icon-material: BONE
+progress-title: MOB DROPS PROGRESS

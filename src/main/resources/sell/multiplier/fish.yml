@@ -1,0 +1,21 @@
+allowed-types:
+  COD:
+    price-per-unit: 6.0
+  COOKED_COD:
+    price-per-unit: 50.4
+  COOKED_SALMON:
+    price-per-unit: 50.4
+  GLOW_INK_SAC:
+    price-per-unit: 1.83
+  INK_SAC:
+    price-per-unit: 1.67
+  PUFFERFISH:
+    price-per-unit: 2.0
+  SALMON:
+    price-per-unit: 6.0
+  TROPICAL_FISH:
+    price-per-unit: 2.0
+base-multiplier: 1.0
+inventory-slot: 14
+progress-icon-material: COD
+progress-title: FISH PROGRESS

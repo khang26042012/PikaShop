@@ -1,0 +1,19 @@
+allowed-types:
+  APPLE:
+    price-per-unit: 40.0
+  BREAD:
+    price-per-unit: 252.0
+  COOKED_BEEF:
+    price-per-unit: 50.4
+  COOKED_CHICKEN:
+    price-per-unit: 50.4
+  COOKED_MUTTON:
+    price-per-unit: 50.4
+  COOKED_PORKCHOP:
+    price-per-unit: 50.4
+  GOLDEN_APPLE:
+    price-per-unit: 333.33
+base-multiplier: 1.0
+inventory-slot: 15
+progress-icon-material: COOKED_BEEF
+progress-title: FOOD PROGRESS

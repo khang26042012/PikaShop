@@ -20,6 +20,7 @@ public class SellData {
         public double baseMultiplier = 1.0;
         public int slot = 0;
         public String progressTitle = "";
+        public Material icon = null;
         public final Map<Material, Double> prices = new LinkedHashMap<>();
         public File file;
     }
@@ -29,8 +30,9 @@ public class SellData {
     public void load(PikaShop plugin) {
         categories.clear();
         copy(plugin, "sell/config.yml");
-        copy(plugin, "sell/multiplier/ores.yml");
-        copy(plugin, "sell/multiplier/mob.yml");
+        for (String f : new String[]{"ores", "mob", "blocks", "crops", "fish", "food"}) {
+            copy(plugin, "sell/multiplier/" + f + ".yml");
+        }
         File dir = new File(plugin.getDataFolder(), "sell/multiplier");
         File[] files = dir.listFiles((d, n) -> n.endsWith(".yml"));
         if (files == null || files.length == 0) {
@@ -47,6 +49,7 @@ public class SellData {
                 c.baseMultiplier = y.getDouble("base-multiplier", 1.0);
                 c.slot = y.getInt("inventory-slot", 0);
                 c.progressTitle = y.getString("progress-title", c.id);
+                c.icon = Material.matchMaterial(y.getString("progress-icon-material", ""));
                 ConfigurationSection at = y.getConfigurationSection("allowed-types");
                 if (at != null) {
                     for (String key : at.getKeys(false)) {
