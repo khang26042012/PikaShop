@@ -41,11 +41,11 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
         getServer().getPluginManager().registerEvents(gui, this);
         getServer().getPluginManager().registerEvents(sellGui, this);
         getServer().getPluginManager().registerEvents(multiGui, this);
-        register("shop");
-        register("sell");
-        register("sellmulti");
-        register("sellhistory");
-        register("worth");
+        register("pshop");
+        register("psell");
+        register("psellmulti");
+        register("psellhistory");
+        register("pworth");
         register("pikashop");
         if (vault.setup()) {
             getLogger().info("PikaShop da noi Vault Economy.");
@@ -99,24 +99,24 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
             p.sendMessage(msg("messages.no-permission"));
             return true;
         }
-        if (name.equals("shop")) {
+        if (name.equals("pshop")) {
             gui.openMain(p);
             return true;
         }
-        if (name.equals("sell")) {
+        if (name.equals("psell")) {
             sellGui.open(p);
             return true;
         }
-        if (name.equals("sellhistory")) {
+        if (name.equals("psellhistory")) {
             sellGui.showHistory(p);
             return true;
         }
-        if (name.equals("worth")) {
+        if (name.equals("pworth")) {
             boolean all = args.length > 0 && args[0].equalsIgnoreCase("all");
             sellGui.showWorth(p, all);
             return true;
         }
-        if (name.equals("sellmulti")) {
+        if (name.equals("psellmulti")) {
             multiGui.open(p);
             return true;
         }
