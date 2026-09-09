@@ -5,7 +5,7 @@ level-prices: [25000, 150000, 500000, 1000000, 5000000, 25000000]
 level-bonus-per-level: 0.05
 messages:
   prefix: "&d&lPikaShop &7» &f"
-  developing: "tinh nang Sell/Multiplier dang phat trien (R8-R9)."
+  developing: "tinh nang nay dang phat trien."
   no-permission: "&cBan khong co quyen."
   reloaded: "&aDa reload cau hinh PikaShop."
   no-economy: "&cChua ket noi duoc Vault/Economy, bao admin kiem tra."
@@ -23,3 +23,4 @@ messages:
   worth-all: "&eTui do cua ban tri gia &a$%total% &7(%count% vat pham ban duoc)."
   worth-hand: "&e%item%: &a$%unit%/cai &7(dang cam tri gia $%total%)."
   worth-empty-hand: "&cCam vat pham len tay truoc khi xem gia."
+  level-up: "&6&lLEVEL UP! &eGian hang %category% len Lv %level%, he so ban tang!"

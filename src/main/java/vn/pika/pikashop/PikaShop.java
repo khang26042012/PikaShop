@@ -11,7 +11,7 @@ import java.util.Map;
 
 /**
  * PikaShop - shop rieng cua PikaMC, tu viet (clean-room).
- * R7: Shop mua 2 buoc that. R8: Sell tha-do + history + worth.
+ * R7: Shop mua 2 buoc that. R8: Sell tha-do + history + worth. R9: Multiplier.
  */
 public class PikaShop extends JavaPlugin implements CommandExecutor {
 
@@ -21,6 +21,8 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
     private SellData sells;
     private SellStore store;
     private SellGui sellGui;
+    private Multiplier multi;
+    private MultiGui multiGui;
 
     @Override
     public void onEnable() {
@@ -31,11 +33,14 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
         sells = new SellData();
         store = new SellStore(this);
         sellGui = new SellGui(this);
+        multi = new Multiplier(this);
+        multiGui = new MultiGui(this);
         shops.load(this);
         sells.load(this);
         store.load();
         getServer().getPluginManager().registerEvents(gui, this);
         getServer().getPluginManager().registerEvents(sellGui, this);
+        getServer().getPluginManager().registerEvents(multiGui, this);
         register("shop");
         register("sell");
         register("sellmulti");
@@ -47,7 +52,7 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
         } else {
             getLogger().warning("Chua thay Vault/Economy - mua/ban se bao loi.");
         }
-        getLogger().info("PikaShop R8: shop 2 buoc + sell tha-do san sang.");
+        getLogger().info("PikaShop R9: shop 2 buoc + sell tha-do + multiplier san sang.");
     }
 
     public VaultHook vault() { return vault; }
@@ -56,6 +61,8 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
     public SellData sells() { return sells; }
     public SellStore store() { return store; }
     public SellGui sellGui() { return sellGui; }
+    public Multiplier multi() { return multi; }
+    public MultiGui multiGui() { return multiGui; }
 
     private void register(String name) {
         if (getCommand(name) != null) {
@@ -109,7 +116,10 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
             sellGui.showWorth(p, all);
             return true;
         }
-        // Multiplier GUI o R9
+        if (name.equals("sellmulti")) {
+            multiGui.open(p);
+            return true;
+        }
         p.sendMessage(msg("messages.developing"));
         return true;
     }

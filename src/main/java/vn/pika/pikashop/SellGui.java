@@ -106,9 +106,9 @@ public class SellGui implements Listener {
         settle((Player) e.getPlayer(), e.getView().getTopInventory(), true);
     }
 
-    /** Xem truoc tong gia (khong ban). */
+    /** Xem truoc tong gia (khong ban) - da nhan multiplier. */
     private void preview(Player p, Inventory inv) {
-        Quote q = quote(inv);
+        Quote q = quote(p, inv);
         if (q.total <= 0) {
             p.sendMessage(plugin.msg("messages.sell-empty"));
             return;
@@ -127,9 +127,9 @@ public class SellGui implements Listener {
         p.sendMessage(plugin.msg("messages.sell-cancelled"));
     }
 
-    /** Quyet toan: ban do hop le, tra lai do khong ban duoc. */
+    /** Quyet toan: ban do hop le (nhan multiplier), tra lai do khong ban duoc. */
     private void settle(Player p, Inventory inv, boolean onClose) {
-        Quote q = quote(inv);
+        Quote q = quote(p, inv);
         List<ItemStack> unsellable = new ArrayList<>();
         for (int i = 0; i < SELL_ROWS * 9; i++) {
             ItemStack it = inv.getItem(i);
@@ -154,15 +154,31 @@ public class SellGui implements Listener {
             return;
         }
         plugin.vault().get().depositPlayer(p, q.total);
-        // ghi lich su + spent theo category
-        SellData.Category cat = null;
+        // ghi lich su + spent RIENG theo tung category (de len level dung)
+        Map<String, Double> spentByCat = new HashMap<>();
         for (ItemStack it : q.items) {
             SellData.Category c = plugin.sells().categoryOf(it.getType());
-            if (c != null) cat = c;
-            plugin.store().addSale(p.getUniqueId(), it.getType().name(), it.getAmount(),
-                    plugin.sells().unitPrice(it.getType()) * it.getAmount());
+            double line = q.priced.get(it) != null ? q.priced.get(it) : 0.0;
+            plugin.store().addSale(p.getUniqueId(), it.getType().name(), it.getAmount(), line);
+            if (c != null) spentByCat.put(c.id, spentByCat.getOrDefault(c.id, 0.0) + line);
         }
-        if (cat != null) plugin.store().addSpent(p.getUniqueId(), cat.id, q.total);
+        int newLevel = 0;
+        String levelCat = null;
+        for (Map.Entry<String, Double> e : spentByCat.entrySet()) {
+            int before = plugin.multi().level(p.getUniqueId(), e.getKey());
+            plugin.store().addSpent(p.getUniqueId(), e.getKey(), e.getValue());
+            int after = plugin.multi().level(p.getUniqueId(), e.getKey());
+            if (after > before && after > newLevel) {
+                newLevel = after;
+                levelCat = e.getKey();
+            }
+        }
+        if (levelCat != null) {
+            Map<String, String> lv = new HashMap<>();
+            lv.put("category", levelCat);
+            lv.put("level", String.valueOf(newLevel));
+            p.sendMessage(plugin.msg("messages.level-up", lv));
+        }
         Map<String, String> ph = new HashMap<>();
         ph.put("total", money(q.total));
         ph.put("count", String.valueOf(q.count));
@@ -175,18 +191,23 @@ public class SellGui implements Listener {
         double total = 0;
         int count = 0;
         final List<ItemStack> items = new ArrayList<>();
+        final Map<ItemStack, Double> priced = new HashMap<>();
     }
 
-    private Quote quote(Inventory inv) {
+    private Quote quote(Player p, Inventory inv) {
         Quote q = new Quote();
         for (int i = 0; i < SELL_ROWS * 9; i++) {
             ItemStack it = inv.getItem(i);
             if (it == null || it.getType().isAir()) continue;
             double unit = plugin.sells().unitPrice(it.getType());
             if (unit < 0) continue;
-            q.total += unit * it.getAmount();
+            SellData.Category c = plugin.sells().categoryOf(it.getType());
+            double line = unit * it.getAmount() * plugin.multi().factor(p.getUniqueId(), c);
+            q.total += line;
             q.count += it.getAmount();
-            q.items.add(it.clone());
+            ItemStack key = it.clone();
+            q.items.add(key);
+            q.priced.put(key, line);
         }
         return q;
     }
