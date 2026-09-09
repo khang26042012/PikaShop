@@ -11,13 +11,16 @@ import java.util.Map;
 
 /**
  * PikaShop - shop rieng cua PikaMC, tu viet (clean-room).
- * R7: Shop mua 2 buoc that (doc config + mua qua Vault). Sell/Multiplier o R8-R9.
+ * R7: Shop mua 2 buoc that. R8: Sell tha-do + history + worth.
  */
 public class PikaShop extends JavaPlugin implements CommandExecutor {
 
     private VaultHook vault;
     private ShopData shops;
     private ShopGui gui;
+    private SellData sells;
+    private SellStore store;
+    private SellGui sellGui;
 
     @Override
     public void onEnable() {
@@ -25,8 +28,14 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
         vault = new VaultHook(this);
         shops = new ShopData();
         gui = new ShopGui(this);
+        sells = new SellData();
+        store = new SellStore(this);
+        sellGui = new SellGui(this);
         shops.load(this);
+        sells.load(this);
+        store.load();
         getServer().getPluginManager().registerEvents(gui, this);
+        getServer().getPluginManager().registerEvents(sellGui, this);
         register("shop");
         register("sell");
         register("sellmulti");
@@ -36,14 +45,17 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
         if (vault.setup()) {
             getLogger().info("PikaShop da noi Vault Economy.");
         } else {
-            getLogger().warning("Chua thay Vault/Economy - /shop se bao loi khi mua.");
+            getLogger().warning("Chua thay Vault/Economy - mua/ban se bao loi.");
         }
-        getLogger().info("PikaShop R7: shop 2 buoc san sang.");
+        getLogger().info("PikaShop R8: shop 2 buoc + sell tha-do san sang.");
     }
 
     public VaultHook vault() { return vault; }
     public ShopData shops() { return shops; }
     public ShopGui gui() { return gui; }
+    public SellData sells() { return sells; }
+    public SellStore store() { return store; }
+    public SellGui sellGui() { return sellGui; }
 
     private void register(String name) {
         if (getCommand(name) != null) {
@@ -64,6 +76,7 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
             if (args.length == 1 && args[0].equalsIgnoreCase("reload")) {
                 reloadConfig();
                 shops.load(this);
+                sells.load(this);
                 sender.sendMessage(msg("messages.reloaded"));
                 return true;
             }
@@ -83,7 +96,20 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
             gui.openMain(p);
             return true;
         }
-        // Sell / Multiplier o R8-R9
+        if (name.equals("sell")) {
+            sellGui.open(p);
+            return true;
+        }
+        if (name.equals("sellhistory")) {
+            sellGui.showHistory(p);
+            return true;
+        }
+        if (name.equals("worth")) {
+            boolean all = args.length > 0 && args[0].equalsIgnoreCase("all");
+            sellGui.showWorth(p, all);
+            return true;
+        }
+        // Multiplier GUI o R9
         p.sendMessage(msg("messages.developing"));
         return true;
     }

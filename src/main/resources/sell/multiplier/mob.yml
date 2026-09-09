@@ -1,0 +1,15 @@
+# Vi du category mob (gia tam, SE can lai; khong copy bang gia goc).
+base-multiplier: 1.0
+inventory-slot: 11
+progress-title: "MOB DROPS PROGRESS"
+allowed-types:
+  STRING:
+    price-per-unit: 0.5
+  BONE:
+    price-per-unit: 2
+  ROTTEN_FLESH:
+    price-per-unit: 1
+  LEATHER:
+    price-per-unit: 40
+  ENDER_PEARL:
+    price-per-unit: 75
