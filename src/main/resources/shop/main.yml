@@ -1,9 +1,24 @@
-# Menu shop chinh (y tuong hoc tu DonutShop, tu viet lai).
+# Menu shop chinh PikaShop - 4 gian mac dinh theo DonutShop (end/nether/gear/food).
 Title: "SHOP"
 Size: 27
 categories:
+  end:
+    displayName: "&aEND"
+    material: END_STONE
+    slot: 11
+    file: "end.yml"
+  nether:
+    displayName: "&aNETHER"
+    material: NETHERRACK
+    slot: 12
+    file: "nether.yml"
   gear:
     displayName: "&aGEAR"
     material: TOTEM_OF_UNDYING
     slot: 13
     file: "gear.yml"
+  food:
+    displayName: "&aFOOD"
+    material: COOKED_BEEF
+    slot: 14
+    file: "food.yml"

@@ -1,0 +1,58 @@
+# Gian FOOD (mat hang mac dinh DonutShop, gia goc giu nguyen).
+Title: "SHOP - FOOD"
+Size: 27
+items:
+  potato:
+    slot: 9
+    displayName: "&fPotato"
+    material: POTATO
+    price: 25
+    max-stack: 64
+  sweet-berries:
+    slot: 10
+    displayName: "&fSweet Berries"
+    material: SWEET_BERRIES
+    price: 15
+    max-stack: 64
+  melon-slice:
+    slot: 11
+    displayName: "&fMelon Slice"
+    material: MELON_SLICE
+    price: 10
+    max-stack: 64
+  carrot:
+    slot: 12
+    displayName: "&fCarrot"
+    material: CARROT
+    price: 25
+    max-stack: 64
+  apple:
+    slot: 13
+    displayName: "&fApple"
+    material: APPLE
+    price: 25
+    max-stack: 64
+  cooked-chicken:
+    slot: 14
+    displayName: "&fCooked Chicken"
+    material: COOKED_CHICKEN
+    price: 30
+    max-stack: 64
+  steak:
+    slot: 15
+    displayName: "&fSteak"
+    material: COOKED_BEEF
+    price: 35
+    max-stack: 64
+  golden-carrot:
+    slot: 16
+    displayName: "&fGolden Carrot"
+    material: GOLDEN_CARROT
+    price: 50
+    max-stack: 64
+  golden-apple-food:
+    slot: 17
+    displayName: "&bGolden Apple"
+    material: GOLDEN_APPLE
+    price: 250
+    max-stack: 64
