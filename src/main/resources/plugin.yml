@@ -22,6 +22,10 @@ commands:
   pworth:
     description: Xem gia tri vat pham (PikaShop)
     usage: /pworth
+  psellprice:
+    description: Dat gia sell cho vat pham dang cam (admin)
+    usage: /psellprice <gia>
+    permission: pikashop.admin
   pshard:
     description: Tien Shard (PikaShop v2)
     usage: /pshard <balance|pay|shop|top|afk>

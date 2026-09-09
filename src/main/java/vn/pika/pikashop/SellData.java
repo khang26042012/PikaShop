@@ -82,6 +82,36 @@ public class SellData {
         return -1;
     }
 
+    /**
+     * Admin dat gia sell: ghi vao category dang co vat lieu, neu chua co thi vao ores.yml.
+     * Tra ve id category da ghi. Gia 0 = go khoi bang gia.
+     */
+    public String setPrice(Material m, double price) {
+        Category target = categoryOf(m);
+        if (target == null) {
+            target = categories.get("ores");
+            if (target == null && !categories.isEmpty()) {
+                target = categories.values().iterator().next();
+            }
+            if (target == null) return "?";
+        }
+        YamlConfiguration y = YamlConfiguration.loadConfiguration(target.file);
+        String base = "allowed-types." + m.name();
+        if (price == 0) {
+            y.set(base, null);
+            target.prices.remove(m);
+        } else {
+            y.set(base + ".price-per-unit", price);
+            target.prices.put(m, price);
+        }
+        try {
+            y.save(target.file);
+        } catch (java.io.IOException e) {
+            // giu gia trong RAM du co loi ghi file
+        }
+        return target.id;
+    }
+
     /** Category chua vat lieu nay, null neu khong co. */
     public Category categoryOf(Material m) {
         for (Category c : categories.values()) {

@@ -58,6 +58,7 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
         getServer().getPluginManager().registerEvents(shardListener, this);
         getServer().getPluginManager().registerEvents(shardGui, this);
         register("pshard");
+        register("psellprice");
         register("pshop");
         register("psell");
         register("psellmulti");
@@ -69,7 +70,14 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
         } else {
             getLogger().warning("Chua thay Vault/Economy - mua/ban se bao loi.");
         }
-        getLogger().info("PikaShop R9: shop 2 buoc + sell tha-do + multiplier san sang.");
+        getLogger().info("PikaShop R13: shop + sell + multiplier + shards san sang.");
+    }
+
+    @Override
+    public void onDisable() {
+        if (afk != null) afk.stop();
+        if (shards != null) shards.save();
+        getLogger().info("PikaShop da tat (shard da luu).");
     }
 
     public VaultHook vault() { return vault; }
@@ -106,6 +114,7 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
                 reloadConfig();
                 shops.load(this);
                 sells.load(this);
+                shardShop.load();
                 sender.sendMessage(msg("messages.reloaded"));
                 return true;
             }
@@ -144,6 +153,39 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
         }
         if (name.equals("pshard")) {
             return shardCommand(p, args);
+        }
+        if (name.equals("psellprice")) {
+            if (!p.hasPermission("pikashop.admin")) {
+                p.sendMessage(msg("messages.no-permission"));
+                return true;
+            }
+            if (args.length != 1) {
+                p.sendMessage(msg("messages.sellprice-usage"));
+                return true;
+            }
+            org.bukkit.inventory.ItemStack hand = p.getInventory().getItemInMainHand();
+            if (hand == null || hand.getType().isAir()) {
+                p.sendMessage(msg("messages.worth-empty-hand"));
+                return true;
+            }
+            double price;
+            try {
+                price = Double.parseDouble(args[0]);
+            } catch (NumberFormatException e) {
+                p.sendMessage(msg("messages.sellprice-usage"));
+                return true;
+            }
+            if (price < 0) {
+                p.sendMessage(msg("messages.sellprice-usage"));
+                return true;
+            }
+            String catId = sells.setPrice(hand.getType(), price);
+            java.util.Map<String, String> ph = new java.util.HashMap<>();
+            ph.put("item", hand.getType().name());
+            ph.put("price", String.valueOf(price));
+            ph.put("category", catId);
+            p.sendMessage(msg(price == 0 ? "messages.sellprice-removed" : "messages.sellprice-set", ph));
+            return true;
         }
         p.sendMessage(msg("messages.developing"));
         return true;
