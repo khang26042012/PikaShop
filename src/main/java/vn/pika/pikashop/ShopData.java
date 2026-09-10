@@ -50,7 +50,7 @@ public class ShopData {
         mainSize = fixSize(main.getInt("Size", 27));
         ConfigurationSection cs = main.getConfigurationSection("categories");
         if (cs == null) {
-            plugin.getLogger().warning("shop/main.yml thieu muc categories.");
+            plugin.getLogger().warning("shop/main.yml thiếu mục categories.");
             return;
         }
         for (String id : cs.getKeys(false)) {
@@ -65,7 +65,7 @@ public class ShopData {
             loadCategory(plugin, c);
             categories.put(id, c);
         }
-        plugin.getLogger().info("Nap " + categories.size() + " category shop.");
+        plugin.getLogger().info("Nạp " + categories.size() + " category shop.");
     }
 
     private void loadCategory(PikaShop plugin, Category c) {
@@ -101,7 +101,7 @@ public class ShopData {
             try {
                 plugin.saveResource(path, false);
             } catch (IllegalArgumentException e) {
-                plugin.getLogger().warning("Khong co resource mac dinh: " + path);
+                plugin.getLogger().warning("Không có resource mặc định: " + path);
             }
         }
     }

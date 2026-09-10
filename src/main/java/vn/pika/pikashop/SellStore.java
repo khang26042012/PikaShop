@@ -45,7 +45,7 @@ public class SellStore {
         try {
             data.save(file);
         } catch (IOException e) {
-            plugin.getLogger().warning("Khong luu duoc data.yml: " + e.getMessage());
+            plugin.getLogger().warning("Không lưu được data.yml: " + e.getMessage());
         }
     }
 

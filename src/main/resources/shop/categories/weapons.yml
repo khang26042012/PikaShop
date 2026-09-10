@@ -3,147 +3,147 @@ Size: 54
 items:
   wooden_sword:
     slot: 0
-    displayName: "&fWooden Sword"
+    displayName: "&fKiếm Gỗ"
     material: WOODEN_SWORD
     price: 3.54
     sell-price: 0.89
     max-stack: 64
   stone_sword:
     slot: 1
-    displayName: "&fStone Sword"
+    displayName: "&fKiếm Đá"
     material: STONE_SWORD
     price: 2.04
     sell-price: 0.51
     max-stack: 64
   copper_sword:
     slot: 2
-    displayName: "&fCopper Sword"
+    displayName: "&fKiếm Đồng"
     material: COPPER_SWORD
     price: 3.24
     sell-price: 0.77
     max-stack: 64
   iron_sword:
     slot: 3
-    displayName: "&fIron Sword"
+    displayName: "&fKiếm Sắt"
     material: IRON_SWORD
     price: 12.19
     sell-price: 3.05
     max-stack: 64
   golden_sword:
     slot: 4
-    displayName: "&fGolden Sword"
+    displayName: "&fKiếm Vàng"
     material: GOLDEN_SWORD
     price: 17.98
     sell-price: 4.5
     max-stack: 64
   diamond_sword:
     slot: 5
-    displayName: "&fDiamond Sword"
+    displayName: "&fKiếm Kim Cương"
     material: DIAMOND_SWORD
     price: 110.86
     sell-price: 27.72
     max-stack: 64
   netherite_sword:
     slot: 6
-    displayName: "&fNetherite Sword"
+    displayName: "&fKiếm Netherite"
     material: NETHERITE_SWORD
     price: 2602.41
     sell-price: 650.61
     max-stack: 64
   wooden_spear:
     slot: 7
-    displayName: "&fWooden Spear"
+    displayName: "&fGiáo Gỗ"
     material: WOODEN_SPEAR
     price: 2.38
     sell-price: 0.6
     max-stack: 64
   stone_spear:
     slot: 8
-    displayName: "&fStone Spear"
+    displayName: "&fGiáo Đá"
     material: STONE_SPEAR
     price: 1.93
     sell-price: 0.49
     max-stack: 64
   copper_spear:
     slot: 9
-    displayName: "&fCopper Spear"
+    displayName: "&fGiáo Đồng"
     material: COPPER_SPEAR
     price: 2.17
     sell-price: 0.54
     max-stack: 64
   iron_spear:
     slot: 10
-    displayName: "&fIron Spear"
+    displayName: "&fGiáo Sắt"
     material: IRON_SPEAR
     price: 7.01
     sell-price: 1.76
     max-stack: 64
   golden_spear:
     slot: 11
-    displayName: "&fGolden Spear"
+    displayName: "&fGiáo Vàng"
     material: GOLDEN_SPEAR
     price: 9.9
     sell-price: 2.48
     max-stack: 64
   diamond_spear:
     slot: 12
-    displayName: "&fDiamond Spear"
+    displayName: "&fGiáo Kim Cương"
     material: DIAMOND_SPEAR
     price: 56.35
     sell-price: 14.09
     max-stack: 64
   netherite_spear:
     slot: 13
-    displayName: "&fNetherite Spear"
+    displayName: "&fGiáo Netherite"
     material: NETHERITE_SPEAR
     price: 2545.16
     sell-price: 636.29
     max-stack: 64
   arrow:
     slot: 14
-    displayName: "&fArrow"
+    displayName: "&fMũi Tên"
     material: ARROW
     price: 36.16
     sell-price: 9.12
     max-stack: 16
   spectral_arrow:
     slot: 15
-    displayName: "&fSpectral Arrow"
+    displayName: "&fMũi Tên Ma"
     material: SPECTRAL_ARROW
     price: 127.12
     sell-price: 31.84
     max-stack: 8
   bow:
     slot: 16
-    displayName: "&fBow"
+    displayName: "&fCung"
     material: BOW
     price: 23.88
     sell-price: 5.97
     max-stack: 64
   crossbow:
     slot: 17
-    displayName: "&fCrossbow"
+    displayName: "&fCung Tên"
     material: CROSSBOW
     price: 26.28
     sell-price: 6.57
     max-stack: 64
   mace:
     slot: 18
-    displayName: "&fMace"
+    displayName: "&fChùy"
     material: MACE
     price: 21021
     sell-price: 5255.25
     max-stack: 64
   trident:
     slot: 19
-    displayName: "&fTrident"
+    displayName: "&fĐinh Ba"
     material: TRIDENT
     price: 180
     sell-price: 45
     max-stack: 64
   shield:
     slot: 20
-    displayName: "&fShield"
+    displayName: "&fKhiên"
     material: SHIELD
     price: 12.74
     sell-price: 3.19

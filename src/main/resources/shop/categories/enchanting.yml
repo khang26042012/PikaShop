@@ -3,7 +3,7 @@ Size: 54
 items:
   water_worker:
     slot: 0
-    displayName: '&bWater Worker 1'
+    displayName: '&bLàm Việc Dưới Nước 1'
     material: ENCHANTED_BOOK
     price: 160
     sell-price: 40
@@ -11,7 +11,7 @@ items:
     enchant: WATER_WORKER:1
   damage_arthropods:
     slot: 1
-    displayName: '&bDamage Arthropods 5'
+    displayName: '&bSát Thương Côn Trùng 5'
     material: ENCHANTED_BOOK
     price: 1944.81
     sell-price: 486.21
@@ -19,7 +19,7 @@ items:
     enchant: DAMAGE_ARTHROPODS:5
   binding_curse:
     slot: 2
-    displayName: '&bBinding Curse 1'
+    displayName: '&bLời Nguyền Ràng Buộc 1'
     material: ENCHANTED_BOOK
     price: 200
     sell-price: 50
@@ -27,7 +27,7 @@ items:
     enchant: BINDING_CURSE:1
   breach:
     slot: 3
-    displayName: '&bBreach 4'
+    displayName: '&bXuyên Giáp 4'
     material: ENCHANTED_BOOK
     price: 1852.2
     sell-price: 463.05
@@ -35,7 +35,7 @@ items:
     enchant: BREACH:4
   protection_explosions:
     slot: 4
-    displayName: '&bProtection Explosions 4'
+    displayName: '&bBảo Vệ Nổ 4'
     material: ENCHANTED_BOOK
     price: 1481.76
     sell-price: 370.44
@@ -43,7 +43,7 @@ items:
     enchant: PROTECTION_EXPLOSIONS:4
   channeling:
     slot: 5
-    displayName: '&bChanneling 1'
+    displayName: '&bDẫn Sét 1'
     material: ENCHANTED_BOOK
     price: 200
     sell-price: 50
@@ -51,7 +51,7 @@ items:
     enchant: CHANNELING:1
   density:
     slot: 6
-    displayName: '&bDensity 5'
+    displayName: '&bMật Độ 5'
     material: ENCHANTED_BOOK
     price: 3889.62
     sell-price: 972.41
@@ -59,7 +59,7 @@ items:
     enchant: DENSITY:5
   depth_strider:
     slot: 7
-    displayName: '&bDepth Strider 3'
+    displayName: '&bBước Sâu 3'
     material: ENCHANTED_BOOK
     price: 705.6
     sell-price: 176.4
@@ -67,7 +67,7 @@ items:
     enchant: DEPTH_STRIDER:3
   dig_speed:
     slot: 8
-    displayName: '&bDig Speed 5'
+    displayName: '&bĐào Nhanh 5'
     material: ENCHANTED_BOOK
     price: 972.41
     sell-price: 243.11
@@ -75,7 +75,7 @@ items:
     enchant: DIG_SPEED:5
   protection_fall:
     slot: 9
-    displayName: '&bProtection Fall 4'
+    displayName: '&bBảo Vệ Rơi 4'
     material: ENCHANTED_BOOK
     price: 926.1
     sell-price: 231.53
@@ -83,7 +83,7 @@ items:
     enchant: PROTECTION_FALL:4
   fire_aspect:
     slot: 10
-    displayName: '&bFire Aspect 2'
+    displayName: '&bHỏa Diệm 2'
     material: ENCHANTED_BOOK
     price: 336
     sell-price: 84
@@ -91,7 +91,7 @@ items:
     enchant: FIRE_ASPECT:2
   protection_fire:
     slot: 11
-    displayName: '&bProtection Fire 4'
+    displayName: '&bBảo Vệ Lửa 4'
     material: ENCHANTED_BOOK
     price: 926.1
     sell-price: 231.53
@@ -99,7 +99,7 @@ items:
     enchant: PROTECTION_FIRE:4
   arrow_fire:
     slot: 12
-    displayName: '&bArrow Fire 1'
+    displayName: '&bMũi Tên Lửa 1'
     material: ENCHANTED_BOOK
     price: 160
     sell-price: 40
@@ -107,7 +107,7 @@ items:
     enchant: ARROW_FIRE:1
   loot_bonus_blocks:
     slot: 13
-    displayName: '&bLoot Bonus Blocks 3'
+    displayName: '&bKhai Thác Khối 3'
     material: ENCHANTED_BOOK
     price: 705.6
     sell-price: 176.4
@@ -115,7 +115,7 @@ items:
     enchant: LOOT_BONUS_BLOCKS:3
   frost_walker:
     slot: 14
-    displayName: '&bFrost Walker 2'
+    displayName: '&bBước Tuyết 2'
     material: ENCHANTED_BOOK
     price: 336
     sell-price: 84
@@ -123,7 +123,7 @@ items:
     enchant: FROST_WALKER:2
   impaling:
     slot: 15
-    displayName: '&bImpaling 5'
+    displayName: '&bĐâm Xuyên 5'
     material: ENCHANTED_BOOK
     price: 3111.7
     sell-price: 777.93
@@ -131,7 +131,7 @@ items:
     enchant: IMPALING:5
   arrow_infinite:
     slot: 16
-    displayName: '&bArrow Infinite 1'
+    displayName: '&bMũi Tên Vô Hạn 1'
     material: ENCHANTED_BOOK
     price: 200
     sell-price: 50
@@ -139,7 +139,7 @@ items:
     enchant: ARROW_INFINITE:1
   knockback:
     slot: 17
-    displayName: '&bKnockback 2'
+    displayName: '&bĐẩy Lùi 2'
     material: ENCHANTED_BOOK
     price: 210
     sell-price: 52.5
@@ -147,7 +147,7 @@ items:
     enchant: KNOCKBACK:2
   loot_bonus_mobs:
     slot: 18
-    displayName: '&bLoot Bonus Mobs 3'
+    displayName: '&bKhai Thác Quái 3'
     material: ENCHANTED_BOOK
     price: 705.6
     sell-price: 176.4
@@ -155,7 +155,7 @@ items:
     enchant: LOOT_BONUS_MOBS:3
   loyalty:
     slot: 19
-    displayName: '&bLoyalty 3'
+    displayName: '&bTrung Thành 3'
     material: ENCHANTED_BOOK
     price: 441
     sell-price: 110.25
@@ -163,7 +163,7 @@ items:
     enchant: LOYALTY:3
   luck:
     slot: 20
-    displayName: '&bLuck 3'
+    displayName: '&bMay Mắn 3'
     material: ENCHANTED_BOOK
     price: 705.6
     sell-price: 176.4
@@ -171,7 +171,7 @@ items:
     enchant: LUCK:3
   lure:
     slot: 21
-    displayName: '&bLure 3'
+    displayName: '&bDụ Mồi 3'
     material: ENCHANTED_BOOK
     price: 705.6
     sell-price: 176.4
@@ -179,7 +179,7 @@ items:
     enchant: LURE:3
   mending:
     slot: 22
-    displayName: '&bMending 1'
+    displayName: '&bVá Lành 1'
     material: ENCHANTED_BOOK
     price: 160
     sell-price: 40
@@ -187,7 +187,7 @@ items:
     enchant: MENDING:1
   multishot:
     slot: 23
-    displayName: '&bMultishot 1'
+    displayName: '&bBắn Liên Hoàn 1'
     material: ENCHANTED_BOOK
     price: 160
     sell-price: 40
@@ -195,7 +195,7 @@ items:
     enchant: MULTISHOT:1
   piercing:
     slot: 24
-    displayName: '&bPiercing 4'
+    displayName: '&bXuyên Thấu 4'
     material: ENCHANTED_BOOK
     price: 463.05
     sell-price: 115.77
@@ -203,7 +203,7 @@ items:
     enchant: PIERCING:4
   arrow_damage:
     slot: 25
-    displayName: '&bArrow Damage 5'
+    displayName: '&bSát Thương Mũi Tên 5'
     material: ENCHANTED_BOOK
     price: 972.41
     sell-price: 243.11
@@ -211,7 +211,7 @@ items:
     enchant: ARROW_DAMAGE:5
   protection_projectile:
     slot: 26
-    displayName: '&bProtection Projectile 4'
+    displayName: '&bBảo Vệ Đạn 4'
     material: ENCHANTED_BOOK
     price: 926.1
     sell-price: 231.53
@@ -219,7 +219,7 @@ items:
     enchant: PROTECTION_PROJECTILE:4
   protection_environmental:
     slot: 27
-    displayName: '&bProtection Environmental 4'
+    displayName: '&bBảo Vệ Môi Trường 4'
     material: ENCHANTED_BOOK
     price: 463.05
     sell-price: 115.77
@@ -227,7 +227,7 @@ items:
     enchant: PROTECTION_ENVIRONMENTAL:4
   arrow_knockback:
     slot: 28
-    displayName: '&bArrow Knockback 2'
+    displayName: '&bMũi Tên Đẩy Lùi 2'
     material: ENCHANTED_BOOK
     price: 336
     sell-price: 84
@@ -235,7 +235,7 @@ items:
     enchant: ARROW_KNOCKBACK:2
   quick_charge:
     slot: 29
-    displayName: '&bQuick Charge 3'
+    displayName: '&bNạp Nhanh 3'
     material: ENCHANTED_BOOK
     price: 441
     sell-price: 110.25
@@ -243,7 +243,7 @@ items:
     enchant: QUICK_CHARGE:3
   oxygen:
     slot: 30
-    displayName: '&bOxygen 3'
+    displayName: '&bHô Hấp 3'
     material: ENCHANTED_BOOK
     price: 705.6
     sell-price: 176.4
@@ -251,7 +251,7 @@ items:
     enchant: OXYGEN:3
   riptide:
     slot: 31
-    displayName: '&bRiptide 3'
+    displayName: '&bThủy Triều 3'
     material: ENCHANTED_BOOK
     price: 705.6
     sell-price: 176.4
@@ -259,7 +259,7 @@ items:
     enchant: RIPTIDE:3
   damage_all:
     slot: 32
-    displayName: '&bDamage All 5'
+    displayName: '&bSát Thương Toàn Diện 5'
     material: ENCHANTED_BOOK
     price: 972.41
     sell-price: 243.11
@@ -267,7 +267,7 @@ items:
     enchant: DAMAGE_ALL:5
   silk_touch:
     slot: 33
-    displayName: '&bSilk Touch 1'
+    displayName: '&bChạm Lụa 1'
     material: ENCHANTED_BOOK
     price: 200
     sell-price: 50
@@ -275,7 +275,7 @@ items:
     enchant: SILK_TOUCH:1
   damage_undead:
     slot: 34
-    displayName: '&bDamage Undead 5'
+    displayName: '&bSát Thương Xác Chết 5'
     material: ENCHANTED_BOOK
     price: 1944.81
     sell-price: 486.21
@@ -283,7 +283,7 @@ items:
     enchant: DAMAGE_UNDEAD:5
   soul_speed:
     slot: 35
-    displayName: '&bSoul Speed 3'
+    displayName: '&bTốc Độ Linh Hồn 3'
     material: ENCHANTED_BOOK
     price: 1102.5
     sell-price: 275.63
@@ -291,7 +291,7 @@ items:
     enchant: SOUL_SPEED:3
   sweeping_edge:
     slot: 36
-    displayName: '&bSweeping Edge 3'
+    displayName: '&bQuét Lưỡi 3'
     material: ENCHANTED_BOOK
     price: 705.6
     sell-price: 176.4
@@ -299,7 +299,7 @@ items:
     enchant: SWEEPING_EDGE:3
   swift_sneak:
     slot: 37
-    displayName: '&bSwift Sneak 3'
+    displayName: '&bLén Lút Nhanh 3'
     material: ENCHANTED_BOOK
     price: 275.63
     sell-price: 68.91
@@ -307,7 +307,7 @@ items:
     enchant: SWIFT_SNEAK:3
   thorns:
     slot: 38
-    displayName: '&bThorns 3'
+    displayName: '&bGai Nhọn 3'
     material: ENCHANTED_BOOK
     price: 882
     sell-price: 220.5
@@ -315,7 +315,7 @@ items:
     enchant: THORNS:3
   durability:
     slot: 39
-    displayName: '&bDurability 3'
+    displayName: '&bBền Bỉ 3'
     material: ENCHANTED_BOOK
     price: 441
     sell-price: 110.25
@@ -323,7 +323,7 @@ items:
     enchant: DURABILITY:3
   vanishing_curse:
     slot: 40
-    displayName: '&bVanishing Curse 1'
+    displayName: '&bLời Nguyền Biến Mất 1'
     material: ENCHANTED_BOOK
     price: 200
     sell-price: 50
@@ -331,7 +331,7 @@ items:
     enchant: VANISHING_CURSE:1
   wind_burst:
     slot: 41
-    displayName: '&bWind Burst 3'
+    displayName: '&bGió Bùng Nổ 3'
     material: ENCHANTED_BOOK
     price: 24255
     sell-price: 6063.75
@@ -339,7 +339,7 @@ items:
     enchant: WIND_BURST:3
   lunge:
     slot: 42
-    displayName: '&bLunge 3'
+    displayName: '&bLao Tới 3'
     material: ENCHANTED_BOOK
     price: 18020
     sell-price: 4450

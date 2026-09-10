@@ -3,196 +3,196 @@ Size: 54
 items:
   cookie:
     slot: 0
-    displayName: "&fCookie"
+    displayName: "&fBánh Quy"
     material: COOKIE
     price: 33.6
     sell-price: 8.48
     max-stack: 16
   bread:
     slot: 1
-    displayName: "&fBread"
+    displayName: "&fBánh Mì"
     material: BREAD
     price: 252
     sell-price: 63.04
     max-stack: 16
   baked_potato:
     slot: 2
-    displayName: "&fBaked Potato"
+    displayName: "&fKhoai Tây Nướng"
     material: BAKED_POTATO
     price: 84
     sell-price: 21.12
     max-stack: 16
   cooked_beef:
     slot: 3
-    displayName: "&fCooked Beef"
+    displayName: "&fThịt Bò Nấu Chín"
     material: COOKED_BEEF
     price: 50.4
     sell-price: 12.64
     max-stack: 8
   cooked_mutton:
     slot: 4
-    displayName: "&fCooked Mutton"
+    displayName: "&fThịt Cừu Nấu Chín"
     material: COOKED_MUTTON
     price: 50.4
     sell-price: 12.64
     max-stack: 8
   cooked_porkchop:
     slot: 5
-    displayName: "&fCooked Porkchop"
+    displayName: "&fThịt Lợn Nấu Chín"
     material: COOKED_PORKCHOP
     price: 50.4
     sell-price: 12.64
     max-stack: 8
   cooked_chicken:
     slot: 6
-    displayName: "&fCooked Chicken"
+    displayName: "&fThịt Gà Nấu Chín"
     material: COOKED_CHICKEN
     price: 50.4
     sell-price: 12.64
     max-stack: 8
   cooked_cod:
     slot: 7
-    displayName: "&fCooked Cod"
+    displayName: "&fCá Tuyết Nấu Chín"
     material: COOKED_COD
     price: 50.4
     sell-price: 12.64
     max-stack: 8
   cooked_salmon:
     slot: 8
-    displayName: "&fCooked Salmon"
+    displayName: "&fCá Hồi Nấu Chín"
     material: COOKED_SALMON
     price: 50.4
     sell-price: 12.64
     max-stack: 8
   cooked_rabbit:
     slot: 9
-    displayName: "&fCooked Rabbit"
+    displayName: "&fThịt Thỏ Nấu Chín"
     material: COOKED_RABBIT
     price: 25.2
     sell-price: 6.32
     max-stack: 4
   apple:
     slot: 10
-    displayName: "&fApple"
+    displayName: "&fTáo"
     material: APPLE
     price: 40
     sell-price: 10
     max-stack: 4
   pumpkin_pie:
     slot: 11
-    displayName: "&fPumpkin Pie"
+    displayName: "&fBánh Bí Ngô"
     material: PUMPKIN_PIE
     price: 42.48
     sell-price: 10.64
     max-stack: 4
   golden_carrot:
     slot: 12
-    displayName: "&fGolden Carrot"
+    displayName: "&fCà Rốt Vàng"
     material: GOLDEN_CARROT
     price: 48.8
     sell-price: 12.2
     max-stack: 4
   golden_apple:
     slot: 13
-    displayName: "&fGolden Apple"
+    displayName: "&fTáo Vàng"
     material: GOLDEN_APPLE
     price: 79.96
     sell-price: 19.99
     max-stack: 64
   glistering_melon_slice:
     slot: 14
-    displayName: "&fGlistering Melon Slice"
+    displayName: "&fLát Dưa Hấu Lấp Lánh"
     material: GLISTERING_MELON_SLICE
     price: 8
     sell-price: 2
     max-stack: 64
   honey_bottle:
     slot: 15
-    displayName: "&fHoney Bottle"
+    displayName: "&fChai Mật Ong"
     material: HONEY_BOTTLE
     price: 7.94
     sell-price: 1.99
     max-stack: 64
   beef:
     slot: 16
-    displayName: "&fBeef"
+    displayName: "&fThịt Bò Sống"
     material: BEEF
     price: 6
     sell-price: 1.5
     max-stack: 64
   mutton:
     slot: 17
-    displayName: "&fMutton"
+    displayName: "&fThịt Cừu Sống"
     material: MUTTON
     price: 6
     sell-price: 1.5
     max-stack: 64
   chicken:
     slot: 18
-    displayName: "&fChicken"
+    displayName: "&fThịt Gà Sống"
     material: CHICKEN
     price: 6
     sell-price: 1.5
     max-stack: 64
   porkchop:
     slot: 19
-    displayName: "&fPorkchop"
+    displayName: "&fThịt Lợn Sống"
     material: PORKCHOP
     price: 6
     sell-price: 1.5
     max-stack: 64
   rabbit:
     slot: 20
-    displayName: "&fRabbit"
+    displayName: "&fThịt Thỏ Sống"
     material: RABBIT
     price: 6
     sell-price: 1.5
     max-stack: 64
   cod:
     slot: 21
-    displayName: "&fCod"
+    displayName: "&fCá Tuyết Sống"
     material: COD
     price: 6
     sell-price: 1.5
     max-stack: 64
   salmon:
     slot: 22
-    displayName: "&fSalmon"
+    displayName: "&fCá Hồi Sống"
     material: SALMON
     price: 6
     sell-price: 1.5
     max-stack: 64
   melon_slice:
     slot: 23
-    displayName: "&fMelon Slice"
+    displayName: "&fLát Dưa Hấu"
     material: MELON_SLICE
     price: 1
     sell-price: 0.25
     max-stack: 64
   beetroot_soup:
     slot: 24
-    displayName: "&fBeetroot Soup"
+    displayName: "&fSúp Củ Dền"
     material: BEETROOT_SOUP
     price: 38.72
     sell-price: 9.68
     max-stack: 64
   mushroom_stew:
     slot: 25
-    displayName: "&fMushroom Stew"
+    displayName: "&fCanh Nấm"
     material: MUSHROOM_STEW
     price: 5.12
     sell-price: 1.28
     max-stack: 64
   rabbit_stew:
     slot: 26
-    displayName: "&fRabbit Stew"
+    displayName: "&fCanh Thỏ"
     material: RABBIT_STEW
     price: 20.39
     sell-price: 5.1
     max-stack: 64
   cake:
     slot: 27
-    displayName: "&fCake"
+    displayName: "&fBánh Ngọt"
     material: CAKE
     price: 79.32
     sell-price: 19.83

@@ -3,7 +3,7 @@ Size: 54
 items:
   fire_resistance_pot:
     slot: 0
-    displayName: '&fFire Resistance Potion'
+    displayName: '&fThuốc Kháng Lửa'
     material: POTION
     price: 11.9
     sell-price: 2.98
@@ -11,7 +11,7 @@ items:
     potion: FIRE_RESISTANCE
   harming_pot:
     slot: 1
-    displayName: '&fHarming Potion'
+    displayName: '&fThuốc Gây Hại'
     material: POTION
     price: 21.62
     sell-price: 5.41
@@ -19,7 +19,7 @@ items:
     potion: HARMING
   healing_pot:
     slot: 2
-    displayName: '&fHealing Potion'
+    displayName: '&fThuốc Hồi Máu'
     material: POTION
     price: 11.89
     sell-price: 2.98
@@ -27,7 +27,7 @@ items:
     potion: HEALING
   invisibility_pot:
     slot: 3
-    displayName: '&fInvisibility Potion'
+    displayName: '&fThuốc Tàng Hình'
     material: POTION
     price: 27.46
     sell-price: 6.87
@@ -35,7 +35,7 @@ items:
     potion: INVISIBILITY
   leaping_pot:
     slot: 4
-    displayName: '&fLeaping Potion'
+    displayName: '&fThuốc Nhảy Cao'
     material: POTION
     price: 194.22
     sell-price: 48.56
@@ -43,7 +43,7 @@ items:
     potion: LEAPING
   night_vision_pot:
     slot: 5
-    displayName: '&fNight Vision Potion'
+    displayName: '&fThuốc Nhìn Đêm'
     material: POTION
     price: 16.34
     sell-price: 4.09
@@ -51,7 +51,7 @@ items:
     potion: NIGHT_VISION
   poison_pot:
     slot: 6
-    displayName: '&fPoison Potion'
+    displayName: '&fThuốc Độc'
     material: POTION
     price: 10.84
     sell-price: 2.71
@@ -59,7 +59,7 @@ items:
     potion: POISON
   regeneration_pot:
     slot: 7
-    displayName: '&fRegeneration Potion'
+    displayName: '&fThuốc Hồi Sinh'
     material: POTION
     price: 45.82
     sell-price: 11.46
@@ -67,7 +67,7 @@ items:
     potion: REGENERATION
   slow_falling_pot:
     slot: 8
-    displayName: '&fSlow Falling Potion'
+    displayName: '&fThuốc Rơi Chậm'
     material: POTION
     price: 136.07
     sell-price: 34.02
@@ -75,7 +75,7 @@ items:
     potion: SLOW_FALLING
   slowness_pot:
     slot: 9
-    displayName: '&fSlowness Potion'
+    displayName: '&fThuốc Chậm Chạp'
     material: POTION
     price: 13.87
     sell-price: 3.47
@@ -83,7 +83,7 @@ items:
     potion: SLOWNESS
   strength_pot:
     slot: 10
-    displayName: '&fStrength Potion'
+    displayName: '&fThuốc Sức Mạnh'
     material: POTION
     price: 6.2
     sell-price: 1.55
@@ -91,7 +91,7 @@ items:
     potion: STRENGTH
   swiftness_pot:
     slot: 11
-    displayName: '&fSwiftness Potion'
+    displayName: '&fThuốc Nhanh Nhẹn'
     material: POTION
     price: 3.53
     sell-price: 0.89
@@ -99,7 +99,7 @@ items:
     potion: SWIFTNESS
   turtle_master_pot:
     slot: 12
-    displayName: '&fTurtle Master Potion'
+    displayName: '&fThuốc Rùa Thầy'
     material: POTION
     price: 2952.87
     sell-price: 738.22
@@ -107,7 +107,7 @@ items:
     potion: TURTLE_MASTER
   water_breathing_pot:
     slot: 13
-    displayName: '&fWater Breathing Potion'
+    displayName: '&fThuốc Thở Dưới Nước'
     material: POTION
     price: 9.78
     sell-price: 2.45
@@ -115,7 +115,7 @@ items:
     potion: WATER_BREATHING
   weakness_pot:
     slot: 14
-    displayName: '&fWeakness Potion'
+    displayName: '&fThuốc Suy Yếu'
     material: POTION
     price: 10.18
     sell-price: 2.55
@@ -123,7 +123,7 @@ items:
     potion: WEAKNESS
   strong_harming_pot:
     slot: 15
-    displayName: '&fStrong Harming Potion'
+    displayName: '&fThuốc Mạnh Gây Hại'
     material: POTION
     price: 54.08
     sell-price: 13.52
@@ -131,7 +131,7 @@ items:
     potion: STRONG_HARMING
   strong_healing_pot:
     slot: 16
-    displayName: '&fStrong Healing Potion'
+    displayName: '&fThuốc Mạnh Hồi Máu'
     material: POTION
     price: 43.77
     sell-price: 10.95
@@ -139,7 +139,7 @@ items:
     potion: STRONG_HEALING
   strong_leaping_pot:
     slot: 17
-    displayName: '&fStrong Leaping Potion'
+    displayName: '&fThuốc Mạnh Nhảy Cao'
     material: POTION
     price: 237.03
     sell-price: 59.26
@@ -147,7 +147,7 @@ items:
     potion: STRONG_LEAPING
   strong_poison_pot:
     slot: 18
-    displayName: '&fStrong Poison Potion'
+    displayName: '&fThuốc Mạnh Độc'
     material: POTION
     price: 42.65
     sell-price: 10.67
@@ -155,7 +155,7 @@ items:
     potion: STRONG_POISON
   strong_regeneration_pot:
     slot: 19
-    displayName: '&fStrong Regeneration Potion'
+    displayName: '&fThuốc Mạnh Hồi Sinh'
     material: POTION
     price: 79.73
     sell-price: 19.94
@@ -163,7 +163,7 @@ items:
     potion: STRONG_REGENERATION
   strong_strength_pot:
     slot: 20
-    displayName: '&fStrong Strength Potion'
+    displayName: '&fThuốc Mạnh Sức Mạnh'
     material: POTION
     price: 37.73
     sell-price: 9.44
@@ -171,7 +171,7 @@ items:
     potion: STRONG_STRENGTH
   strong_swiftness_pot:
     slot: 21
-    displayName: '&fStrong Swiftness Potion'
+    displayName: '&fThuốc Mạnh Nhanh Nhẹn'
     material: POTION
     price: 34.9
     sell-price: 8.73
@@ -179,7 +179,7 @@ items:
     potion: STRONG_SWIFTNESS
   strong_turtle_master_pot:
     slot: 22
-    displayName: '&fStrong Turtle Master Potion'
+    displayName: '&fThuốc Mạnh Rùa Thầy'
     material: POTION
     price: 3161.2
     sell-price: 790.3
@@ -187,7 +187,7 @@ items:
     potion: STRONG_TURTLE_MASTER
   long_fire_resistance_pot:
     slot: 23
-    displayName: '&fLong Fire Resistance Potion'
+    displayName: '&fThuốc Dài Kháng Lửa'
     material: POTION
     price: 16.33
     sell-price: 4.09
@@ -195,7 +195,7 @@ items:
     potion: LONG_FIRE_RESISTANCE
   long_invisibility_pot:
     slot: 24
-    displayName: '&fLong Invisibility Potion'
+    displayName: '&fThuốc Dài Tàng Hình'
     material: POTION
     price: 32.81
     sell-price: 8.21
@@ -203,7 +203,7 @@ items:
     potion: LONG_INVISIBILITY
   long_night_vision_pot:
     slot: 25
-    displayName: '&fLong Night Vision Potion'
+    displayName: '&fThuốc Dài Nhìn Đêm'
     material: POTION
     price: 21.03
     sell-price: 5.26
@@ -211,7 +211,7 @@ items:
     potion: LONG_NIGHT_VISION
   long_poison_pot:
     slot: 26
-    displayName: '&fLong Poison Potion'
+    displayName: '&fThuốc Dài Độc'
     material: POTION
     price: 15.2
     sell-price: 3.8
@@ -219,7 +219,7 @@ items:
     potion: LONG_POISON
   long_regeneration_pot:
     slot: 27
-    displayName: '&fLong Regeneration Potion'
+    displayName: '&fThuốc Dài Hồi Sinh'
     material: POTION
     price: 52.27
     sell-price: 13.07
@@ -227,7 +227,7 @@ items:
     potion: LONG_REGENERATION
   long_slow_falling_pot:
     slot: 28
-    displayName: '&fLong Slow Falling Potion'
+    displayName: '&fThuốc Dài Rơi Chậm'
     material: POTION
     price: 147.95
     sell-price: 36.99
@@ -235,7 +235,7 @@ items:
     potion: LONG_SLOW_FALLING
   long_slowness_pot:
     slot: 29
-    displayName: '&fLong Slowness Potion'
+    displayName: '&fThuốc Dài Chậm Chạp'
     material: POTION
     price: 18.41
     sell-price: 4.61
@@ -243,7 +243,7 @@ items:
     potion: LONG_SLOWNESS
   long_strength_pot:
     slot: 30
-    displayName: '&fLong Strength Potion'
+    displayName: '&fThuốc Dài Sức Mạnh'
     material: POTION
     price: 10.28
     sell-price: 2.57
@@ -251,7 +251,7 @@ items:
     potion: LONG_STRENGTH
   long_swiftness_pot:
     slot: 31
-    displayName: '&fLong Swiftness Potion'
+    displayName: '&fThuốc Dài Nhanh Nhẹn'
     material: POTION
     price: 7.45
     sell-price: 1.87
@@ -259,7 +259,7 @@ items:
     potion: LONG_SWIFTNESS
   long_turtle_master_pot:
     slot: 32
-    displayName: '&fLong Turtle Master Potion'
+    displayName: '&fThuốc Dài Rùa Thầy'
     material: POTION
     price: 3133.75
     sell-price: 783.44
@@ -267,7 +267,7 @@ items:
     potion: LONG_TURTLE_MASTER
   long_water_breathing_pot:
     slot: 33
-    displayName: '&fLong Water Breathing Potion'
+    displayName: '&fThuốc Dài Thở Dưới Nước'
     material: POTION
     price: 14.07
     sell-price: 3.52
@@ -275,7 +275,7 @@ items:
     potion: LONG_WATER_BREATHING
   long_weakness_pot:
     slot: 34
-    displayName: '&fLong Weakness Potion'
+    displayName: '&fThuốc Dài Suy Yếu'
     material: POTION
     price: 14.5
     sell-price: 3.63
@@ -283,7 +283,7 @@ items:
     potion: LONG_WEAKNESS
   fire_resistance_splash:
     slot: 35
-    displayName: '&fSplash Fire Resistance'
+    displayName: '&fThuốc Ném Kháng Lửa'
     material: SPLASH_POTION
     price: 29.05
     sell-price: 7.27
@@ -291,7 +291,7 @@ items:
     potion: FIRE_RESISTANCE
   harming_splash:
     slot: 36
-    displayName: '&fSplash Harming'
+    displayName: '&fThuốc Ném Gây Hại'
     material: SPLASH_POTION
     price: 39.35
     sell-price: 9.84
@@ -299,7 +299,7 @@ items:
     potion: HARMING
   healing_splash:
     slot: 37
-    displayName: '&fSplash Healing'
+    displayName: '&fThuốc Ném Hồi Máu'
     material: SPLASH_POTION
     price: 29.03
     sell-price: 7.26
@@ -307,7 +307,7 @@ items:
     potion: HEALING
   invisibility_splash:
     slot: 38
-    displayName: '&fSplash Invisibility'
+    displayName: '&fThuốc Ném Tàng Hình'
     material: SPLASH_POTION
     price: 45.53
     sell-price: 11.39
@@ -315,7 +315,7 @@ items:
     potion: INVISIBILITY
   leaping_splash:
     slot: 39
-    displayName: '&fSplash Leaping'
+    displayName: '&fThuốc Ném Nhảy Cao'
     material: SPLASH_POTION
     price: 222.3
     sell-price: 55.58
@@ -323,7 +323,7 @@ items:
     potion: LEAPING
   night_vision_splash:
     slot: 40
-    displayName: '&fSplash Night Vision'
+    displayName: '&fThuốc Ném Nhìn Đêm'
     material: SPLASH_POTION
     price: 33.75
     sell-price: 8.44
@@ -331,7 +331,7 @@ items:
     potion: NIGHT_VISION
   poison_splash:
     slot: 41
-    displayName: '&fSplash Poison'
+    displayName: '&fThuốc Ném Độc'
     material: SPLASH_POTION
     price: 27.92
     sell-price: 6.98
@@ -339,7 +339,7 @@ items:
     potion: POISON
   regeneration_splash:
     slot: 42
-    displayName: '&fSplash Regeneration'
+    displayName: '&fThuốc Ném Hồi Sinh'
     material: SPLASH_POTION
     price: 64.99
     sell-price: 16.25
@@ -347,7 +347,7 @@ items:
     potion: REGENERATION
   slow_falling_splash:
     slot: 43
-    displayName: '&fSplash Slow Falling'
+    displayName: '&fThuốc Ném Rơi Chậm'
     material: SPLASH_POTION
     price: 160.67
     sell-price: 40.17
@@ -355,7 +355,7 @@ items:
     potion: SLOW_FALLING
   slowness_splash:
     slot: 44
-    displayName: '&fSplash Slowness'
+    displayName: '&fThuốc Ném Chậm Chạp'
     material: SPLASH_POTION
     price: 31.13
     sell-price: 7.79
@@ -363,7 +363,7 @@ items:
     potion: SLOWNESS
   strength_splash:
     slot: 45
-    displayName: '&fSplash Strength'
+    displayName: '&fThuốc Ném Sức Mạnh'
     material: SPLASH_POTION
     price: 23
     sell-price: 5.75
@@ -371,7 +371,7 @@ items:
     potion: STRENGTH
   swiftness_splash:
     slot: 46
-    displayName: '&fSplash Swiftness'
+    displayName: '&fThuốc Ném Nhanh Nhẹn'
     material: SPLASH_POTION
     price: 20.17
     sell-price: 5.05
@@ -379,7 +379,7 @@ items:
     potion: SWIFTNESS
   turtle_master_splash:
     slot: 47
-    displayName: '&fSplash Turtle Master'
+    displayName: '&fThuốc Ném Rùa Thầy'
     material: SPLASH_POTION
     price: 3146.47
     sell-price: 786.62
@@ -387,7 +387,7 @@ items:
     potion: TURTLE_MASTER
   water_breathing_splash:
     slot: 48
-    displayName: '&fSplash Water Breathing'
+    displayName: '&fThuốc Ném Thở Dưới Nước'
     material: SPLASH_POTION
     price: 26.79
     sell-price: 6.7
@@ -395,7 +395,7 @@ items:
     potion: WATER_BREATHING
   weakness_splash:
     slot: 49
-    displayName: '&fSplash Weakness'
+    displayName: '&fThuốc Ném Suy Yếu'
     material: SPLASH_POTION
     price: 27.22
     sell-price: 6.81
@@ -403,7 +403,7 @@ items:
     potion: WEAKNESS
   strong_harming_splash:
     slot: 50
-    displayName: '&fSplash Strong Harming'
+    displayName: '&fThuốc Ném Mạnh Gây Hại'
     material: SPLASH_POTION
     price: 73.75
     sell-price: 18.44
@@ -411,7 +411,7 @@ items:
     potion: STRONG_HARMING
   strong_healing_splash:
     slot: 51
-    displayName: '&fSplash Strong Healing'
+    displayName: '&fThuốc Ném Mạnh Hồi Máu'
     material: SPLASH_POTION
     price: 62.82
     sell-price: 15.71
@@ -419,7 +419,7 @@ items:
     potion: STRONG_HEALING
   strong_leaping_splash:
     slot: 52
-    displayName: '&fSplash Strong Leaping'
+    displayName: '&fThuốc Ném Mạnh Nhảy Cao'
     material: SPLASH_POTION
     price: 267.68
     sell-price: 66.92
@@ -427,7 +427,7 @@ items:
     potion: STRONG_LEAPING
   strong_poison_splash:
     slot: 53
-    displayName: '&fSplash Strong Poison'
+    displayName: '&fThuốc Ném Mạnh Độc'
     material: SPLASH_POTION
     price: 61.64
     sell-price: 15.41
@@ -435,7 +435,7 @@ items:
     potion: STRONG_POISON
   strong_regeneration_splash:
     slot: 54
-    displayName: '&fSplash Strong Regeneration'
+    displayName: '&fThuốc Ném Mạnh Hồi Sinh'
     material: SPLASH_POTION
     price: 100.94
     sell-price: 25.24
@@ -443,7 +443,7 @@ items:
     potion: STRONG_REGENERATION
   strong_strength_splash:
     slot: 55
-    displayName: '&fSplash Strong Strength'
+    displayName: '&fThuốc Ném Mạnh Sức Mạnh'
     material: SPLASH_POTION
     price: 56.43
     sell-price: 14.11
@@ -451,7 +451,7 @@ items:
     potion: STRONG_STRENGTH
   strong_swiftness_splash:
     slot: 56
-    displayName: '&fSplash Strong Swiftness'
+    displayName: '&fThuốc Ném Mạnh Nhanh Nhẹn'
     material: SPLASH_POTION
     price: 53.43
     sell-price: 13.36
@@ -459,7 +459,7 @@ items:
     potion: STRONG_SWIFTNESS
   strong_turtle_master_splash:
     slot: 57
-    displayName: '&fSplash Strong Turtle Master'
+    displayName: '&fThuốc Ném Mạnh Rùa Thầy'
     material: SPLASH_POTION
     price: 3367.3
     sell-price: 841.83
@@ -467,7 +467,7 @@ items:
     potion: STRONG_TURTLE_MASTER
   long_fire_resistance_splash:
     slot: 58
-    displayName: '&fSplash Long Fire Resistance'
+    displayName: '&fThuốc Ném Dài Kháng Lửa'
     material: SPLASH_POTION
     price: 33.74
     sell-price: 8.44
@@ -475,7 +475,7 @@ items:
     potion: LONG_FIRE_RESISTANCE
   long_invisibility_splash:
     slot: 59
-    displayName: '&fSplash Long Invisibility'
+    displayName: '&fThuốc Ném Dài Tàng Hình'
     material: SPLASH_POTION
     price: 51.21
     sell-price: 12.81
@@ -483,7 +483,7 @@ items:
     potion: LONG_INVISIBILITY
   long_night_vision_splash:
     slot: 60
-    displayName: '&fSplash Long Night Vision'
+    displayName: '&fThuốc Ném Dài Nhìn Đêm'
     material: SPLASH_POTION
     price: 38.72
     sell-price: 9.68
@@ -491,7 +491,7 @@ items:
     potion: LONG_NIGHT_VISION
   long_poison_splash:
     slot: 61
-    displayName: '&fSplash Long Poison'
+    displayName: '&fThuốc Ném Dài Độc'
     material: SPLASH_POTION
     price: 32.54
     sell-price: 8.14
@@ -499,7 +499,7 @@ items:
     potion: LONG_POISON
   long_regeneration_splash:
     slot: 62
-    displayName: '&fSplash Long Regeneration'
+    displayName: '&fThuốc Ném Dài Hồi Sinh'
     material: SPLASH_POTION
     price: 71.84
     sell-price: 17.96
@@ -507,7 +507,7 @@ items:
     potion: LONG_REGENERATION
   long_slow_falling_splash:
     slot: 63
-    displayName: '&fSplash Long Slow Falling'
+    displayName: '&fThuốc Ném Dài Rơi Chậm'
     material: SPLASH_POTION
     price: 173.26
     sell-price: 43.32
@@ -515,7 +515,7 @@ items:
     potion: LONG_SLOW_FALLING
   long_slowness_splash:
     slot: 64
-    displayName: '&fSplash Long Slowness'
+    displayName: '&fThuốc Ném Dài Chậm Chạp'
     material: SPLASH_POTION
     price: 35.95
     sell-price: 8.99
@@ -523,7 +523,7 @@ items:
     potion: LONG_SLOWNESS
   long_strength_splash:
     slot: 65
-    displayName: '&fSplash Long Strength'
+    displayName: '&fThuốc Ném Dài Sức Mạnh'
     material: SPLASH_POTION
     price: 27.33
     sell-price: 6.84
@@ -531,7 +531,7 @@ items:
     potion: LONG_STRENGTH
   long_swiftness_splash:
     slot: 66
-    displayName: '&fSplash Long Swiftness'
+    displayName: '&fThuốc Ném Dài Nhanh Nhẹn'
     material: SPLASH_POTION
     price: 24.32
     sell-price: 6.08
@@ -539,7 +539,7 @@ items:
     potion: LONG_SWIFTNESS
   long_turtle_master_splash:
     slot: 67
-    displayName: '&fSplash Long Turtle Master'
+    displayName: '&fThuốc Ném Dài Rùa Thầy'
     material: SPLASH_POTION
     price: 3338.2
     sell-price: 834.55
@@ -547,7 +547,7 @@ items:
     potion: LONG_TURTLE_MASTER
   long_water_breathing_splash:
     slot: 68
-    displayName: '&fSplash Long Water Breathing'
+    displayName: '&fThuốc Ném Dài Thở Dưới Nước'
     material: SPLASH_POTION
     price: 31.35
     sell-price: 7.84
@@ -555,7 +555,7 @@ items:
     potion: LONG_WATER_BREATHING
   long_weakness_splash:
     slot: 69
-    displayName: '&fSplash Long Weakness'
+    displayName: '&fThuốc Ném Dài Suy Yếu'
     material: SPLASH_POTION
     price: 31.8
     sell-price: 7.95
@@ -563,7 +563,7 @@ items:
     potion: LONG_WEAKNESS
   fire_resistance_ling:
     slot: 70
-    displayName: '&fLingering Fire Resistance'
+    displayName: '&fThuốc Vướng Kháng Lửa'
     material: LINGERING_POTION
     price: 147.31
     sell-price: 36.83
@@ -571,7 +571,7 @@ items:
     potion: FIRE_RESISTANCE
   harming_ling:
     slot: 71
-    displayName: '&fLingering Harming'
+    displayName: '&fThuốc Vướng Gây Hại'
     material: LINGERING_POTION
     price: 158.22
     sell-price: 39.56
@@ -579,7 +579,7 @@ items:
     potion: HARMING
   healing_ling:
     slot: 72
-    displayName: '&fLingering Healing'
+    displayName: '&fThuốc Vướng Hồi Máu'
     material: LINGERING_POTION
     price: 147.29
     sell-price: 36.83
@@ -587,7 +587,7 @@ items:
     potion: HEALING
   invisibility_ling:
     slot: 73
-    displayName: '&fLingering Invisibility'
+    displayName: '&fThuốc Vướng Tàng Hình'
     material: LINGERING_POTION
     price: 164.78
     sell-price: 41.2
@@ -595,7 +595,7 @@ items:
     potion: INVISIBILITY
   leaping_ling:
     slot: 74
-    displayName: '&fLingering Leaping'
+    displayName: '&fThuốc Vướng Nhảy Cao'
     material: LINGERING_POTION
     price: 352.15
     sell-price: 88.04
@@ -603,7 +603,7 @@ items:
     potion: LEAPING
   night_vision_ling:
     slot: 75
-    displayName: '&fLingering Night Vision'
+    displayName: '&fThuốc Vướng Nhìn Đêm'
     material: LINGERING_POTION
     price: 152.3
     sell-price: 38.08
@@ -611,7 +611,7 @@ items:
     potion: NIGHT_VISION
   poison_ling:
     slot: 76
-    displayName: '&fLingering Poison'
+    displayName: '&fThuốc Vướng Độc'
     material: LINGERING_POTION
     price: 146.11
     sell-price: 36.53
@@ -619,7 +619,7 @@ items:
     potion: POISON
   regeneration_ling:
     slot: 77
-    displayName: '&fLingering Regeneration'
+    displayName: '&fThuốc Vướng Hồi Sinh'
     material: LINGERING_POTION
     price: 185.41
     sell-price: 46.36
@@ -627,7 +627,7 @@ items:
     potion: REGENERATION
   slow_falling_ling:
     slot: 78
-    displayName: '&fLingering Slow Falling'
+    displayName: '&fThuốc Vướng Rơi Chậm'
     material: LINGERING_POTION
     price: 286.83
     sell-price: 71.71
@@ -635,7 +635,7 @@ items:
     potion: SLOW_FALLING
   slowness_ling:
     slot: 79
-    displayName: '&fLingering Slowness'
+    displayName: '&fThuốc Vướng Chậm Chạp'
     material: LINGERING_POTION
     price: 149.52
     sell-price: 37.38
@@ -643,7 +643,7 @@ items:
     potion: SLOWNESS
   strength_ling:
     slot: 80
-    displayName: '&fLingering Strength'
+    displayName: '&fThuốc Vướng Sức Mạnh'
     material: LINGERING_POTION
     price: 140.9
     sell-price: 35.23
@@ -651,7 +651,7 @@ items:
     potion: STRENGTH
   swiftness_ling:
     slot: 81
-    displayName: '&fLingering Swiftness'
+    displayName: '&fThuốc Vướng Nhanh Nhẹn'
     material: LINGERING_POTION
     price: 137.9
     sell-price: 34.48
@@ -659,7 +659,7 @@ items:
     potion: SWIFTNESS
   turtle_master_ling:
     slot: 82
-    displayName: '&fLingering Turtle Master'
+    displayName: '&fThuốc Vướng Rùa Thầy'
     material: LINGERING_POTION
     price: 3451.77
     sell-price: 862.95
@@ -667,7 +667,7 @@ items:
     potion: TURTLE_MASTER
   water_breathing_ling:
     slot: 83
-    displayName: '&fLingering Water Breathing'
+    displayName: '&fThuốc Vướng Thở Dưới Nước'
     material: LINGERING_POTION
     price: 144.92
     sell-price: 36.23
@@ -675,7 +675,7 @@ items:
     potion: WATER_BREATHING
   weakness_ling:
     slot: 84
-    displayName: '&fLingering Weakness'
+    displayName: '&fThuốc Vướng Suy Yếu'
     material: LINGERING_POTION
     price: 145.37
     sell-price: 36.35
@@ -683,7 +683,7 @@ items:
     potion: WEAKNESS
   strong_harming_ling:
     slot: 85
-    displayName: '&fLingering Strong Harming'
+    displayName: '&fThuốc Vướng Mạnh Gây Hại'
     material: LINGERING_POTION
     price: 194.7
     sell-price: 48.68
@@ -691,7 +691,7 @@ items:
     potion: STRONG_HARMING
   strong_healing_ling:
     slot: 86
-    displayName: '&fLingering Strong Healing'
+    displayName: '&fThuốc Vướng Mạnh Hồi Máu'
     material: LINGERING_POTION
     price: 183.11
     sell-price: 45.78
@@ -699,7 +699,7 @@ items:
     potion: STRONG_HEALING
   strong_leaping_ling:
     slot: 87
-    displayName: '&fLingering Strong Leaping'
+    displayName: '&fThuốc Vướng Mạnh Nhảy Cao'
     material: LINGERING_POTION
     price: 400.26
     sell-price: 100.07
@@ -707,7 +707,7 @@ items:
     potion: STRONG_LEAPING
   strong_poison_ling:
     slot: 88
-    displayName: '&fLingering Strong Poison'
+    displayName: '&fThuốc Vướng Mạnh Độc'
     material: LINGERING_POTION
     price: 181.85
     sell-price: 45.47
@@ -715,7 +715,7 @@ items:
     potion: STRONG_POISON
   strong_regeneration_ling:
     slot: 89
-    displayName: '&fLingering Strong Regeneration'
+    displayName: '&fThuốc Vướng Mạnh Hồi Sinh'
     material: LINGERING_POTION
     price: 223.52
     sell-price: 55.88
@@ -723,7 +723,7 @@ items:
     potion: STRONG_REGENERATION
   strong_strength_ling:
     slot: 90
-    displayName: '&fLingering Strong Strength'
+    displayName: '&fThuốc Vướng Mạnh Sức Mạnh'
     material: LINGERING_POTION
     price: 176.33
     sell-price: 44.09
@@ -731,7 +731,7 @@ items:
     potion: STRONG_STRENGTH
   strong_swiftness_ling:
     slot: 91
-    displayName: '&fLingering Strong Swiftness'
+    displayName: '&fThuốc Vướng Mạnh Nhanh Nhẹn'
     material: LINGERING_POTION
     price: 173.15
     sell-price: 43.29
@@ -739,7 +739,7 @@ items:
     potion: STRONG_SWIFTNESS
   strong_turtle_master_ling:
     slot: 92
-    displayName: '&fLingering Strong Turtle Master'
+    displayName: '&fThuốc Vướng Mạnh Rùa Thầy'
     material: LINGERING_POTION
     price: 3685.86
     sell-price: 921.47
@@ -747,7 +747,7 @@ items:
     potion: STRONG_TURTLE_MASTER
   long_fire_resistance_ling:
     slot: 93
-    displayName: '&fLingering Long Fire Resistance'
+    displayName: '&fThuốc Vướng Dài Kháng Lửa'
     material: LINGERING_POTION
     price: 152.28
     sell-price: 38.07
@@ -755,7 +755,7 @@ items:
     potion: LONG_FIRE_RESISTANCE
   long_invisibility_ling:
     slot: 94
-    displayName: '&fLingering Long Invisibility'
+    displayName: '&fThuốc Vướng Dài Tàng Hình'
     material: LINGERING_POTION
     price: 170.8
     sell-price: 42.7
@@ -763,7 +763,7 @@ items:
     potion: LONG_INVISIBILITY
   long_night_vision_ling:
     slot: 95
-    displayName: '&fLingering Long Night Vision'
+    displayName: '&fThuốc Vướng Dài Nhìn Đêm'
     material: LINGERING_POTION
     price: 157.57
     sell-price: 39.4
@@ -771,7 +771,7 @@ items:
     potion: LONG_NIGHT_VISION
   long_poison_ling:
     slot: 96
-    displayName: '&fLingering Long Poison'
+    displayName: '&fThuốc Vướng Dài Độc'
     material: LINGERING_POTION
     price: 151.01
     sell-price: 37.76
@@ -779,7 +779,7 @@ items:
     potion: LONG_POISON
   long_regeneration_ling:
     slot: 97
-    displayName: '&fLingering Long Regeneration'
+    displayName: '&fThuốc Vướng Dài Hồi Sinh'
     material: LINGERING_POTION
     price: 192.67
     sell-price: 48.17
@@ -787,7 +787,7 @@ items:
     potion: LONG_REGENERATION
   long_slow_falling_ling:
     slot: 98
-    displayName: '&fLingering Long Slow Falling'
+    displayName: '&fThuốc Vướng Dài Rơi Chậm'
     material: LINGERING_POTION
     price: 300.17
     sell-price: 75.05
@@ -795,7 +795,7 @@ items:
     potion: LONG_SLOW_FALLING
   long_slowness_ling:
     slot: 99
-    displayName: '&fLingering Long Slowness'
+    displayName: '&fThuốc Vướng Dài Chậm Chạp'
     material: LINGERING_POTION
     price: 154.62
     sell-price: 38.66
@@ -803,7 +803,7 @@ items:
     potion: LONG_SLOWNESS
   long_strength_ling:
     slot: 100
-    displayName: '&fLingering Long Strength'
+    displayName: '&fThuốc Vướng Dài Sức Mạnh'
     material: LINGERING_POTION
     price: 145.48
     sell-price: 36.37
@@ -811,7 +811,7 @@ items:
     potion: LONG_STRENGTH
   long_swiftness_ling:
     slot: 101
-    displayName: '&fLingering Long Swiftness'
+    displayName: '&fThuốc Vướng Dài Nhanh Nhẹn'
     material: LINGERING_POTION
     price: 142.3
     sell-price: 35.58
@@ -819,7 +819,7 @@ items:
     potion: LONG_SWIFTNESS
   long_turtle_master_ling:
     slot: 102
-    displayName: '&fLingering Long Turtle Master'
+    displayName: '&fThuốc Vướng Dài Rùa Thầy'
     material: LINGERING_POTION
     price: 3655.01
     sell-price: 913.76
@@ -827,7 +827,7 @@ items:
     potion: LONG_TURTLE_MASTER
   long_water_breathing_ling:
     slot: 103
-    displayName: '&fLingering Long Water Breathing'
+    displayName: '&fThuốc Vướng Dài Thở Dưới Nước'
     material: LINGERING_POTION
     price: 149.74
     sell-price: 37.44
@@ -835,7 +835,7 @@ items:
     potion: LONG_WATER_BREATHING
   long_weakness_ling:
     slot: 104
-    displayName: '&fLingering Long Weakness'
+    displayName: '&fThuốc Vướng Dài Suy Yếu'
     material: LINGERING_POTION
     price: 150.22
     sell-price: 37.56
@@ -843,7 +843,7 @@ items:
     potion: LONG_WEAKNESS
   fire_resistance_arrow:
     slot: 105
-    displayName: '&fFire Resistance Arrow'
+    displayName: '&fMũi Tên Kháng Lửa'
     material: TIPPED_ARROW
     price: 21.7
     sell-price: 5.43
@@ -851,7 +851,7 @@ items:
     potion: FIRE_RESISTANCE
   harming_arrow:
     slot: 106
-    displayName: '&fHarming Arrow'
+    displayName: '&fMũi Tên Gây Hại'
     material: TIPPED_ARROW
     price: 23.14
     sell-price: 5.79
@@ -859,7 +859,7 @@ items:
     potion: HARMING
   healing_arrow:
     slot: 107
-    displayName: '&fHealing Arrow'
+    displayName: '&fMũi Tên Hồi Máu'
     material: TIPPED_ARROW
     price: 21.7
     sell-price: 5.43
@@ -867,7 +867,7 @@ items:
     potion: HEALING
   invisibility_arrow:
     slot: 108
-    displayName: '&fInvisibility Arrow'
+    displayName: '&fMũi Tên Tàng Hình'
     material: TIPPED_ARROW
     price: 24
     sell-price: 6
@@ -875,7 +875,7 @@ items:
     potion: INVISIBILITY
   leaping_arrow:
     slot: 109
-    displayName: '&fLeaping Arrow'
+    displayName: '&fMũi Tên Nhảy Cao'
     material: TIPPED_ARROW
     price: 48.59
     sell-price: 12.15
@@ -883,7 +883,7 @@ items:
     potion: LEAPING
   poison_arrow:
     slot: 110
-    displayName: '&fPoison Arrow'
+    displayName: '&fMũi Tên Độc'
     material: TIPPED_ARROW
     price: 21.55
     sell-price: 5.39
@@ -891,7 +891,7 @@ items:
     potion: POISON
   regeneration_arrow:
     slot: 111
-    displayName: '&fRegeneration Arrow'
+    displayName: '&fMũi Tên Hồi Sinh'
     material: TIPPED_ARROW
     price: 26.7
     sell-price: 6.68
@@ -899,7 +899,7 @@ items:
     potion: REGENERATION
   slow_falling_arrow:
     slot: 112
-    displayName: '&fSlow Falling Arrow'
+    displayName: '&fMũi Tên Rơi Chậm'
     material: TIPPED_ARROW
     price: 40.01
     sell-price: 10.01
@@ -907,7 +907,7 @@ items:
     potion: SLOW_FALLING
   slowness_arrow:
     slot: 113
-    displayName: '&fSlowness Arrow'
+    displayName: '&fMũi Tên Chậm Chạp'
     material: TIPPED_ARROW
     price: 21.99
     sell-price: 5.5
@@ -915,7 +915,7 @@ items:
     potion: SLOWNESS
   strength_arrow:
     slot: 114
-    displayName: '&fStrength Arrow'
+    displayName: '&fMũi Tên Sức Mạnh'
     material: TIPPED_ARROW
     price: 20.86
     sell-price: 5.22
@@ -923,7 +923,7 @@ items:
     potion: STRENGTH
   swiftness_arrow:
     slot: 115
-    displayName: '&fSwiftness Arrow'
+    displayName: '&fMũi Tên Nhanh Nhẹn'
     material: TIPPED_ARROW
     price: 20.47
     sell-price: 5.12
@@ -931,7 +931,7 @@ items:
     potion: SWIFTNESS
   turtle_master_arrow:
     slot: 116
-    displayName: '&fTurtle Master Arrow'
+    displayName: '&fMũi Tên Rùa Thầy'
     material: TIPPED_ARROW
     price: 455.41
     sell-price: 113.86
@@ -939,7 +939,7 @@ items:
     potion: TURTLE_MASTER
   water_breathing_arrow:
     slot: 117
-    displayName: '&fWater Breathing Arrow'
+    displayName: '&fMũi Tên Thở Dưới Nước'
     material: TIPPED_ARROW
     price: 21.39
     sell-price: 5.35
@@ -947,7 +947,7 @@ items:
     potion: WATER_BREATHING
   weakness_arrow:
     slot: 118
-    displayName: '&fWeakness Arrow'
+    displayName: '&fMũi Tên Suy Yếu'
     material: TIPPED_ARROW
     price: 21.45
     sell-price: 5.37
@@ -955,7 +955,7 @@ items:
     potion: WEAKNESS
   strong_harming_arrow:
     slot: 119
-    displayName: '&fStrong Harming Arrow'
+    displayName: '&fMũi Tên Mạnh Gây Hại'
     material: TIPPED_ARROW
     price: 27.92
     sell-price: 5.59
@@ -963,7 +963,7 @@ items:
     potion: STRONG_HARMING
   strong_healing_arrow:
     slot: 120
-    displayName: '&fStrong Healing Arrow'
+    displayName: '&fMũi Tên Mạnh Hồi Máu'
     material: TIPPED_ARROW
     price: 26.4
     sell-price: 6.6
@@ -971,7 +971,7 @@ items:
     potion: STRONG_HEALING
   strong_leaping_arrow:
     slot: 121
-    displayName: '&fStrong Leaping Arrow'
+    displayName: '&fMũi Tên Mạnh Nhảy Cao'
     material: TIPPED_ARROW
     price: 54.9
     sell-price: 13.73
@@ -979,7 +979,7 @@ items:
     potion: STRONG_LEAPING
   strong_poison_arrow:
     slot: 122
-    displayName: '&fStrong Poison Arrow'
+    displayName: '&fMũi Tên Mạnh Độc'
     material: TIPPED_ARROW
     price: 26.24
     sell-price: 6.56
@@ -987,7 +987,7 @@ items:
     potion: STRONG_POISON
   strong_regeneration_arrow:
     slot: 123
-    displayName: '&fStrong Regeneration Arrow'
+    displayName: '&fMũi Tên Mạnh Hồi Sinh'
     material: TIPPED_ARROW
     price: 31.71
     sell-price: 7.93
@@ -995,7 +995,7 @@ items:
     potion: STRONG_REGENERATION
   strong_strength_arrow:
     slot: 124
-    displayName: '&fStrong Strength Arrow'
+    displayName: '&fMũi Tên Mạnh Sức Mạnh'
     material: TIPPED_ARROW
     price: 25.51
     sell-price: 6.38
@@ -1003,7 +1003,7 @@ items:
     potion: STRONG_STRENGTH
   strong_swiftness_arrow:
     slot: 125
-    displayName: '&fStrong Swiftness Arrow'
+    displayName: '&fMũi Tên Mạnh Nhanh Nhẹn'
     material: TIPPED_ARROW
     price: 25.09
     sell-price: 6.28
@@ -1011,7 +1011,7 @@ items:
     potion: STRONG_SWIFTNESS
   strong_turtle_master_arrow:
     slot: 126
-    displayName: '&fStrong Turtle Master Arrow'
+    displayName: '&fMũi Tên Mạnh Rùa Thầy'
     material: TIPPED_ARROW
     price: 486.14
     sell-price: 121.54
@@ -1019,7 +1019,7 @@ items:
     potion: STRONG_TURTLE_MASTER
   long_fire_resistance_arrow:
     slot: 127
-    displayName: '&fLong Fire Resistance Arrow'
+    displayName: '&fMũi Tên Dài Kháng Lửa'
     material: TIPPED_ARROW
     price: 22.36
     sell-price: 5.59
@@ -1027,7 +1027,7 @@ items:
     potion: LONG_FIRE_RESISTANCE
   long_invisibility_arrow:
     slot: 128
-    displayName: '&fLong Invisibility Arrow'
+    displayName: '&fMũi Tên Dài Tàng Hình'
     material: TIPPED_ARROW
     price: 24.79
     sell-price: 6.2
@@ -1035,7 +1035,7 @@ items:
     potion: LONG_INVISIBILITY
   long_night_vision_arrow:
     slot: 129
-    displayName: '&fLong Night Vision Arrow'
+    displayName: '&fMũi Tên Dài Nhìn Đêm'
     material: TIPPED_ARROW
     price: 23.05
     sell-price: 5.77
@@ -1043,7 +1043,7 @@ items:
     potion: LONG_NIGHT_VISION
   long_poison_arrow:
     slot: 130
-    displayName: '&fLong Poison Arrow'
+    displayName: '&fMũi Tên Dài Độc'
     material: TIPPED_ARROW
     price: 22.19
     sell-price: 5.55
@@ -1051,7 +1051,7 @@ items:
     potion: LONG_POISON
   long_regeneration_arrow:
     slot: 131
-    displayName: '&fLong Regeneration Arrow'
+    displayName: '&fMũi Tên Dài Hồi Sinh'
     material: TIPPED_ARROW
     price: 27.66
     sell-price: 6.92
@@ -1059,7 +1059,7 @@ items:
     potion: LONG_REGENERATION
   long_slow_falling_arrow:
     slot: 132
-    displayName: '&fLong Slow Falling Arrow'
+    displayName: '&fMũi Tên Dài Rơi Chậm'
     material: TIPPED_ARROW
     price: 41.77
     sell-price: 10.45
@@ -1067,7 +1067,7 @@ items:
     potion: LONG_SLOW_FALLING
   long_slowness_arrow:
     slot: 133
-    displayName: '&fLong Slowness Arrow'
+    displayName: '&fMũi Tên Dài Chậm Chạp'
     material: TIPPED_ARROW
     price: 22.66
     sell-price: 5.67
@@ -1075,7 +1075,7 @@ items:
     potion: LONG_SLOWNESS
   long_strength_arrow:
     slot: 134
-    displayName: '&fLong Strength Arrow'
+    displayName: '&fMũi Tên Dài Sức Mạnh'
     material: TIPPED_ARROW
     price: 21.46
     sell-price: 5.37
@@ -1083,7 +1083,7 @@ items:
     potion: LONG_STRENGTH
   long_swiftness_arrow:
     slot: 135
-    displayName: '&fLong Swiftness Arrow'
+    displayName: '&fMũi Tên Dài Nhanh Nhẹn'
     material: TIPPED_ARROW
     price: 21.05
     sell-price: 5.27
@@ -1091,7 +1091,7 @@ items:
     potion: LONG_SWIFTNESS
   long_turtle_master_arrow:
     slot: 136
-    displayName: '&fLong Turtle Master Arrow'
+    displayName: '&fMũi Tên Dài Rùa Thầy'
     material: TIPPED_ARROW
     price: 482.09
     sell-price: 120.53
@@ -1099,7 +1099,7 @@ items:
     potion: LONG_TURTLE_MASTER
   long_water_breathing_arrow:
     slot: 137
-    displayName: '&fLong Water Breathing Arrow'
+    displayName: '&fMũi Tên Dài Thở Dưới Nước'
     material: TIPPED_ARROW
     price: 22.02
     sell-price: 5.51
@@ -1107,7 +1107,7 @@ items:
     potion: LONG_WATER_BREATHING
   long_weakness_arrow:
     slot: 138
-    displayName: '&fLong Weakness Arrow'
+    displayName: '&fMũi Tên Dài Suy Yếu'
     material: TIPPED_ARROW
     price: 22.09
     sell-price: 5.53
@@ -1115,35 +1115,35 @@ items:
     potion: LONG_WEAKNESS
   brewing_stand:
     slot: 139
-    displayName: '&fBrewing Stand'
+    displayName: '&fGiá Pha Thuốc'
     material: BREWING_STAND
     price: 7.4
     sell-price: 1.85
     max-stack: 64
   glass_bottle:
     slot: 140
-    displayName: '&fGlass Bottle'
+    displayName: '&fChai Thủy Tinh'
     material: GLASS_BOTTLE
     price: 19.86
     sell-price: 14.94
     max-stack: 3
   nether_wart:
     slot: 141
-    displayName: '&fNether Wart'
+    displayName: '&fNốt Sần Nether'
     material: NETHER_WART
     price: 12
     sell-price: 3
     max-stack: 4
   blaze_powder:
     slot: 142
-    displayName: '&fBlaze Powder'
+    displayName: '&fBột Blaze'
     material: BLAZE_POWDER
     price: 42.08
     sell-price: 10.56
     max-stack: 16
   glowstone_dust:
     slot: 143
-    displayName: '&fGlowstone Dust'
+    displayName: '&fBụi Đá Phát Sáng'
     material: GLOWSTONE_DUST
     price: 63
     sell-price: 15.75

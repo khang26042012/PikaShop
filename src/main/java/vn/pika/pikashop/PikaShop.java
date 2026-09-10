@@ -67,18 +67,18 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
         register("worth");
         register("pikashop");
         if (vault.setup()) {
-            getLogger().info("PikaShop da noi Vault Economy.");
+            getLogger().info("PikaShop đã nối Vault Economy.");
         } else {
-            getLogger().warning("Chua thay Vault/Economy - mua/ban se bao loi.");
+            getLogger().warning("Chưa thấy Vault/Economy - mua/bán sẽ báo lỗi.");
         }
-        getLogger().info("PikaShop R13: shop + sell + multiplier + shards san sang.");
+        getLogger().info("PikaShop R13: shop + sell + multiplier + shards sẵn sàng.");
     }
 
     @Override
     public void onDisable() {
         if (afk != null) afk.stop();
         if (shards != null) shards.save();
-        getLogger().info("PikaShop da tat (shard da luu).");
+        getLogger().info("PikaShop đã tắt (shard đã lưu).");
     }
 
     public VaultHook vault() { return vault; }
@@ -99,7 +99,7 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
         if (getCommand(name) != null) {
             getCommand(name).setExecutor(this);
         } else {
-            getLogger().warning("Khong thay lenh trong plugin.yml: " + name);
+            getLogger().warning("Không thấy lệnh trong plugin.yml: " + name);
         }
     }
 
@@ -123,7 +123,7 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
             return true;
         }
         if (!(sender instanceof Player)) {
-            sender.sendMessage("Chi nguoi choi moi dung duoc lenh nay.");
+            sender.sendMessage("Chỉ người chơi mới dùng được lệnh này.");
             return true;
         }
         Player p = (Player) sender;

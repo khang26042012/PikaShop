@@ -3,525 +3,525 @@ Size: 54
 items:
   dirt:
     slot: 0
-    displayName: "&fDirt"
+    displayName: "&fĐất"
     material: DIRT
     price: 3
     sell-price: 0.75
     max-stack: 64
   coarse_dirt:
     slot: 1
-    displayName: "&fCoarse Dirt"
+    displayName: "&fĐất Thô"
     material: COARSE_DIRT
     price: 5.78
     sell-price: 1.45
     max-stack: 64
   rooted_dirt:
     slot: 2
-    displayName: "&fRooted Dirt"
+    displayName: "&fĐất Có Rễ"
     material: ROOTED_DIRT
     price: 1
     sell-price: 0.25
     max-stack: 64
   grass_block:
     slot: 3
-    displayName: "&fGrass Block"
+    displayName: "&fKhối Cỏ"
     material: GRASS_BLOCK
     price: 8
     sell-price: 2
     max-stack: 64
   moss_block:
     slot: 4
-    displayName: "&fMoss Block"
+    displayName: "&fKhối Rêu"
     material: MOSS_BLOCK
     price: 1
     sell-price: 0.25
     max-stack: 64
   podzol:
     slot: 5
-    displayName: "&fPodzol"
+    displayName: "&fĐất Podzol"
     material: PODZOL
     price: 8
     sell-price: 2
     max-stack: 64
   mycelium:
     slot: 6
-    displayName: "&fMycelium"
+    displayName: "&fĐất Sợi Nấm"
     material: MYCELIUM
     price: 8
     sell-price: 2
     max-stack: 64
   sand:
     slot: 7
-    displayName: "&fSand"
+    displayName: "&fCát"
     material: SAND
     price: 6
     sell-price: 1.5
     max-stack: 64
   red_sand:
     slot: 8
-    displayName: "&fRed Sand"
+    displayName: "&fCát Đỏ"
     material: RED_SAND
     price: 8
     sell-price: 2
     max-stack: 64
   gravel:
     slot: 9
-    displayName: "&fGravel"
+    displayName: "&fSỏi"
     material: GRAVEL
     price: 8
     sell-price: 2
     max-stack: 64
   clay:
     slot: 10
-    displayName: "&fClay"
+    displayName: "&fĐất Sét"
     material: CLAY
     price: 21
     sell-price: 5.25
     max-stack: 64
   mud:
     slot: 11
-    displayName: "&fMud"
+    displayName: "&fBùn"
     material: MUD
     price: 3.19
     sell-price: 0.8
     max-stack: 64
   packed_mud:
     slot: 12
-    displayName: "&fPacked Mud"
+    displayName: "&fBùn Nén"
     material: PACKED_MUD
     price: 8.6
     sell-price: 2.15
     max-stack: 64
   mud_bricks:
     slot: 13
-    displayName: "&fMud Bricks"
+    displayName: "&fGạch Bùn"
     material: MUD_BRICKS
     price: 9.03
     sell-price: 2.26
     max-stack: 64
   mud_brick_stairs:
     slot: 14
-    displayName: "&fMud Brick Stairs"
+    displayName: "&fCầu Thang Gạch Bùn"
     material: MUD_BRICK_STAIRS
     price: 9.48
     sell-price: 2.37
     max-stack: 64
   mud_brick_slab:
     slot: 15
-    displayName: "&fMud Brick Slab"
+    displayName: "&fTấm Gạch Bùn"
     material: MUD_BRICK_SLAB
     price: 4.74
     sell-price: 1.19
     max-stack: 64
   crying_obsidian:
     slot: 16
-    displayName: "&fCrying Obsidian"
+    displayName: "&fHắc Diện Thạch Khóc"
     material: CRYING_OBSIDIAN
     price: 62.5
     sell-price: 15.63
     max-stack: 64
   obsidian:
     slot: 17
-    displayName: "&fObsidian"
+    displayName: "&fHắc Diện Thạch"
     material: OBSIDIAN
     price: 31.25
     sell-price: 7.82
     max-stack: 64
   netherrack:
     slot: 18
-    displayName: "&fNetherrack"
+    displayName: "&fĐá Địa Ngục"
     material: NETHERRACK
     price: 0.2
     sell-price: 0.05
     max-stack: 64
   crimson_nylium:
     slot: 19
-    displayName: "&fCrimson Nylium"
+    displayName: "&fĐất Nấm Đỏ"
     material: CRIMSON_NYLIUM
     price: 6
     sell-price: 1.5
     max-stack: 64
   warped_nylium:
     slot: 20
-    displayName: "&fWarped Nylium"
+    displayName: "&fĐất Nấm Xanh"
     material: WARPED_NYLIUM
     price: 6
     sell-price: 1.5
     max-stack: 64
   soul_sand:
     slot: 21
-    displayName: "&fSoul Sand"
+    displayName: "&fCát Linh Hồn"
     material: SOUL_SAND
     price: 10
     sell-price: 2.5
     max-stack: 64
   soul_soil:
     slot: 22
-    displayName: "&fSoul Soil"
+    displayName: "&fĐất Linh Hồn"
     material: SOUL_SOIL
     price: 10
     sell-price: 2.5
     max-stack: 64
   ice:
     slot: 23
-    displayName: "&fIce"
+    displayName: "&fBăng"
     material: ICE
     price: 3
     sell-price: 0.75
     max-stack: 64
   packed_ice:
     slot: 24
-    displayName: "&fPacked Ice"
+    displayName: "&fBăng Nén"
     material: PACKED_ICE
     price: 13.5
     sell-price: 3.38
     max-stack: 64
   blue_ice:
     slot: 25
-    displayName: "&fBlue Ice"
+    displayName: "&fBăng Xanh"
     material: BLUE_ICE
     price: 60.75
     sell-price: 15.19
     max-stack: 64
   sea_lantern:
     slot: 26
-    displayName: "&fSea Lantern"
+    displayName: "&fĐèn Biển"
     material: SEA_LANTERN
     price: 66.15
     sell-price: 16.54
     max-stack: 64
   snow_block:
     slot: 27
-    displayName: "&fSnow Block"
+    displayName: "&fKhối Tuyết"
     material: SNOW_BLOCK
     price: 12.6
     sell-price: 3.15
     max-stack: 64
   ochre_froglight:
     slot: 28
-    displayName: "&fOchre Froglight"
+    displayName: "&fĐèn Ếch Vàng"
     material: OCHRE_FROGLIGHT
     price: 6
     sell-price: 1.5
     max-stack: 64
   pearlescent_froglight:
     slot: 29
-    displayName: "&fPearlescent Froglight"
+    displayName: "&fĐèn Ếch Ngọc Trai"
     material: PEARLESCENT_FROGLIGHT
     price: 6
     sell-price: 1.5
     max-stack: 64
   verdant_froglight:
     slot: 30
-    displayName: "&fVerdant Froglight"
+    displayName: "&fĐèn Ếch Lục"
     material: VERDANT_FROGLIGHT
     price: 6
     sell-price: 1.5
     max-stack: 64
   mangrove_roots:
     slot: 31
-    displayName: "&fMangrove Roots"
+    displayName: "&fRễ Đước"
     material: MANGROVE_ROOTS
     price: 3
     sell-price: 0.75
     max-stack: 64
   muddy_mangrove_roots:
     slot: 32
-    displayName: "&fMuddy Mangrove Roots"
+    displayName: "&fRễ Đước Bùn"
     material: MUDDY_MANGROVE_ROOTS
     price: 3
     sell-price: 0.75
     max-stack: 64
   acacia_leaves:
     slot: 33
-    displayName: "&fAcacia Leaves"
+    displayName: "&fLá Keo"
     material: ACACIA_LEAVES
     price: 3
     sell-price: 0.75
     max-stack: 64
   azalea_leaves:
     slot: 34
-    displayName: "&fAzalea Leaves"
+    displayName: "&fLá Đỗ Quyên"
     material: AZALEA_LEAVES
     price: 3.15
     sell-price: 0.79
     max-stack: 64
   birch_leaves:
     slot: 35
-    displayName: "&fBirch Leaves"
+    displayName: "&fLá Bạch Dương"
     material: BIRCH_LEAVES
     price: 3
     sell-price: 0.75
     max-stack: 64
   cherry_leaves:
     slot: 36
-    displayName: "&fCherry Leaves"
+    displayName: "&fLá Anh Đào"
     material: CHERRY_LEAVES
     price: 3
     sell-price: 0.75
     max-stack: 64
   dark_oak_leaves:
     slot: 37
-    displayName: "&fDark Oak Leaves"
+    displayName: "&fLá Sồi Tối"
     material: DARK_OAK_LEAVES
     price: 3
     sell-price: 0.75
     max-stack: 64
   flowering_azalea_leaves:
     slot: 38
-    displayName: "&fFlowering Azalea Leaves"
+    displayName: "&fLá Đỗ Quyên Hoa"
     material: FLOWERING_AZALEA_LEAVES
     price: 3.15
     sell-price: 0.79
     max-stack: 64
   jungle_leaves:
     slot: 39
-    displayName: "&fJungle Leaves"
+    displayName: "&fLá Rừng Rậm"
     material: JUNGLE_LEAVES
     price: 3
     sell-price: 0.75
     max-stack: 64
   oak_leaves:
     slot: 40
-    displayName: "&fOak Leaves"
+    displayName: "&fLá Sồi"
     material: OAK_LEAVES
     price: 3
     sell-price: 0.75
     max-stack: 64
   spruce_leaves:
     slot: 41
-    displayName: "&fSpruce Leaves"
+    displayName: "&fLá Vân Sam"
     material: SPRUCE_LEAVES
     price: 3
     sell-price: 0.75
     max-stack: 64
   mangrove_leaves:
     slot: 42
-    displayName: "&fMangrove Leaves"
+    displayName: "&fLá Đước"
     material: MANGROVE_LEAVES
     price: 3
     sell-price: 0.75
     max-stack: 64
   dripstone_block:
     slot: 43
-    displayName: "&fDripstone Block"
+    displayName: "&fKhối Đá Nhỏ Giọt"
     material: DRIPSTONE_BLOCK
     price: 1
     sell-price: 0.25
     max-stack: 64
   sponge:
     slot: 44
-    displayName: "&fSponge"
+    displayName: "&fBọt Biển"
     material: SPONGE
     price: 525
     sell-price: 131.25
     max-stack: 64
   slime_block:
     slot: 45
-    displayName: "&fSlime Block"
+    displayName: "&fKhối Chất Nhờn"
     material: SLIME_BLOCK
     price: 47.25
     sell-price: 11.82
     max-stack: 64
   honey_block:
     slot: 46
-    displayName: "&fHoney Block"
+    displayName: "&fKhối Mật Ong"
     material: HONEY_BLOCK
     price: 33.34
     sell-price: 8.34
     max-stack: 64
   honeycomb_block:
     slot: 47
-    displayName: "&fHoneycomb Block"
+    displayName: "&fKhối Tổ Ong"
     material: HONEYCOMB_BLOCK
     price: 13.23
     sell-price: 3.31
     max-stack: 64
   magma_block:
     slot: 48
-    displayName: "&fMagma Block"
+    displayName: "&fKhối Magma"
     material: MAGMA_BLOCK
     price: 33.63
     sell-price: 8.41
     max-stack: 64
   resin_bricks:
     slot: 49
-    displayName: "&fResin Bricks"
+    displayName: "&fGạch Nhựa Cây"
     material: RESIN_BRICKS
     price: 16.16
     sell-price: 1.62
     max-stack: 64
   resin_brick_stairs:
     slot: 50
-    displayName: "&fResin Brick Stairs"
+    displayName: "&fCầu Thang Gạch Nhựa"
     material: RESIN_BRICK_STAIRS
     price: 16.16
     sell-price: 1.62
     max-stack: 64
   resin_brick_slab:
     slot: 51
-    displayName: "&fResin Brick Slab"
+    displayName: "&fTấm Gạch Nhựa"
     material: RESIN_BRICK_SLAB
     price: 16.16
     sell-price: 1.62
     max-stack: 64
   chiseled_sandstone:
     slot: 52
-    displayName: "&fChiseled Sandstone"
+    displayName: "&fSa Thạch Đẽo"
     material: CHISELED_SANDSTONE
     price: 12.6
     sell-price: 3.15
     max-stack: 64
   sandstone:
     slot: 53
-    displayName: "&fSandstone"
+    displayName: "&fSa Thạch"
     material: SANDSTONE
     price: 12
     sell-price: 3
     max-stack: 64
   sandstone_stairs:
     slot: 54
-    displayName: "&fSandstone Stairs"
+    displayName: "&fCầu Thang Sa Thạch"
     material: SANDSTONE_STAIRS
     price: 12.6
     sell-price: 3.15
     max-stack: 64
   sandstone_slab:
     slot: 55
-    displayName: "&fSandstone Slab"
+    displayName: "&fTấm Sa Thạch"
     material: SANDSTONE_SLAB
     price: 6.3
     sell-price: 1.58
     max-stack: 64
   smooth_sandstone:
     slot: 56
-    displayName: "&fSmooth Sandstone"
+    displayName: "&fSa Thạch Mịn"
     material: SMOOTH_SANDSTONE
     price: 12.6
     sell-price: 3.15
     max-stack: 64
   smooth_sandstone_stairs:
     slot: 57
-    displayName: "&fSmooth Sandstone Stairs"
+    displayName: "&fCầu Thang Sa Thạch Mịn"
     material: SMOOTH_SANDSTONE_STAIRS
     price: 13.23
     sell-price: 3.31
     max-stack: 64
   smooth_sandstone_slab:
     slot: 58
-    displayName: "&fSmooth Sandstone Slab"
+    displayName: "&fTấm Sa Thạch Mịn"
     material: SMOOTH_SANDSTONE_SLAB
     price: 6.62
     sell-price: 1.66
     max-stack: 64
   chiseled_red_sandstone:
     slot: 59
-    displayName: "&fChiseled Red Sandstone"
+    displayName: "&fSa Thạch Đỏ Đẽo"
     material: CHISELED_RED_SANDSTONE
     price: 35.28
     sell-price: 8.82
     max-stack: 64
   red_sandstone:
     slot: 60
-    displayName: "&fRed Sandstone"
+    displayName: "&fSa Thạch Đỏ"
     material: RED_SANDSTONE
     price: 33.6
     sell-price: 8.4
     max-stack: 64
   red_sandstone_stairs:
     slot: 61
-    displayName: "&fRed Sandstone Stairs"
+    displayName: "&fCầu Thang Sa Thạch Đỏ"
     material: RED_SANDSTONE_STAIRS
     price: 35.28
     sell-price: 8.82
     max-stack: 64
   red_sandstone_slab:
     slot: 62
-    displayName: "&fRed Sandstone Slab"
+    displayName: "&fTấm Sa Thạch Đỏ"
     material: RED_SANDSTONE_SLAB
     price: 17.64
     sell-price: 4.41
     max-stack: 64
   smooth_red_sandstone:
     slot: 63
-    displayName: "&fSmooth Red Sandstone"
+    displayName: "&fSa Thạch Đỏ Mịn"
     material: SMOOTH_RED_SANDSTONE
     price: 35.28
     sell-price: 8.82
     max-stack: 64
   smooth_red_sandstone_stairs:
     slot: 64
-    displayName: "&fSmooth Red Sandstone Stairs"
+    displayName: "&fCầu Thang Sa Thạch Đỏ Mịn"
     material: SMOOTH_RED_SANDSTONE_STAIRS
     price: 37.05
     sell-price: 9.27
     max-stack: 64
   smooth_red_sandstone_slab:
     slot: 65
-    displayName: "&fSmooth Red Sandstone Slab"
+    displayName: "&fTấm Sa Thạch Đỏ Mịn"
     material: SMOOTH_RED_SANDSTONE_SLAB
     price: 18.53
     sell-price: 4.64
     max-stack: 64
   prismarine:
     slot: 66
-    displayName: "&fPrismarine"
+    displayName: "&fĐá Sinh Học Biển"
     material: PRISMARINE
     price: 29.4
     sell-price: 7.35
     max-stack: 64
   prismarine_stairs:
     slot: 67
-    displayName: "&fPrismarine Stairs"
+    displayName: "&fCầu Thang Sinh Học Biển"
     material: PRISMARINE_STAIRS
     price: 30.87
     sell-price: 7.72
     max-stack: 64
   prismarine_slab:
     slot: 68
-    displayName: "&fPrismarine Slab"
+    displayName: "&fTấm Sinh Học Biển"
     material: PRISMARINE_SLAB
     price: 15.44
     sell-price: 3.86
     max-stack: 64
   prismarine_bricks:
     slot: 69
-    displayName: "&fPrismarine Bricks"
+    displayName: "&fGạch Sinh Học Biển"
     material: PRISMARINE_BRICKS
     price: 66.15
     sell-price: 16.54
     max-stack: 64
   prismarine_brick_stairs:
     slot: 70
-    displayName: "&fPrismarine Brick Stairs"
+    displayName: "&fCầu Thang Gạch Sinh Học Biển"
     material: PRISMARINE_BRICK_STAIRS
     price: 69.46
     sell-price: 17.37
     max-stack: 64
   prismarine_brick_slab:
     slot: 71
-    displayName: "&fPrismarine Brick Slab"
+    displayName: "&fTấm Gạch Sinh Học Biển"
     material: PRISMARINE_BRICK_SLAB
     price: 34.73
     sell-price: 8.69
     max-stack: 64
   dark_prismarine:
     slot: 72
-    displayName: "&fDark Prismarine"
+    displayName: "&fSinh Học Biển Tối"
     material: DARK_PRISMARINE
     price: 64.05
     sell-price: 16.02
     max-stack: 64
   dark_prismarine_stairs:
     slot: 73
-    displayName: "&fDark Prismarine Stairs"
+    displayName: "&fCầu Thang Sinh Học Biển Tối"
     material: DARK_PRISMARINE_STAIRS
     price: 67.26
     sell-price: 16.82
     max-stack: 64
   dark_prismarine_slab:
     slot: 74
-    displayName: "&fDark Prismarine Slab"
+    displayName: "&fTấm Sinh Học Biển Tối"
     material: DARK_PRISMARINE_SLAB
     price: 33.63
     sell-price: 8.41

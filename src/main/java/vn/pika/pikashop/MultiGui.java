@@ -55,9 +55,9 @@ public class MultiGui implements Listener {
                 List<String> lore = new ArrayList<>();
                 lore.add(ChatColor.GRAY + plugin.multi().bar(id, c.id)
                         + " " + plugin.multi().percent(id, c.id) + "%");
-                lore.add(ChatColor.WHITE + "He so: " + ChatColor.GREEN + String.format("%.2fx", factor));
+                lore.add(ChatColor.WHITE + "Hệ số: " + ChatColor.GREEN + String.format("%.2fx", factor));
                 if (max) {
-                    lore.add(ChatColor.GREEN + "Da max level!");
+                    lore.add(ChatColor.GREEN + "Đã max level!");
                 } else {
                     lore.add(ChatColor.GRAY + "$" + money(spent) + " / $" + money(next));
                 }

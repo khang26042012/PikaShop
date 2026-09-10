@@ -45,12 +45,12 @@ public class SellGui implements Listener {
     }
 
     public void open(Player p) {
-        Inventory inv = Bukkit.createInventory(new Holder(), GUI_SIZE, color("BAN DO"));
-        inv.setItem(BTN_SELL, named(Material.LIME_STAINED_GLASS_PANE, ChatColor.GREEN + "BAN HET",
+        Inventory inv = Bukkit.createInventory(new Holder(), GUI_SIZE, color("BÁN ĐỒ"));
+        inv.setItem(BTN_SELL, named(Material.LIME_STAINED_GLASS_PANE, ChatColor.GREEN + "BÁN HẾT",
                 ChatColor.GRAY + "Nhan de ban, hoac dong menu"));
-        inv.setItem(BTN_WORTH, named(Material.BOOK, ChatColor.YELLOW + "XEM GIA",
+        inv.setItem(BTN_WORTH, named(Material.BOOK, ChatColor.YELLOW + "XEM GIÁ",
                 ChatColor.GRAY + "Xem tong gia do trong menu"));
-        inv.setItem(BTN_CANCEL, named(Material.RED_STAINED_GLASS_PANE, ChatColor.RED + "HUY",
+        inv.setItem(BTN_CANCEL, named(Material.RED_STAINED_GLASS_PANE, ChatColor.RED + "HỦY",
                 ChatColor.GRAY + "Tra lai toan bo do"));
         p.openInventory(inv);
     }
@@ -250,7 +250,7 @@ public class SellGui implements Listener {
             p.sendMessage(plugin.msg("messages.history-empty"));
             return;
         }
-        p.sendMessage(ChatColor.YELLOW + "Lich su ban (moi nhat cuoi):");
+        p.sendMessage(ChatColor.YELLOW + "Lịch sử bán (mới nhất cuối):");
         int from = Math.max(0, list.size() - 10);
         for (int i = from; i < list.size(); i++) {
             SellStore.Entry e = list.get(i);

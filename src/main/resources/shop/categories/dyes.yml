@@ -3,280 +3,280 @@ Size: 54
 items:
   white_dye:
     slot: 0
-    displayName: "&fWhite Dye"
+    displayName: "&fThuốc Nhuộm Trắng"
     material: WHITE_DYE
     price: 6.52
     sell-price: 1.64
     max-stack: 4
   light_gray_dye:
     slot: 1
-    displayName: "&fLight Gray Dye"
+    displayName: "&fThuốc Nhuộm Xám Nhạt"
     material: LIGHT_GRAY_DYE
     price: 4.2
     sell-price: 1.08
     max-stack: 4
   gray_dye:
     slot: 2
-    displayName: "&fGray Dye"
+    displayName: "&fThuốc Nhuộm Xám"
     material: GRAY_DYE
     price: 14.48
     sell-price: 3.64
     max-stack: 4
   black_dye:
     slot: 3
-    displayName: "&fBlack Dye"
+    displayName: "&fThuốc Nhuộm Đen"
     material: BLACK_DYE
     price: 21
     sell-price: 5.28
     max-stack: 4
   brown_dye:
     slot: 4
-    displayName: "&fBrown Dye"
+    displayName: "&fThuốc Nhuộm Nâu"
     material: BROWN_DYE
     price: 25.2
     sell-price: 6.32
     max-stack: 4
   red_dye:
     slot: 5
-    displayName: "&fRed Dye"
+    displayName: "&fThuốc Nhuộm Đỏ"
     material: RED_DYE
     price: 4.2
     sell-price: 1.08
     max-stack: 4
   orange_dye:
     slot: 6
-    displayName: "&fOrange Dye"
+    displayName: "&fThuốc Nhuộm Cam"
     material: ORANGE_DYE
     price: 4.2
     sell-price: 1.08
     max-stack: 4
   yellow_dye:
     slot: 7
-    displayName: "&fYellow Dye"
+    displayName: "&fThuốc Nhuộm Vàng"
     material: YELLOW_DYE
     price: 2.8
     sell-price: 0.72
     max-stack: 4
   lime_dye:
     slot: 8
-    displayName: "&fLime Dye"
+    displayName: "&fThuốc Nhuộm Vàng Chanh"
     material: LIME_DYE
     price: 25.2
     sell-price: 4.32
     max-stack: 4
   green_dye:
     slot: 9
-    displayName: "&fGreen Dye"
+    displayName: "&fThuốc Nhuộm Xanh Lá"
     material: GREEN_DYE
     price: 0.44
     sell-price: 0.12
     max-stack: 4
   cyan_dye:
     slot: 10
-    displayName: "&fCyan Dye"
+    displayName: "&fThuốc Nhuộm Xanh Lơ"
     material: CYAN_DYE
     price: 2.44
     sell-price: 0.64
     max-stack: 4
   light_blue_dye:
     slot: 11
-    displayName: "&fLight Blue Dye"
+    displayName: "&fThuốc Nhuộm Xanh Nhạt"
     material: LIGHT_BLUE_DYE
     price: 4.2
     sell-price: 1.08
     max-stack: 4
   blue_dye:
     slot: 12
-    displayName: "&fBlue Dye"
+    displayName: "&fThuốc Nhuộm Xanh Dương"
     material: BLUE_DYE
     price: 4.2
     sell-price: 1.08
     max-stack: 4
   purple_dye:
     slot: 13
-    displayName: "&fPurple Dye"
+    displayName: "&fThuốc Nhuộm Tím"
     material: PURPLE_DYE
     price: 4.44
     sell-price: 1.12
     max-stack: 4
   magenta_dye:
     slot: 14
-    displayName: "&fMagenta Dye"
+    displayName: "&fThuốc Nhuộm Đỏ Tươi"
     material: MAGENTA_DYE
     price: 4.2
     sell-price: 1.08
     max-stack: 4
   pink_dye:
     slot: 15
-    displayName: "&fPink Dye"
+    displayName: "&fThuốc Nhuộm Hồng"
     material: PINK_DYE
     price: 4.2
     sell-price: 1.08
     max-stack: 4
   ink_sac:
     slot: 16
-    displayName: "&fInk Sac"
+    displayName: "&fTúi Mực"
     material: INK_SAC
     price: 5
     sell-price: 1.25
     max-stack: 64
   glow_ink_sac:
     slot: 17
-    displayName: "&fGlow Ink Sac"
+    displayName: "&fTúi Mực Phát Sáng"
     material: GLOW_INK_SAC
     price: 5.5
     sell-price: 1.38
     max-stack: 64
   poppy:
     slot: 18
-    displayName: "&fPoppy"
+    displayName: "&fHoa Anh Túc"
     material: POPPY
     price: 1
     sell-price: 0.25
     max-stack: 64
   dandelion:
     slot: 19
-    displayName: "&fDandelion"
+    displayName: "&fHoa Bồ Công Anh"
     material: DANDELION
     price: 1
     sell-price: 0.25
     max-stack: 64
   golden_dandelion:
     slot: 20
-    displayName: "&fGolden Dandelion"
+    displayName: "&fHoa Bồ Công Anh Vàng"
     material: GOLDEN_DANDELION
     price: 8.74
     sell-price: 3.6
     max-stack: 64
   allium:
     slot: 21
-    displayName: "&fAllium"
+    displayName: "&fHoa Allium"
     material: ALLIUM
     price: 1
     sell-price: 0.25
     max-stack: 64
   azure_bluet:
     slot: 22
-    displayName: "&fAzure Bluet"
+    displayName: "&fHoa Azure Bluet"
     material: AZURE_BLUET
     price: 1
     sell-price: 0.25
     max-stack: 64
   cornflower:
     slot: 23
-    displayName: "&fCornflower"
+    displayName: "&fHoa Cẩm Tâm"
     material: CORNFLOWER
     price: 1
     sell-price: 0.25
     max-stack: 64
   blue_orchid:
     slot: 24
-    displayName: "&fBlue Orchid"
+    displayName: "&fHoa Lan Xanh"
     material: BLUE_ORCHID
     price: 1
     sell-price: 0.25
     max-stack: 64
   lily_of_the_valley:
     slot: 25
-    displayName: "&fLily Of The Valley"
+    displayName: "&fHoa Linh Lan"
     material: LILY_OF_THE_VALLEY
     price: 1
     sell-price: 0.25
     max-stack: 64
   oxeye_daisy:
     slot: 26
-    displayName: "&fOxeye Daisy"
+    displayName: "&fHoa Cúc Trắng"
     material: OXEYE_DAISY
     price: 1
     sell-price: 0.25
     max-stack: 64
   orange_tulip:
     slot: 27
-    displayName: "&fOrange Tulip"
+    displayName: "&fHoa Tulip Cam"
     material: ORANGE_TULIP
     price: 1
     sell-price: 0.25
     max-stack: 64
   pink_tulip:
     slot: 28
-    displayName: "&fPink Tulip"
+    displayName: "&fHoa Tulip Hồng"
     material: PINK_TULIP
     price: 1
     sell-price: 0.25
     max-stack: 64
   red_tulip:
     slot: 29
-    displayName: "&fRed Tulip"
+    displayName: "&fHoa Tulip Đỏ"
     material: RED_TULIP
     price: 1
     sell-price: 0.25
     max-stack: 64
   white_tulip:
     slot: 30
-    displayName: "&fWhite Tulip"
+    displayName: "&fHoa Tulip Trắng"
     material: WHITE_TULIP
     price: 1
     sell-price: 0.25
     max-stack: 64
   sunflower:
     slot: 31
-    displayName: "&fSunflower"
+    displayName: "&fHoa Hướng Dương"
     material: SUNFLOWER
     price: 1
     sell-price: 0.25
     max-stack: 64
   lilac:
     slot: 32
-    displayName: "&fLilac"
+    displayName: "&fHoa Tử Đinh Hương"
     material: LILAC
     price: 1
     sell-price: 0.25
     max-stack: 64
   rose_bush:
     slot: 33
-    displayName: "&fRose Bush"
+    displayName: "&fBụi Hoa Hồng"
     material: ROSE_BUSH
     price: 1
     sell-price: 0.25
     max-stack: 64
   peony:
     slot: 34
-    displayName: "&fPeony"
+    displayName: "&fHoa Mẫu Đơn"
     material: PEONY
     price: 1
     sell-price: 0.25
     max-stack: 64
   wither_rose:
     slot: 35
-    displayName: "&fWither Rose"
+    displayName: "&fHoa Hồng Wither"
     material: WITHER_ROSE
     price: 2
     sell-price: 0.5
     max-stack: 64
   torchflower:
     slot: 36
-    displayName: "&fTorchflower"
+    displayName: "&fHoa Đuốc"
     material: TORCHFLOWER
     price: 20.75
     sell-price: 5.19
     max-stack: 64
   pitcher_plant:
     slot: 37
-    displayName: "&fPitcher Plant"
+    displayName: "&fCây Hoa Bình"
     material: PITCHER_PLANT
     price: 20.75
     sell-price: 5.19
     max-stack: 64
   lily_pad:
     slot: 38
-    displayName: "&fLily Pad"
+    displayName: "&fLá Sen"
     material: LILY_PAD
     price: 28
     sell-price: 7
     max-stack: 64
   pink_petals:
     slot: 39
-    displayName: "&fPink Petals"
+    displayName: "&fCánh Hoa Hồng"
     material: PINK_PETALS
     price: 1
     sell-price: 0.25

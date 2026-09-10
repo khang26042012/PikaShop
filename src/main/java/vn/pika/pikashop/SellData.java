@@ -36,7 +36,7 @@ public class SellData {
         File dir = new File(plugin.getDataFolder(), "sell/multiplier");
         File[] files = dir.listFiles((d, n) -> n.endsWith(".yml"));
         if (files == null || files.length == 0) {
-            plugin.getLogger().warning("Khong co file gia sell nao trong sell/multiplier.");
+            plugin.getLogger().warning("Không có file giá sell nào trong sell/multiplier.");
             return;
         }
         int count = 0;
@@ -55,7 +55,7 @@ public class SellData {
                     for (String key : at.getKeys(false)) {
                         Material m = Material.matchMaterial(key);
                         if (m == null) {
-                            plugin.getLogger().warning("Bo vat lieu la trong " + f.getName() + ": " + key);
+                            plugin.getLogger().warning("Bỏ vật liệu lạ trong " + f.getName() + ": " + key);
                             continue;
                         }
                         double price = at.getDouble(key + ".price-per-unit", 0);
@@ -67,10 +67,10 @@ public class SellData {
                 }
                 categories.put(c.id, c);
             } catch (Exception e) {
-                plugin.getLogger().warning("Loi doc " + f.getName() + ": " + e.getMessage());
+                plugin.getLogger().warning("Lỗi đọc " + f.getName() + ": " + e.getMessage());
             }
         }
-        plugin.getLogger().info("Nap " + categories.size() + " category sell, " + count + " muc gia.");
+        plugin.getLogger().info("Nạp " + categories.size() + " category sell, " + count + " mục giá.");
     }
 
     /** Gia don vi co ban cua vat lieu, -1 neu khong ban duoc.
@@ -150,7 +150,7 @@ public class SellData {
             try {
                 plugin.saveResource(path, false);
             } catch (IllegalArgumentException e) {
-                plugin.getLogger().warning("Khong co resource mac dinh: " + path);
+                plugin.getLogger().warning("Không có resource mặc định: " + path);
             }
         }
     }

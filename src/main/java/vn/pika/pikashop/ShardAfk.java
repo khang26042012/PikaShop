@@ -43,7 +43,7 @@ public class ShardAfk implements Runnable {
         try {
             y.save(f);
         } catch (IOException e) {
-            plugin.getLogger().warning("Khong luu duoc afk.yml: " + e.getMessage());
+            plugin.getLogger().warning("Không lưu được afk.yml: " + e.getMessage());
         }
         loc = l.clone();
     }

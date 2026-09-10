@@ -1,6 +1,6 @@
-# Sell MVP: GUI tha do + multiplier theo category.
+# Sell MVP: GUI thả đồ + multiplier theo category.
 sell-multiplier:
   enabled: true
 Multiplier-Menu:
-  Title: "Sell Categories"
+  Title: "Hạng Bán"
   Size: 27

@@ -3,196 +3,196 @@ Size: 54
 items:
   rotten_flesh:
     slot: 0
-    displayName: "&fRotten Flesh"
+    displayName: "&fThịt Thối"
     material: ROTTEN_FLESH
     price: 80
     sell-price: 20
     max-stack: 16
   gunpowder:
     slot: 1
-    displayName: "&fGunpowder"
+    displayName: "&fThuốc Súng"
     material: GUNPOWDER
     price: 248
     sell-price: 62.08
     max-stack: 16
   string:
     slot: 2
-    displayName: "&fString"
+    displayName: "&fSợi Chỉ"
     material: STRING
     price: 112
     sell-price: 28
     max-stack: 16
   feather:
     slot: 3
-    displayName: "&fFeather"
+    displayName: "&fLông Vũ"
     material: FEATHER
     price: 96
     sell-price: 24
     max-stack: 16
   bone:
     slot: 4
-    displayName: "&fBone"
+    displayName: "&fXương"
     material: BONE
     price: 96
     sell-price: 24
     max-stack: 16
   wind_charge:
     slot: 5
-    displayName: "&fWind Charge"
+    displayName: "&fQuả Gió"
     material: WIND_CHARGE
     price: 42
     sell-price: 10.56
     max-stack: 8
   spider_eye:
     slot: 6
-    displayName: "&fSpider Eye"
+    displayName: "&fMắt Nhện"
     material: SPIDER_EYE
     price: 56
     sell-price: 14
     max-stack: 8
   ink_sac:
     slot: 7
-    displayName: "&fInk Sac"
+    displayName: "&fTúi Mực"
     material: INK_SAC
     price: 20
     sell-price: 5
     max-stack: 4
   leather:
     slot: 8
-    displayName: "&fLeather"
+    displayName: "&fDa Thuộc"
     material: LEATHER
     price: 134.4
     sell-price: 33.6
     max-stack: 4
   phantom_membrane:
     slot: 9
-    displayName: "&fPhantom Membrane"
+    displayName: "&fMàng Phantom"
     material: PHANTOM_MEMBRANE
     price: 500.6
     sell-price: 125.16
     max-stack: 4
   shulker_shell:
     slot: 10
-    displayName: "&fShulker Shell"
+    displayName: "&fVỏ Shulker"
     material: SHULKER_SHELL
     price: 28
     sell-price: 7
     max-stack: 4
   blaze_rod:
     slot: 11
-    displayName: "&fBlaze Rod"
+    displayName: "&fGậy Blaze"
     material: BLAZE_ROD
     price: 20
     sell-price: 5
     max-stack: 4
   breeze_rod:
     slot: 12
-    displayName: "&fBreeze Rod"
+    displayName: "&fGậy Breeze"
     material: BREEZE_ROD
     price: 80
     sell-price: 20
     max-stack: 4
   fermented_spider_eye:
     slot: 13
-    displayName: "&fFermented Spider Eye"
+    displayName: "&fMắt Nhện Lên Men"
     material: FERMENTED_SPIDER_EYE
     price: 38.28
     sell-price: 9.6
     max-stack: 4
   magma_cream:
     slot: 14
-    displayName: "&fMagma Cream"
+    displayName: "&fKem Magma"
     material: MAGMA_CREAM
     price: 32.04
     sell-price: 8.04
     max-stack: 4
   slime_ball:
     slot: 15
-    displayName: "&fSlime Ball"
+    displayName: "&fCầu Slime"
     material: SLIME_BALL
     price: 20
     sell-price: 5
     max-stack: 4
   ender_pearl:
     slot: 16
-    displayName: "&fEnder Pearl"
+    displayName: "&fNgọc Ender"
     material: ENDER_PEARL
     price: 28
     sell-price: 7
     max-stack: 4
   scute:
     slot: 17
-    displayName: "&fScute"
+    displayName: "&fVảy Rùa"
     material: SCUTE
     price: 530
     sell-price: 132.5
     max-stack: 64
   armadillo_scute:
     slot: 18
-    displayName: "&fArmadillo Scute"
+    displayName: "&fVảy Armadillo"
     material: ARMADILLO_SCUTE
     price: 530
     sell-price: 132.5
     max-stack: 64
   rabbit_hide:
     slot: 19
-    displayName: "&fRabbit Hide"
+    displayName: "&fDa Thỏ"
     material: RABBIT_HIDE
     price: 8
     sell-price: 2
     max-stack: 64
   rabbit_foot:
     slot: 20
-    displayName: "&fRabbit Foot"
+    displayName: "&fChân Thỏ"
     material: RABBIT_FOOT
     price: 180
     sell-price: 45
     max-stack: 64
   glow_ink_sac:
     slot: 21
-    displayName: "&fGlow Ink Sac"
+    displayName: "&fTúi Mực Phát Sáng"
     material: GLOW_INK_SAC
     price: 5.5
     sell-price: 1.38
     max-stack: 64
   ghast_tear:
     slot: 22
-    displayName: "&fGhast Tear"
+    displayName: "&fNước Mắt Ghast"
     material: GHAST_TEAR
     price: 40
     sell-price: 10
     max-stack: 64
   wither_skeleton_skull:
     slot: 23
-    displayName: "&fWither Skeleton Skull"
+    displayName: "&fĐầu Lâu Wither Skeleton"
     material: WITHER_SKELETON_SKULL
     price: -1
     sell-price: 250
     max-stack: 64
   skeleton_skull:
     slot: 24
-    displayName: "&fSkeleton Skull"
+    displayName: "&fĐầu Lâu Skeleton"
     material: SKELETON_SKULL
     price: -1
     sell-price: 150
     max-stack: 64
   creeper_head:
     slot: 25
-    displayName: "&fCreeper Head"
+    displayName: "&fĐầu Creeper"
     material: CREEPER_HEAD
     price: -1
     sell-price: 150
     max-stack: 64
   zombie_head:
     slot: 26
-    displayName: "&fZombie Head"
+    displayName: "&fĐầu Zombie"
     material: ZOMBIE_HEAD
     price: -1
     sell-price: 150
     max-stack: 64
   totem_of_undying:
     slot: 27
-    displayName: "&fTotem Of Undying"
+    displayName: "&fBùa Hồi Sinh"
     material: TOTEM_OF_UNDYING
     price: 2500
     sell-price: 300

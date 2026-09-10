@@ -3,161 +3,161 @@ Size: 54
 items:
   redstone_torch:
     slot: 0
-    displayName: "&fRedstone Torch"
+    displayName: "&fĐuốc Đá Đỏ"
     material: REDSTONE_TORCH
     price: 4.29
     sell-price: 1.08
     max-stack: 64
   redstone_lamp:
     slot: 1
-    displayName: "&fRedstone Lamp"
+    displayName: "&fĐèn Đá Đỏ"
     material: REDSTONE_LAMP
     price: 45.57
     sell-price: 11.4
     max-stack: 64
   repeater:
     slot: 2
-    displayName: "&fRepeater"
+    displayName: "&fBộ Lặp"
     material: REPEATER
     price: 14.92
     sell-price: 3.73
     max-stack: 64
   comparator:
     slot: 3
-    displayName: "&fComparator"
+    displayName: "&fBộ So Sánh"
     material: COMPARATOR
     price: 24.43
     sell-price: 6.11
     max-stack: 64
   observer:
     slot: 4
-    displayName: "&fObserver"
+    displayName: "&fKhối Quan Sát"
     material: OBSERVER
     price: 20.32
     sell-price: 5.08
     max-stack: 64
   dispenser:
     slot: 5
-    displayName: "&fDispenser"
+    displayName: "&fBộ Phân Phối"
     material: DISPENSER
     price: 33.74
     sell-price: 8.44
     max-stack: 64
   dropper:
     slot: 6
-    displayName: "&fDropper"
+    displayName: "&fBộ Thả"
     material: DROPPER
     price: 8.68
     sell-price: 2.17
     max-stack: 64
   hopper:
     slot: 7
-    displayName: "&fHopper"
+    displayName: "&fPhễu"
     material: HOPPER
     price: 38.67
     sell-price: 9.67
     max-stack: 64
   piston:
     slot: 8
-    displayName: "&fPiston"
+    displayName: "&fPít-Tông"
     material: PISTON
     price: 15.8
     sell-price: 3.95
     max-stack: 64
   sticky_piston:
     slot: 9
-    displayName: "&fSticky Piston"
+    displayName: "&fPít-Tông Dính"
     material: STICKY_PISTON
     price: 21.84
     sell-price: 5.46
     max-stack: 64
   lever:
     slot: 10
-    displayName: "&fLever"
+    displayName: "&fCần Gạt"
     material: LEVER
     price: 1.33
     sell-price: 0.34
     max-stack: 64
   tripwire_hook:
     slot: 11
-    displayName: "&fTripwire Hook"
+    displayName: "&fMóc Dây Bẫy"
     material: TRIPWIRE_HOOK
     price: 3.78
     sell-price: 0.95
     max-stack: 64
   rail:
     slot: 12
-    displayName: "&fRail"
+    displayName: "&fĐường Ray"
     material: RAIL
     price: 2.21
     sell-price: 0.56
     max-stack: 64
   powered_rail:
     slot: 13
-    displayName: "&fPowered Rail"
+    displayName: "&fĐường Ray Có Điện"
     material: POWERED_RAIL
     price: 6.75
     sell-price: 1.69
     max-stack: 64
   activator_rail:
     slot: 14
-    displayName: "&fActivator Rail"
+    displayName: "&fĐường Ray Kích Hoạt"
     material: ACTIVATOR_RAIL
     price: 6.75
     sell-price: 1.69
     max-stack: 64
   detector_rail:
     slot: 15
-    displayName: "&fDetector Rail"
+    displayName: "&fĐường Ray Cảm Biến"
     material: DETECTOR_RAIL
     price: 6.67
     sell-price: 1.67
     max-stack: 64
   tnt:
     slot: 16
-    displayName: "&fTnt"
+    displayName: "&fThuốc Nổ TNT"
     material: TNT
     price: 106.58
     sell-price: 26.65
     max-stack: 64
   daylight_detector:
     slot: 17
-    displayName: "&fDaylight Detector"
+    displayName: "&fCảm Biến Ánh Sáng"
     material: DAYLIGHT_DETECTOR
     price: 47.72
     sell-price: 11.93
     max-stack: 64
   note_block:
     slot: 18
-    displayName: "&fNote Block"
+    displayName: "&fKhối Nốt Nhạc"
     material: NOTE_BLOCK
     price: 12.94
     sell-price: 3.24
     max-stack: 64
   crafter:
     slot: 19
-    displayName: "&fCrafter"
+    displayName: "&fKhối Chế Tạo"
     material: CRAFTER
     price: 50.26
     sell-price: 12.57
     max-stack: 64
   target:
     slot: 20
-    displayName: "&fTarget"
+    displayName: "&fBia"
     material: TARGET
     price: 64.32
     sell-price: 16.08
     max-stack: 64
   calibrated_sculk_sensor:
     slot: 21
-    displayName: "&fCalibrated Sculk Sensor"
+    displayName: "&fCảm Biến Sculk Hiệu Chuẩn"
     material: CALIBRATED_SCULK_SENSOR
     price: 16.74
     sell-price: 4.19
     max-stack: 64
   sculk_sensor:
     slot: 22
-    displayName: "&fSculk Sensor"
+    displayName: "&fCảm Biến Sculk"
     material: SCULK_SENSOR
     price: 125
     sell-price: 31.25

@@ -43,7 +43,7 @@ public class ShardShop {
             try {
                 plugin.saveResource("shards/shop.yml", false);
             } catch (IllegalArgumentException e) {
-                plugin.getLogger().warning("Khong co resource shards/shop.yml.");
+                plugin.getLogger().warning("Không có resource shards/shop.yml.");
                 return;
             }
         }
@@ -63,7 +63,7 @@ public class ShardShop {
             e.commands.addAll(s.getStringList("commands"));
             if (e.price > 0 && !e.commands.isEmpty()) entries.add(e);
         }
-        plugin.getLogger().info("Nap " + entries.size() + " mon shard shop.");
+        plugin.getLogger().info("Nạp " + entries.size() + " món shard shop.");
     }
 
     public List<ShopEntry> entries() {

@@ -47,7 +47,7 @@ public class ShardStore {
         try {
             y.save(file);
         } catch (IOException e) {
-            plugin.getLogger().warning("Khong luu duoc shard: " + e.getMessage());
+            plugin.getLogger().warning("Không lưu được shard: " + e.getMessage());
         }
     }
 

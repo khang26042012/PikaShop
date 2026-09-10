@@ -3,1134 +3,1134 @@ Size: 54
 items:
   glass:
     slot: 0
-    displayName: "&fGlass"
+    displayName: "&fKính"
     material: GLASS
     price: 6.3
     sell-price: 1.58
     max-stack: 64
   glass_pane:
     slot: 1
-    displayName: "&fGlass Pane"
+    displayName: "&fTấm Kính"
     material: GLASS_PANE
     price: 2.49
     sell-price: 0.63
     max-stack: 64
   black_stained_glass:
     slot: 2
-    displayName: "&fBlack Stained Glass"
+    displayName: "&fKính Màu Đen"
     material: BLACK_STAINED_GLASS
     price: 7.31
     sell-price: 1.83
     max-stack: 64
   black_stained_glass_pane:
     slot: 3
-    displayName: "&fBlack Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Đen"
     material: BLACK_STAINED_GLASS_PANE
     price: 2.88
     sell-price: 0.72
     max-stack: 64
   blue_stained_glass:
     slot: 4
-    displayName: "&fBlue Stained Glass"
+    displayName: "&fKính Màu Xanh Dương"
     material: BLUE_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   blue_stained_glass_pane:
     slot: 5
-    displayName: "&fBlue Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Xanh Dương"
     material: BLUE_STAINED_GLASS_PANE
     price: 2.66
     sell-price: 0.67
     max-stack: 64
   brown_stained_glass:
     slot: 6
-    displayName: "&fBrown Stained Glass"
+    displayName: "&fKính Màu Nâu"
     material: BROWN_STAINED_GLASS
     price: 7.45
     sell-price: 1.87
     max-stack: 64
   brown_stained_glass_pane:
     slot: 7
-    displayName: "&fBrown Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Nâu"
     material: BROWN_STAINED_GLASS_PANE
     price: 2.94
     sell-price: 0.74
     max-stack: 64
   cyan_stained_glass:
     slot: 8
-    displayName: "&fCyan Stained Glass"
+    displayName: "&fKính Màu Lục Lam"
     material: CYAN_STAINED_GLASS
     price: 6.7
     sell-price: 1.68
     max-stack: 64
   cyan_stained_glass_pane:
     slot: 9
-    displayName: "&fCyan Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Lục Lam"
     material: CYAN_STAINED_GLASS_PANE
     price: 2.64
     sell-price: 0.66
     max-stack: 64
   gray_stained_glass:
     slot: 10
-    displayName: "&fGray Stained Glass"
+    displayName: "&fKính Màu Xám"
     material: GRAY_STAINED_GLASS
     price: 7.09
     sell-price: 1.78
     max-stack: 64
   gray_stained_glass_pane:
     slot: 11
-    displayName: "&fGray Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Xám"
     material: GRAY_STAINED_GLASS_PANE
     price: 2.8
     sell-price: 0.7
     max-stack: 64
   green_stained_glass:
     slot: 12
-    displayName: "&fGreen Stained Glass"
+    displayName: "&fKính Màu Lá"
     material: GREEN_STAINED_GLASS
     price: 6.63
     sell-price: 1.66
     max-stack: 64
   green_stained_glass_pane:
     slot: 13
-    displayName: "&fGreen Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Lá"
     material: GREEN_STAINED_GLASS_PANE
     price: 2.62
     sell-price: 0.66
     max-stack: 64
   light_blue_stained_glass:
     slot: 14
-    displayName: "&fLight Blue Stained Glass"
+    displayName: "&fKính Màu Lam Nhạt"
     material: LIGHT_BLUE_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   light_blue_stained_glass_pane:
     slot: 15
-    displayName: "&fLight Blue Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Lam Nhạt"
     material: LIGHT_BLUE_STAINED_GLASS_PANE
     price: 2.66
     sell-price: 0.67
     max-stack: 64
   light_gray_stained_glass:
     slot: 16
-    displayName: "&fLight Gray Stained Glass"
+    displayName: "&fKính Màu Xám Nhạt"
     material: LIGHT_GRAY_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   light_gray_stained_glass_pane:
     slot: 17
-    displayName: "&fLight Gray Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Xám Nhạt"
     material: LIGHT_GRAY_STAINED_GLASS_PANE
     price: 2.66
     sell-price: 0.67
     max-stack: 64
   lime_stained_glass:
     slot: 18
-    displayName: "&fLime Stained Glass"
+    displayName: "&fKính Màu Lá Nhạt"
     material: LIME_STAINED_GLASS
     price: 7.45
     sell-price: 1.87
     max-stack: 64
   lime_stained_glass_pane:
     slot: 19
-    displayName: "&fLime Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Lá Nhạt"
     material: LIME_STAINED_GLASS_PANE
     price: 2.94
     sell-price: 0.74
     max-stack: 64
   magenta_stained_glass:
     slot: 20
-    displayName: "&fMagenta Stained Glass"
+    displayName: "&fKính Màu Đỏ Tím"
     material: MAGENTA_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   magenta_stained_glass_pane:
     slot: 21
-    displayName: "&fMagenta Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Đỏ Tím"
     material: MAGENTA_STAINED_GLASS_PANE
     price: 2.66
     sell-price: 0.67
     max-stack: 64
   orange_stained_glass:
     slot: 22
-    displayName: "&fOrange Stained Glass"
+    displayName: "&fKính Màu Cam"
     material: ORANGE_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   orange_stained_glass_pane:
     slot: 23
-    displayName: "&fOrange Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Cam"
     material: ORANGE_STAINED_GLASS_PANE
     price: 2.66
     sell-price: 0.67
     max-stack: 64
   pink_stained_glass:
     slot: 24
-    displayName: "&fPink Stained Glass"
+    displayName: "&fKính Màu Hồng"
     material: PINK_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   pink_stained_glass_pane:
     slot: 25
-    displayName: "&fPink Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Hồng"
     material: PINK_STAINED_GLASS_PANE
     price: 2.66
     sell-price: 0.67
     max-stack: 64
   purple_stained_glass:
     slot: 26
-    displayName: "&fPurple Stained Glass"
+    displayName: "&fKính Màu Tím"
     material: PURPLE_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   purple_stained_glass_pane:
     slot: 27
-    displayName: "&fPurple Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Tím"
     material: PURPLE_STAINED_GLASS_PANE
     price: 2.67
     sell-price: 0.67
     max-stack: 64
   red_stained_glass:
     slot: 28
-    displayName: "&fRed Stained Glass"
+    displayName: "&fKính Màu Đỏ"
     material: RED_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   red_stained_glass_pane:
     slot: 29
-    displayName: "&fRed Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Đỏ"
     material: RED_STAINED_GLASS_PANE
     price: 2.66
     sell-price: 0.67
     max-stack: 64
   white_stained_glass:
     slot: 30
-    displayName: "&fWhite Stained Glass"
+    displayName: "&fKính Màu Trắng"
     material: WHITE_STAINED_GLASS
     price: 6.83
     sell-price: 1.71
     max-stack: 64
   white_stained_glass_pane:
     slot: 31
-    displayName: "&fWhite Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Trắng"
     material: WHITE_STAINED_GLASS_PANE
     price: 2.69
     sell-price: 0.68
     max-stack: 64
   yellow_stained_glass:
     slot: 32
-    displayName: "&fYellow Stained Glass"
+    displayName: "&fKính Màu Vàng"
     material: YELLOW_STAINED_GLASS
     price: 6.71
     sell-price: 1.68
     max-stack: 64
   yellow_stained_glass_pane:
     slot: 33
-    displayName: "&fYellow Stained Glass Pane"
+    displayName: "&fTấm Kính Màu Vàng"
     material: YELLOW_STAINED_GLASS_PANE
     price: 2.65
     sell-price: 0.67
     max-stack: 64
   tinted_glass:
     slot: 34
-    displayName: "&fTinted Glass"
+    displayName: "&fKính Mờ"
     material: TINTED_GLASS
     price: 6.07
     sell-price: 1.52
     max-stack: 64
   white_wool:
     slot: 35
-    displayName: "&fWhite Wool"
+    displayName: "&fLen Trắng"
     material: WHITE_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   gray_wool:
     slot: 36
-    displayName: "&fGray Wool"
+    displayName: "&fLen Xám"
     material: GRAY_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   black_wool:
     slot: 37
-    displayName: "&fBlack Wool"
+    displayName: "&fLen Đen"
     material: BLACK_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   brown_wool:
     slot: 38
-    displayName: "&fBrown Wool"
+    displayName: "&fLen Nâu"
     material: BROWN_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   red_wool:
     slot: 39
-    displayName: "&fRed Wool"
+    displayName: "&fLen Đỏ"
     material: RED_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   orange_wool:
     slot: 40
-    displayName: "&fOrange Wool"
+    displayName: "&fLen Cam"
     material: ORANGE_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   yellow_wool:
     slot: 41
-    displayName: "&fYellow Wool"
+    displayName: "&fLen Vàng"
     material: YELLOW_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   lime_wool:
     slot: 42
-    displayName: "&fLime Wool"
+    displayName: "&fLen Lá Nhạt"
     material: LIME_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   green_wool:
     slot: 43
-    displayName: "&fGreen Wool"
+    displayName: "&fLen Lá"
     material: GREEN_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   cyan_wool:
     slot: 44
-    displayName: "&fCyan Wool"
+    displayName: "&fLen Lục Lam"
     material: CYAN_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   light_blue_wool:
     slot: 45
-    displayName: "&fLight Blue Wool"
+    displayName: "&fLen Lam Nhạt"
     material: LIGHT_BLUE_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   blue_wool:
     slot: 46
-    displayName: "&fBlue Wool"
+    displayName: "&fLen Xanh Dương"
     material: BLUE_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   purple_wool:
     slot: 47
-    displayName: "&fPurple Wool"
+    displayName: "&fLen Tím"
     material: PURPLE_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   magenta_wool:
     slot: 48
-    displayName: "&fMagenta Wool"
+    displayName: "&fLen Đỏ Tím"
     material: MAGENTA_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   light_gray_wool:
     slot: 49
-    displayName: "&fLight Gray Wool"
+    displayName: "&fLen Xám Nhạt"
     material: LIGHT_GRAY_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   pink_wool:
     slot: 50
-    displayName: "&fPink Wool"
+    displayName: "&fLen Hồng"
     material: PINK_WOOL
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   white_terracotta:
     slot: 51
-    displayName: "&fWhite Terracotta"
+    displayName: "&fĐất Nung Trắng"
     material: WHITE_TERRACOTTA
     price: 23.43
     sell-price: 5.86
     max-stack: 64
   light_gray_terracotta:
     slot: 52
-    displayName: "&fLight Gray Terracotta"
+    displayName: "&fĐất Nung Xám Nhạt"
     material: LIGHT_GRAY_TERRACOTTA
     price: 23.3
     sell-price: 5.83
     max-stack: 64
   gray_terracotta:
     slot: 53
-    displayName: "&fGray Terracotta"
+    displayName: "&fĐất Nung Xám"
     material: GRAY_TERRACOTTA
     price: 23.63
     sell-price: 5.91
     max-stack: 64
   brown_terracotta:
     slot: 54
-    displayName: "&fBrown Terracotta"
+    displayName: "&fĐất Nung Nâu"
     material: BROWN_TERRACOTTA
     price: 23.94
     sell-price: 5.99
     max-stack: 64
   red_terracotta:
     slot: 55
-    displayName: "&fRed Terracotta"
+    displayName: "&fĐất Nung Đỏ"
     material: RED_TERRACOTTA
     price: 23.3
     sell-price: 5.83
     max-stack: 64
   orange_terracotta:
     slot: 56
-    displayName: "&fOrange Terracotta"
+    displayName: "&fĐất Nung Cam"
     material: ORANGE_TERRACOTTA
     price: 23.3
     sell-price: 5.83
     max-stack: 64
   yellow_terracotta:
     slot: 57
-    displayName: "&fYellow Terracotta"
+    displayName: "&fĐất Nung Vàng"
     material: YELLOW_TERRACOTTA
     price: 23.25
     sell-price: 5.82
     max-stack: 64
   lime_terracotta:
     slot: 58
-    displayName: "&fLime Terracotta"
+    displayName: "&fĐất Nung Lá Nhạt"
     material: LIME_TERRACOTTA
     price: 23.98
     sell-price: 6
     max-stack: 64
   green_terracotta:
     slot: 59
-    displayName: "&fGreen Terracotta"
+    displayName: "&fĐất Nung Lá"
     material: GREEN_TERRACOTTA
     price: 23.17
     sell-price: 5.8
     max-stack: 64
   cyan_terracotta:
     slot: 60
-    displayName: "&fCyan Terracotta"
+    displayName: "&fĐất Nung Lục Lam"
     material: CYAN_TERRACOTTA
     price: 23.24
     sell-price: 5.81
     max-stack: 64
   light_blue_terracotta:
     slot: 61
-    displayName: "&fLight Blue Terracotta"
+    displayName: "&fĐất Nung Lam Nhạt"
     material: LIGHT_BLUE_TERRACOTTA
     price: 23.3
     sell-price: 5.83
     max-stack: 64
   blue_terracotta:
     slot: 62
-    displayName: "&fBlue Terracotta"
+    displayName: "&fĐất Nung Xanh Dương"
     material: BLUE_TERRACOTTA
     price: 24.1
     sell-price: 6.03
     max-stack: 64
   purple_terracotta:
     slot: 63
-    displayName: "&fPurple Terracotta"
+    displayName: "&fĐất Nung Tím"
     material: PURPLE_TERRACOTTA
     price: 23.3
     sell-price: 5.83
     max-stack: 64
   magenta_terracotta:
     slot: 64
-    displayName: "&fMagenta Terracotta"
+    displayName: "&fĐất Nung Đỏ Tím"
     material: MAGENTA_TERRACOTTA
     price: 23.3
     sell-price: 5.83
     max-stack: 64
   pink_terracotta:
     slot: 65
-    displayName: "&fPink Terracotta"
+    displayName: "&fĐất Nung Hồng"
     material: PINK_TERRACOTTA
     price: 23.3
     sell-price: 5.83
     max-stack: 64
   black_terracotta:
     slot: 66
-    displayName: "&fBlack Terracotta"
+    displayName: "&fĐất Nung Đen"
     material: BLACK_TERRACOTTA
     price: 23.81
     sell-price: 5.96
     max-stack: 64
   white_concrete:
     slot: 67
-    displayName: "&fWhite Concrete"
+    displayName: "&fBê Tông Trắng"
     material: WHITE_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   light_gray_concrete:
     slot: 68
-    displayName: "&fLight Gray Concrete"
+    displayName: "&fBê Tông Xám Nhạt"
     material: LIGHT_GRAY_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   gray_concrete:
     slot: 69
-    displayName: "&fGray Concrete"
+    displayName: "&fBê Tông Xám"
     material: GRAY_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   black_concrete:
     slot: 70
-    displayName: "&fBlack Concrete"
+    displayName: "&fBê Tông Đen"
     material: BLACK_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   brown_concrete:
     slot: 71
-    displayName: "&fBrown Concrete"
+    displayName: "&fBê Tông Nâu"
     material: BROWN_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   red_concrete:
     slot: 72
-    displayName: "&fRed Concrete"
+    displayName: "&fBê Tông Đỏ"
     material: RED_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   orange_concrete:
     slot: 73
-    displayName: "&fOrange Concrete"
+    displayName: "&fBê Tông Cam"
     material: ORANGE_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   yellow_concrete:
     slot: 74
-    displayName: "&fYellow Concrete"
+    displayName: "&fBê Tông Vàng"
     material: YELLOW_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   lime_concrete:
     slot: 75
-    displayName: "&fLime Concrete"
+    displayName: "&fBê Tông Lá Nhạt"
     material: LIME_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   green_concrete:
     slot: 76
-    displayName: "&fGreen Concrete"
+    displayName: "&fBê Tông Lá"
     material: GREEN_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   cyan_concrete:
     slot: 77
-    displayName: "&fCyan Concrete"
+    displayName: "&fBê Tông Lục Lam"
     material: CYAN_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   light_blue_concrete:
     slot: 78
-    displayName: "&fLight Blue Concrete"
+    displayName: "&fBê Tông Lam Nhạt"
     material: LIGHT_BLUE_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   blue_concrete:
     slot: 79
-    displayName: "&fBlue Concrete"
+    displayName: "&fBê Tông Xanh Dương"
     material: BLUE_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   purple_concrete:
     slot: 80
-    displayName: "&fPurple Concrete"
+    displayName: "&fBê Tông Tím"
     material: PURPLE_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   magenta_concrete:
     slot: 81
-    displayName: "&fMagenta Concrete"
+    displayName: "&fBê Tông Đỏ Tím"
     material: MAGENTA_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   pink_concrete:
     slot: 82
-    displayName: "&fPink Concrete"
+    displayName: "&fBê Tông Hồng"
     material: PINK_CONCRETE
     price: 29.96
     sell-price: 16.48
     max-stack: 64
   white_concrete_powder:
     slot: 83
-    displayName: "&fWhite Concrete Powder"
+    displayName: "&fBột Bê Tông Trắng"
     material: WHITE_CONCRETE_POWDER
     price: 7.63
     sell-price: 1.91
     max-stack: 64
   light_gray_concrete_powder:
     slot: 84
-    displayName: "&fLight Gray Concrete Powder"
+    displayName: "&fBột Bê Tông Xám Nhạt"
     material: LIGHT_GRAY_CONCRETE_POWDER
     price: 7.49
     sell-price: 1.88
     max-stack: 64
   gray_concrete_powder:
     slot: 85
-    displayName: "&fGray Concrete Powder"
+    displayName: "&fBột Bê Tông Xám"
     material: GRAY_CONCRETE_POWDER
     price: 7.83
     sell-price: 1.96
     max-stack: 64
   black_concrete_powder:
     slot: 86
-    displayName: "&fBlack Concrete Powder"
+    displayName: "&fBột Bê Tông Đen"
     material: BLACK_CONCRETE_POWDER
     price: 8.01
     sell-price: 2.01
     max-stack: 64
   brown_concrete_powder:
     slot: 87
-    displayName: "&fBrown Concrete Powder"
+    displayName: "&fBột Bê Tông Nâu"
     material: BROWN_CONCRETE_POWDER
     price: 8.14
     sell-price: 2.04
     max-stack: 64
   red_concrete_powder:
     slot: 88
-    displayName: "&fRed Concrete Powder"
+    displayName: "&fBột Bê Tông Đỏ"
     material: RED_CONCRETE_POWDER
     price: 7.49
     sell-price: 1.88
     max-stack: 64
   orange_concrete_powder:
     slot: 89
-    displayName: "&fOrange Concrete Powder"
+    displayName: "&fBột Bê Tông Cam"
     material: ORANGE_CONCRETE_POWDER
     price: 7.49
     sell-price: 1.88
     max-stack: 64
   yellow_concrete_powder:
     slot: 90
-    displayName: "&fYellow Concrete Powder"
+    displayName: "&fBột Bê Tông Vàng"
     material: YELLOW_CONCRETE_POWDER
     price: 7.45
     sell-price: 1.87
     max-stack: 64
   lime_concrete_powder:
     slot: 91
-    displayName: "&fLime Concrete Powder"
+    displayName: "&fBột Bê Tông Lá Nhạt"
     material: LIME_CONCRETE_POWDER
     price: 11.21
     sell-price: 2.81
     max-stack: 64
   green_concrete_powder:
     slot: 92
-    displayName: "&fGreen Concrete Powder"
+    displayName: "&fBột Bê Tông Lá"
     material: GREEN_CONCRETE_POWDER
     price: 7.37
     sell-price: 1.85
     max-stack: 64
   cyan_concrete_powder:
     slot: 93
-    displayName: "&fCyan Concrete Powder"
+    displayName: "&fBột Bê Tông Lục Lam"
     material: CYAN_CONCRETE_POWDER
     price: 7.43
     sell-price: 1.86
     max-stack: 64
   light_blue_concrete_powder:
     slot: 94
-    displayName: "&fLight Blue Concrete Powder"
+    displayName: "&fBột Bê Tông Lam Nhạt"
     material: LIGHT_BLUE_CONCRETE_POWDER
     price: 7.49
     sell-price: 1.88
     max-stack: 64
   blue_concrete_powder:
     slot: 95
-    displayName: "&fBlue Concrete Powder"
+    displayName: "&fBột Bê Tông Xanh Dương"
     material: BLUE_CONCRETE_POWDER
     price: 8.3
     sell-price: 2.08
     max-stack: 64
   purple_concrete_powder:
     slot: 96
-    displayName: "&fPurple Concrete Powder"
+    displayName: "&fBột Bê Tông Tím"
     material: PURPLE_CONCRETE_POWDER
     price: 11.21
     sell-price: 2.81
     max-stack: 64
   magenta_concrete_powder:
     slot: 97
-    displayName: "&fMagenta Concrete Powder"
+    displayName: "&fBột Bê Tông Đỏ Tím"
     material: MAGENTA_CONCRETE_POWDER
     price: 11.21
     sell-price: 2.81
     max-stack: 64
   pink_concrete_powder:
     slot: 98
-    displayName: "&fPink Concrete Powder"
+    displayName: "&fBột Bê Tông Hồng"
     material: PINK_CONCRETE_POWDER
     price: 7.49
     sell-price: 1.88
     max-stack: 64
   white_stained_glass_2:
     slot: 99
-    displayName: "&fWhite Stained Glass"
+    displayName: "&fKính Màu Trắng"
     material: WHITE_STAINED_GLASS
     price: 6.83
     sell-price: 1.71
     max-stack: 64
   light_gray_stained_glass_2:
     slot: 100
-    displayName: "&fLight Gray Stained Glass"
+    displayName: "&fKính Màu Xám Nhạt"
     material: LIGHT_GRAY_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   gray_stained_glass_2:
     slot: 101
-    displayName: "&fGray Stained Glass"
+    displayName: "&fKính Màu Xám"
     material: GRAY_STAINED_GLASS
     price: 7.09
     sell-price: 1.78
     max-stack: 64
   black_stained_glass_2:
     slot: 102
-    displayName: "&fBlack Stained Glass"
+    displayName: "&fKính Màu Đen"
     material: BLACK_STAINED_GLASS
     price: 7.31
     sell-price: 1.83
     max-stack: 64
   brown_stained_glass_2:
     slot: 103
-    displayName: "&fBrown Stained Glass"
+    displayName: "&fKính Màu Nâu"
     material: BROWN_STAINED_GLASS
     price: 7.45
     sell-price: 1.87
     max-stack: 64
   red_stained_glass_2:
     slot: 104
-    displayName: "&fRed Stained Glass"
+    displayName: "&fKính Màu Đỏ"
     material: RED_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   orange_stained_glass_2:
     slot: 105
-    displayName: "&fOrange Stained Glass"
+    displayName: "&fKính Màu Cam"
     material: ORANGE_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   yellow_stained_glass_2:
     slot: 106
-    displayName: "&fYellow Stained Glass"
+    displayName: "&fKính Màu Vàng"
     material: YELLOW_STAINED_GLASS
     price: 6.71
     sell-price: 1.68
     max-stack: 64
   lime_stained_glass_2:
     slot: 107
-    displayName: "&fLime Stained Glass"
+    displayName: "&fKính Màu Lá Nhạt"
     material: LIME_STAINED_GLASS
     price: 7.45
     sell-price: 1.87
     max-stack: 64
   green_stained_glass_2:
     slot: 108
-    displayName: "&fGreen Stained Glass"
+    displayName: "&fKính Màu Lá"
     material: GREEN_STAINED_GLASS
     price: 6.63
     sell-price: 1.66
     max-stack: 64
   cyan_stained_glass_2:
     slot: 109
-    displayName: "&fCyan Stained Glass"
+    displayName: "&fKính Màu Lục Lam"
     material: CYAN_STAINED_GLASS
     price: 6.7
     sell-price: 1.68
     max-stack: 64
   light_blue_stained_glass_2:
     slot: 110
-    displayName: "&fLight Blue Stained Glass"
+    displayName: "&fKính Màu Lam Nhạt"
     material: LIGHT_BLUE_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   blue_stained_glass_2:
     slot: 111
-    displayName: "&fBlue Stained Glass"
+    displayName: "&fKính Màu Xanh Dương"
     material: BLUE_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   purple_stained_glass_2:
     slot: 112
-    displayName: "&fPurple Stained Glass"
+    displayName: "&fKính Màu Tím"
     material: PURPLE_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   magenta_stained_glass_2:
     slot: 113
-    displayName: "&fMagenta Stained Glass"
+    displayName: "&fKính Màu Đỏ Tím"
     material: MAGENTA_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   pink_stained_glass_2:
     slot: 114
-    displayName: "&fPink Stained Glass"
+    displayName: "&fKính Màu Hồng"
     material: PINK_STAINED_GLASS
     price: 6.76
     sell-price: 1.69
     max-stack: 64
   white_glazed_terracotta:
     slot: 115
-    displayName: "&fWhite Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Trắng"
     material: WHITE_GLAZED_TERRACOTTA
     price: 24.6
     sell-price: 6.15
     max-stack: 64
   light_gray_glazed_terracotta:
     slot: 116
-    displayName: "&fLight Gray Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Xám Nhạt"
     material: LIGHT_GRAY_GLAZED_TERRACOTTA
     price: 24.46
     sell-price: 6.12
     max-stack: 64
   gray_glazed_terracotta:
     slot: 117
-    displayName: "&fGray Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Xám"
     material: GRAY_GLAZED_TERRACOTTA
     price: 24.81
     sell-price: 6.21
     max-stack: 64
   black_glazed_terracotta:
     slot: 118
-    displayName: "&fBlack Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Đen"
     material: BLACK_GLAZED_TERRACOTTA
     price: 25
     sell-price: 6.25
     max-stack: 64
   brown_glazed_terracotta:
     slot: 119
-    displayName: "&fBrown Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Nâu"
     material: BROWN_GLAZED_TERRACOTTA
     price: 25.14
     sell-price: 6.29
     max-stack: 64
   red_glazed_terracotta:
     slot: 120
-    displayName: "&fRed Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Đỏ"
     material: RED_GLAZED_TERRACOTTA
     price: 24.46
     sell-price: 6.12
     max-stack: 64
   orange_glazed_terracotta:
     slot: 121
-    displayName: "&fOrange Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Cam"
     material: ORANGE_GLAZED_TERRACOTTA
     price: 30.87
     sell-price: 7.72
     max-stack: 64
   yellow_glazed_terracotta:
     slot: 122
-    displayName: "&fYellow Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Vàng"
     material: YELLOW_GLAZED_TERRACOTTA
     price: 24.41
     sell-price: 6.11
     max-stack: 64
   lime_glazed_terracotta:
     slot: 123
-    displayName: "&fLime Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Lá Nhạt"
     material: LIME_GLAZED_TERRACOTTA
     price: 25.18
     sell-price: 6.3
     max-stack: 64
   green_glazed_terracotta:
     slot: 124
-    displayName: "&fGreen Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Lá"
     material: GREEN_GLAZED_TERRACOTTA
     price: 24.33
     sell-price: 6.09
     max-stack: 64
   cyan_glazed_terracotta:
     slot: 125
-    displayName: "&fCyan Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Lục Lam"
     material: CYAN_GLAZED_TERRACOTTA
     price: 24.4
     sell-price: 6.1
     max-stack: 64
   light_blue_glazed_terracotta:
     slot: 126
-    displayName: "&fLight Blue Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Lam Nhạt"
     material: LIGHT_BLUE_GLAZED_TERRACOTTA
     price: 24.46
     sell-price: 6.12
     max-stack: 64
   blue_glazed_terracotta:
     slot: 127
-    displayName: "&fBlue Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Xanh Dương"
     material: BLUE_GLAZED_TERRACOTTA
     price: 25.31
     sell-price: 6.33
     max-stack: 64
   purple_glazed_terracotta:
     slot: 128
-    displayName: "&fPurple Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Tím"
     material: PURPLE_GLAZED_TERRACOTTA
     price: 24.47
     sell-price: 6.12
     max-stack: 64
   magenta_glazed_terracotta:
     slot: 129
-    displayName: "&fMagenta Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Đỏ Tím"
     material: MAGENTA_GLAZED_TERRACOTTA
     price: 24.46
     sell-price: 6.12
     max-stack: 64
   pink_glazed_terracotta:
     slot: 130
-    displayName: "&fPink Glazed Terracotta"
+    displayName: "&fĐất Nung Tráng Men Hồng"
     material: PINK_GLAZED_TERRACOTTA
     price: 24.46
     sell-price: 6.12
     max-stack: 64
   glowstone:
     slot: 131
-    displayName: "&fGlowstone"
+    displayName: "&fĐá Phát Sáng"
     material: GLOWSTONE
     price: 29.4
     sell-price: 7.35
     max-stack: 64
   shroomlight:
     slot: 132
-    displayName: "&fShroomlight"
+    displayName: "&fNấm Phát Sáng"
     material: SHROOMLIGHT
     price: 8
     sell-price: 2
     max-stack: 64
   brain_coral_block:
     slot: 133
-    displayName: "&fBrain Coral Block"
+    displayName: "&fKhối San Hô Não"
     material: BRAIN_CORAL_BLOCK
     price: 16
     sell-price: 4
     max-stack: 64
   bubble_coral_block:
     slot: 134
-    displayName: "&fBubble Coral Block"
+    displayName: "&fKhối San Hô Bong Bóng"
     material: BUBBLE_CORAL_BLOCK
     price: 16
     sell-price: 4
     max-stack: 64
   dead_brain_coral_block:
     slot: 135
-    displayName: "&fDead Brain Coral Block"
+    displayName: "&fKhối San Hô Não Chết"
     material: DEAD_BRAIN_CORAL_BLOCK
     price: 16
     sell-price: 4
     max-stack: 64
   dead_bubble_coral_block:
     slot: 136
-    displayName: "&fDead Bubble Coral Block"
+    displayName: "&fKhối San Hô Bong Bóng Chết"
     material: DEAD_BUBBLE_CORAL_BLOCK
     price: 16
     sell-price: 4
     max-stack: 64
   dead_fire_coral_block:
     slot: 137
-    displayName: "&fDead Fire Coral Block"
+    displayName: "&fKhối San Hô Lửa Chết"
     material: DEAD_FIRE_CORAL_BLOCK
     price: 16
     sell-price: 4
     max-stack: 64
   dead_horn_coral_block:
     slot: 138
-    displayName: "&fDead Horn Coral Block"
+    displayName: "&fKhối San Hô Sừng Chết"
     material: DEAD_HORN_CORAL_BLOCK
     price: 16
     sell-price: 4
     max-stack: 64
   dead_tube_coral_block:
     slot: 139
-    displayName: "&fDead Tube Coral Block"
+    displayName: "&fKhối San Hô Ống Chết"
     material: DEAD_TUBE_CORAL_BLOCK
     price: 16
     sell-price: 4
     max-stack: 64
   fire_coral_block:
     slot: 140
-    displayName: "&fFire Coral Block"
+    displayName: "&fKhối San Hô Lửa"
     material: FIRE_CORAL_BLOCK
     price: 16
     sell-price: 4
     max-stack: 64
   horn_coral_block:
     slot: 141
-    displayName: "&fHorn Coral Block"
+    displayName: "&fKhối San Hô Sừng"
     material: HORN_CORAL_BLOCK
     price: 16
     sell-price: 4
     max-stack: 64
   tube_coral_block:
     slot: 142
-    displayName: "&fTube Coral Block"
+    displayName: "&fKhối San Hô Ống"
     material: TUBE_CORAL_BLOCK
     price: 16
     sell-price: 4
     max-stack: 64
   quartz_block:
     slot: 143
-    displayName: "&fQuartz Block"
+    displayName: "&fKhối Thạch Anh"
     material: QUARTZ_BLOCK
     price: 34.73
     sell-price: 8.69
     max-stack: 64
   quartz_stairs:
     slot: 144
-    displayName: "&fQuartz Stairs"
+    displayName: "&fCầu Thang Thạch Anh"
     material: QUARTZ_STAIRS
     price: 36.47
     sell-price: 9.12
     max-stack: 64
   quartz_slab:
     slot: 145
-    displayName: "&fQuartz Slab"
+    displayName: "&fTấm Thạch Anh"
     material: QUARTZ_SLAB
     price: 18.24
     sell-price: 4.56
     max-stack: 64
   quartz_bricks:
     slot: 146
-    displayName: "&fQuartz Bricks"
+    displayName: "&fGạch Thạch Anh"
     material: QUARTZ_BRICKS
     price: 36.47
     sell-price: 9.12
     max-stack: 64
   chiseled_quartz_block:
     slot: 147
-    displayName: "&fChiseled Quartz Block"
+    displayName: "&fKhối Thạch Anh Chạm Khắc"
     material: CHISELED_QUARTZ_BLOCK
     price: 36.47
     sell-price: 9.12
     max-stack: 64
   quartz_pillar:
     slot: 148
-    displayName: "&fQuartz Pillar"
+    displayName: "&fTrụ Thạch Anh"
     material: QUARTZ_PILLAR
     price: 36.47
     sell-price: 9.12
     max-stack: 64
   smooth_quartz:
     slot: 149
-    displayName: "&fSmooth Quartz"
+    displayName: "&fThạch Anh Mịn"
     material: SMOOTH_QUARTZ
     price: 36.47
     sell-price: 9.12
     max-stack: 64
   smooth_quartz_stairs:
     slot: 150
-    displayName: "&fSmooth Quartz Stairs"
+    displayName: "&fCầu Thang Thạch Anh Mịn"
     material: SMOOTH_QUARTZ_STAIRS
     price: 38.29
     sell-price: 9.58
     max-stack: 64
   smooth_quartz_slab:
     slot: 151
-    displayName: "&fSmooth Quartz Slab"
+    displayName: "&fTấm Thạch Anh Mịn"
     material: SMOOTH_QUARTZ_SLAB
     price: 19.15
     sell-price: 4.79
     max-stack: 64
   purpur_pillar:
     slot: 152
-    displayName: "&fPurpur Pillar"
+    displayName: "&fTrụ Purpur"
     material: PURPUR_PILLAR
     price: 3.48
     sell-price: 0.87
     max-stack: 64
   purpur_block:
     slot: 153
-    displayName: "&fPurpur Block"
+    displayName: "&fKhối Purpur"
     material: PURPUR_BLOCK
     price: 3.31
     sell-price: 0.83
     max-stack: 64
   purpur_stairs:
     slot: 154
-    displayName: "&fPurpur Stairs"
+    displayName: "&fCầu Thang Purpur"
     material: PURPUR_STAIRS
     price: 3.48
     sell-price: 0.87
     max-stack: 64
   purpur_slab:
     slot: 155
-    displayName: "&fPurpur Slab"
+    displayName: "&fTấm Purpur"
     material: PURPUR_SLAB
     price: 1.74
     sell-price: 0.44
     max-stack: 64
   copper_block:
     slot: 156
-    displayName: "&fCopper Block"
+    displayName: "&fKhối Đồng"
     material: COPPER_BLOCK
     price: 3.86
     sell-price: 0.97
     max-stack: 64
   cut_copper:
     slot: 157
-    displayName: "&fCut Copper"
+    displayName: "&fĐồng Cắt"
     material: CUT_COPPER
     price: 4.06
     sell-price: 1.02
     max-stack: 64
   waxed_copper_block:
     slot: 158
-    displayName: "&fWaxed Copper Block"
+    displayName: "&fKhối Đồng Đánh Bóng"
     material: WAXED_COPPER_BLOCK
     price: 7.36
     sell-price: 1.84
     max-stack: 64
   waxed_cut_copper:
     slot: 159
-    displayName: "&fWaxed Cut Copper"
+    displayName: "&fĐồng Cắt Đánh Bóng"
     material: WAXED_CUT_COPPER
     price: 1.94
     sell-price: 0.49
     max-stack: 64
   bookshelf:
     slot: 160
-    displayName: "&fBookshelf"
+    displayName: "&fGiá Sách"
     material: BOOKSHELF
     price: 119.12
     sell-price: 29.78
     max-stack: 64
   jack_o_lantern:
     slot: 161
-    displayName: "&fJack O Lantern"
+    displayName: "&fĐèn Bí Ngô"
     material: JACK_O_LANTERN
     price: 6.86
     sell-price: 1.72

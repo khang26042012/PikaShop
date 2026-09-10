@@ -3,112 +3,112 @@ Title: "SHOP"
 Size: 54
 categories:
   misc:
-    displayName: "&aMISC"
+    displayName: "&aLinh Tinh"
     material: NAME_TAG
     slot: 10
     file: "misc.yml"
   music:
-    displayName: "&aMUSIC"
+    displayName: "&aÂm Nhạc"
     material: MUSIC_DISC_11
     slot: 11
     file: "music.yml"
   resources:
-    displayName: "&aRESOURCES"
+    displayName: "&aTài Nguyên"
     material: COPPER_BLOCK
     slot: 12
     file: "resources.yml"
   storage:
-    displayName: "&aSTORAGE"
+    displayName: "&aLưu Trữ"
     material: CHEST
     slot: 13
     file: "storage.yml"
   everything-else:
-    displayName: "&aEVERYTHING ELSE"
+    displayName: "&aTổng Hợp"
     material: BAMBOO_MOSAIC_SLAB
     slot: 14
     file: "everything-else.yml"
   wood:
-    displayName: "&aWOOD"
+    displayName: "&aGỗ"
     material: OAK_WOOD
     slot: 15
     file: "wood.yml"
   stone:
-    displayName: "&aSTONE"
+    displayName: "&aĐá"
     material: STONE
     slot: 16
     file: "stone.yml"
   natural:
-    displayName: "&aNATURAL"
+    displayName: "&aTự Nhiên"
     material: DIRT
     slot: 17
     file: "natural.yml"
   decorative-blocks:
-    displayName: "&aDECORATIVE BLOCKS"
+    displayName: "&aKhối Trang Trí"
     material: GLASS
     slot: 18
     file: "decorative-blocks.yml"
   weapons:
-    displayName: "&aWEAPONS"
+    displayName: "&aVũ Khí"
     material: WOODEN_SWORD
     slot: 19
     file: "weapons.yml"
   armor:
-    displayName: "&aARMOR"
+    displayName: "&aGiáp"
     material: LEATHER_HELMET
     slot: 20
     file: "armor.yml"
   tools:
-    displayName: "&aTOOLS"
+    displayName: "&aCông Cụ"
     material: WOODEN_PICKAXE
     slot: 21
     file: "tools.yml"
   redstone:
-    displayName: "&aREDSTONE"
+    displayName: "&aĐá Đỏ"
     material: REDSTONE_TORCH
     slot: 22
     file: "redstone.yml"
   decorative:
-    displayName: "&aDECORATIVE"
+    displayName: "&aTrang Trí"
     material: GLOW_LICHEN
     slot: 23
     file: "decorative.yml"
   dyes:
-    displayName: "&aDYES"
+    displayName: "&aThuốc Nhuộm"
     material: WHITE_DYE
     slot: 24
     file: "dyes.yml"
   crops:
-    displayName: "&aCROPS"
+    displayName: "&aNông Sản"
     material: MELON
     slot: 25
     file: "crops.yml"
   food:
-    displayName: "&aFOOD"
+    displayName: "&aThức Ăn"
     material: COOKIE
     slot: 26
     file: "food.yml"
   enchanting:
-    displayName: "&aENCHANTING"
+    displayName: "&aPhù Phép"
     material: ENCHANTED_BOOK
     slot: 27
     file: "enchanting.yml"
   potions:
-    displayName: "&aPOTIONS"
+    displayName: "&aThuốc"
     material: POTION
     slot: 28
     file: "potions.yml"
   mob-drops:
-    displayName: "&aMOB DROPS"
+    displayName: "&aVật Rơi"
     material: ROTTEN_FLESH
     slot: 29
     file: "mob-drops.yml"
   spawn-eggs:
-    displayName: "&aSPAWN EGGS"
+    displayName: "&aTrứng Spawn"
     material: ALLAY_SPAWN_EGG
     slot: 30
     file: "spawn-eggs.yml"
   spawners:
-    displayName: "&aSPAWNERS"
+    displayName: "&aMáy Spawn"
     material: SPAWNER
     slot: 31
     file: "spawners.yml"

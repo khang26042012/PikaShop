@@ -3,588 +3,588 @@ Size: 54
 items:
   oak_wood:
     slot: 0
-    displayName: "&fOak Wood"
+    displayName: "&fGỗ Sồi"
     material: OAK_WOOD
     price: 4.2
     sell-price: 1.05
     max-stack: 64
   oak_log:
     slot: 1
-    displayName: "&fOak Log"
+    displayName: "&fGỗ Sồi Thô"
     material: OAK_LOG
     price: 3
     sell-price: 0.75
     max-stack: 64
   oak_planks:
     slot: 2
-    displayName: "&fOak Planks"
+    displayName: "&fVán Sồi"
     material: OAK_PLANKS
     price: 4.44
     sell-price: 1.12
     max-stack: 4
   oak_stairs:
     slot: 3
-    displayName: "&fOak Stairs"
+    displayName: "&fCầu Thang Sồi"
     material: OAK_STAIRS
     price: 6.96
     sell-price: 1.76
     max-stack: 4
   oak_slab:
     slot: 4
-    displayName: "&fOak Slab"
+    displayName: "&fTấm Sồi"
     material: OAK_SLAB
     price: 3.48
     sell-price: 0.9
     max-stack: 6
   oak_fence:
     slot: 5
-    displayName: "&fOak Fence"
+    displayName: "&fHàng Rào Sồi"
     material: OAK_FENCE
     price: 5.85
     sell-price: 1.47
     max-stack: 3
   oak_fence_gate:
     slot: 6
-    displayName: "&fOak Fence Gate"
+    displayName: "&fCổng Hàng Rào Sồi"
     material: OAK_FENCE_GATE
     price: 4.75
     sell-price: 1.19
     max-stack: 64
   spruce_wood:
     slot: 7
-    displayName: "&fSpruce Wood"
+    displayName: "&fGỗ Vân Sam"
     material: SPRUCE_WOOD
     price: 4.2
     sell-price: 1.05
     max-stack: 64
   spruce_log:
     slot: 8
-    displayName: "&fSpruce Log"
+    displayName: "&fGỗ Vân Sam Thô"
     material: SPRUCE_LOG
     price: 3
     sell-price: 0.75
     max-stack: 64
   spruce_planks:
     slot: 9
-    displayName: "&fSpruce Planks"
+    displayName: "&fVán Vân Sam"
     material: SPRUCE_PLANKS
     price: 4.44
     sell-price: 1.12
     max-stack: 4
   spruce_stairs:
     slot: 10
-    displayName: "&fSpruce Stairs"
+    displayName: "&fCầu Thang Vân Sam"
     material: SPRUCE_STAIRS
     price: 6.96
     sell-price: 1.76
     max-stack: 4
   spruce_slab:
     slot: 11
-    displayName: "&fSpruce Slab"
+    displayName: "&fTấm Vân Sam"
     material: SPRUCE_SLAB
     price: 3.48
     sell-price: 0.9
     max-stack: 6
   spruce_fence:
     slot: 12
-    displayName: "&fSpruce Fence"
+    displayName: "&fHàng Rào Vân Sam"
     material: SPRUCE_FENCE
     price: 5.85
     sell-price: 1.47
     max-stack: 3
   spruce_fence_gate:
     slot: 13
-    displayName: "&fSpruce Fence Gate"
+    displayName: "&fCổng Hàng Rào Vân Sam"
     material: SPRUCE_FENCE_GATE
     price: 4.75
     sell-price: 1.19
     max-stack: 64
   birch_wood:
     slot: 14
-    displayName: "&fBirch Wood"
+    displayName: "&fGỗ Bạch Dương"
     material: BIRCH_WOOD
     price: 4.2
     sell-price: 1.05
     max-stack: 64
   birch_log:
     slot: 15
-    displayName: "&fBirch Log"
+    displayName: "&fGỗ Bạch Dương Thô"
     material: BIRCH_LOG
     price: 3
     sell-price: 0.75
     max-stack: 64
   birch_planks:
     slot: 16
-    displayName: "&fBirch Planks"
+    displayName: "&fVán Bạch Dương"
     material: BIRCH_PLANKS
     price: 4.44
     sell-price: 1.12
     max-stack: 4
   birch_stairs:
     slot: 17
-    displayName: "&fBirch Stairs"
+    displayName: "&fCầu Thang Bạch Dương"
     material: BIRCH_STAIRS
     price: 6.96
     sell-price: 1.76
     max-stack: 4
   birch_slab:
     slot: 18
-    displayName: "&fBirch Slab"
+    displayName: "&fTấm Bạch Dương"
     material: BIRCH_SLAB
     price: 3.48
     sell-price: 0.9
     max-stack: 6
   birch_fence:
     slot: 19
-    displayName: "&fBirch Fence"
+    displayName: "&fHàng Rào Bạch Dương"
     material: BIRCH_FENCE
     price: 5.85
     sell-price: 1.47
     max-stack: 3
   birch_fence_gate:
     slot: 20
-    displayName: "&fBirch Fence Gate"
+    displayName: "&fCổng Hàng Rào Bạch Dương"
     material: BIRCH_FENCE_GATE
     price: 4.75
     sell-price: 1.19
     max-stack: 64
   jungle_wood:
     slot: 21
-    displayName: "&fJungle Wood"
+    displayName: "&fGỗ Rừng Rậm"
     material: JUNGLE_WOOD
     price: 4.2
     sell-price: 1.05
     max-stack: 64
   jungle_log:
     slot: 22
-    displayName: "&fJungle Log"
+    displayName: "&fGỗ Rừng Rậm Thô"
     material: JUNGLE_LOG
     price: 3
     sell-price: 0.75
     max-stack: 64
   jungle_planks:
     slot: 23
-    displayName: "&fJungle Planks"
+    displayName: "&fVán Rừng Rậm"
     material: JUNGLE_PLANKS
     price: 4.44
     sell-price: 1.12
     max-stack: 4
   jungle_stairs:
     slot: 24
-    displayName: "&fJungle Stairs"
+    displayName: "&fCầu Thang Rừng Rậm"
     material: JUNGLE_STAIRS
     price: 6.96
     sell-price: 1.76
     max-stack: 4
   jungle_slab:
     slot: 25
-    displayName: "&fJungle Slab"
+    displayName: "&fTấm Rừng Rậm"
     material: JUNGLE_SLAB
     price: 3.48
     sell-price: 0.9
     max-stack: 6
   jungle_fence:
     slot: 26
-    displayName: "&fJungle Fence"
+    displayName: "&fHàng Rào Rừng Rậm"
     material: JUNGLE_FENCE
     price: 5.85
     sell-price: 1.47
     max-stack: 3
   jungle_fence_gate:
     slot: 27
-    displayName: "&fJungle Fence Gate"
+    displayName: "&fCổng Hàng Rào Rừng Rậm"
     material: JUNGLE_FENCE_GATE
     price: 4.75
     sell-price: 1.19
     max-stack: 64
   acacia_wood:
     slot: 28
-    displayName: "&fAcacia Wood"
+    displayName: "&fGỗ Keo"
     material: ACACIA_WOOD
     price: 4.2
     sell-price: 1.05
     max-stack: 64
   acacia_log:
     slot: 29
-    displayName: "&fAcacia Log"
+    displayName: "&fGỗ Keo Thô"
     material: ACACIA_LOG
     price: 3
     sell-price: 0.75
     max-stack: 64
   acacia_planks:
     slot: 30
-    displayName: "&fAcacia Planks"
+    displayName: "&fVán Keo"
     material: ACACIA_PLANKS
     price: 4.44
     sell-price: 1.12
     max-stack: 4
   acacia_stairs:
     slot: 31
-    displayName: "&fAcacia Stairs"
+    displayName: "&fCầu Thang Keo"
     material: ACACIA_STAIRS
     price: 6.96
     sell-price: 1.76
     max-stack: 4
   acacia_slab:
     slot: 32
-    displayName: "&fAcacia Slab"
+    displayName: "&fTấm Keo"
     material: ACACIA_SLAB
     price: 3.48
     sell-price: 0.9
     max-stack: 6
   acacia_fence:
     slot: 33
-    displayName: "&fAcacia Fence"
+    displayName: "&fHàng Rào Keo"
     material: ACACIA_FENCE
     price: 5.85
     sell-price: 1.47
     max-stack: 3
   acacia_fence_gate:
     slot: 34
-    displayName: "&fAcacia Fence Gate"
+    displayName: "&fCổng Hàng Rào Keo"
     material: ACACIA_FENCE_GATE
     price: 4.75
     sell-price: 1.19
     max-stack: 64
   dark_oak_wood:
     slot: 35
-    displayName: "&fDark Oak Wood"
+    displayName: "&fGỗ Sồi Tối"
     material: DARK_OAK_WOOD
     price: 4.2
     sell-price: 1.05
     max-stack: 64
   dark_oak_log:
     slot: 36
-    displayName: "&fDark Oak Log"
+    displayName: "&fGỗ Sồi Tối Thô"
     material: DARK_OAK_LOG
     price: 3
     sell-price: 0.75
     max-stack: 64
   dark_oak_planks:
     slot: 37
-    displayName: "&fDark Oak Planks"
+    displayName: "&fVán Sồi Tối"
     material: DARK_OAK_PLANKS
     price: 4.44
     sell-price: 1.12
     max-stack: 4
   dark_oak_stairs:
     slot: 38
-    displayName: "&fDark Oak Stairs"
+    displayName: "&fCầu Thang Sồi Tối"
     material: DARK_OAK_STAIRS
     price: 6.96
     sell-price: 1.76
     max-stack: 4
   dark_oak_slab:
     slot: 39
-    displayName: "&fDark Oak Slab"
+    displayName: "&fTấm Sồi Tối"
     material: DARK_OAK_SLAB
     price: 3.48
     sell-price: 0.9
     max-stack: 6
   dark_oak_fence:
     slot: 40
-    displayName: "&fDark Oak Fence"
+    displayName: "&fHàng Rào Sồi Tối"
     material: DARK_OAK_FENCE
     price: 5.85
     sell-price: 1.47
     max-stack: 3
   dark_oak_fence_gate:
     slot: 41
-    displayName: "&fDark Oak Fence Gate"
+    displayName: "&fCổng Hàng Rào Sồi Tối"
     material: DARK_OAK_FENCE_GATE
     price: 4.75
     sell-price: 1.19
     max-stack: 64
   mangrove_wood:
     slot: 42
-    displayName: "&fMangrove Wood"
+    displayName: "&fGỗ Đước"
     material: MANGROVE_WOOD
     price: 4.2
     sell-price: 1.05
     max-stack: 64
   mangrove_log:
     slot: 43
-    displayName: "&fMangrove Log"
+    displayName: "&fGỗ Đước Thô"
     material: MANGROVE_LOG
     price: 3
     sell-price: 0.75
     max-stack: 64
   mangrove_planks:
     slot: 44
-    displayName: "&fMangrove Planks"
+    displayName: "&fVán Đước"
     material: MANGROVE_PLANKS
     price: 3.16
     sell-price: 0.8
     max-stack: 4
   mangrove_stairs:
     slot: 45
-    displayName: "&fMangrove Stairs"
+    displayName: "&fCầu Thang Đước"
     material: MANGROVE_STAIRS
     price: 5
     sell-price: 1.28
     max-stack: 4
   mangrove_slab:
     slot: 46
-    displayName: "&fMangrove Slab"
+    displayName: "&fTấm Đước"
     material: MANGROVE_SLAB
     price: 2.52
     sell-price: 0.66
     max-stack: 6
   mangrove_fence:
     slot: 47
-    displayName: "&fMangrove Fence"
+    displayName: "&fHàng Rào Đước"
     material: MANGROVE_FENCE
     price: 5.85
     sell-price: 1.47
     max-stack: 3
   mangrove_fence_gate:
     slot: 48
-    displayName: "&fMangrove Fence Gate"
+    displayName: "&fCổng Hàng Rào Đước"
     material: MANGROVE_FENCE_GATE
     price: 4.75
     sell-price: 1.19
     max-stack: 64
   cherry_wood:
     slot: 49
-    displayName: "&fCherry Wood"
+    displayName: "&fGỗ Anh Đào"
     material: CHERRY_WOOD
     price: 4.2
     sell-price: 1.05
     max-stack: 64
   cherry_log:
     slot: 50
-    displayName: "&fCherry Log"
+    displayName: "&fGỗ Anh Đào Thô"
     material: CHERRY_LOG
     price: 3
     sell-price: 0.75
     max-stack: 64
   cherry_planks:
     slot: 51
-    displayName: "&fCherry Planks"
+    displayName: "&fVán Anh Đào"
     material: CHERRY_PLANKS
     price: 3.16
     sell-price: 0.8
     max-stack: 4
   cherry_stairs:
     slot: 52
-    displayName: "&fCherry Stairs"
+    displayName: "&fCầu Thang Anh Đào"
     material: CHERRY_STAIRS
     price: 5
     sell-price: 1.28
     max-stack: 4
   cherry_slab:
     slot: 53
-    displayName: "&fCherry Slab"
+    displayName: "&fTấm Anh Đào"
     material: CHERRY_SLAB
     price: 2.52
     sell-price: 0.66
     max-stack: 6
   cherry_fence:
     slot: 54
-    displayName: "&fCherry Fence"
+    displayName: "&fHàng Rào Anh Đào"
     material: CHERRY_FENCE
     price: 5.85
     sell-price: 1.47
     max-stack: 3
   cherry_fence_gate:
     slot: 55
-    displayName: "&fCherry Fence Gate"
+    displayName: "&fCổng Hàng Rào Anh Đào"
     material: CHERRY_FENCE_GATE
     price: 4.75
     sell-price: 1.19
     max-stack: 64
   pale_oak_wood:
     slot: 56
-    displayName: "&fPale Oak Wood"
+    displayName: "&fGỗ Sồi Nhạt"
     material: PALE_OAK_WOOD
     price: 4.2
     sell-price: 1.05
     max-stack: 64
   pale_oak_log:
     slot: 57
-    displayName: "&fPale Oak Log"
+    displayName: "&fGỗ Sồi Nhạt Thô"
     material: PALE_OAK_LOG
     price: 3
     sell-price: 0.75
     max-stack: 64
   pale_oak_planks:
     slot: 58
-    displayName: "&fPale Oak Planks"
+    displayName: "&fVán Sồi Nhạt"
     material: PALE_OAK_PLANKS
     price: 4.44
     sell-price: 1.12
     max-stack: 4
   pale_oak_stairs:
     slot: 59
-    displayName: "&fPale Oak Stairs"
+    displayName: "&fCầu Thang Sồi Nhạt"
     material: PALE_OAK_STAIRS
     price: 6.96
     sell-price: 1.76
     max-stack: 4
   pale_oak_slab:
     slot: 60
-    displayName: "&fPale Oak Slab"
+    displayName: "&fTấm Sồi Nhạt"
     material: PALE_OAK_SLAB
     price: 3.48
     sell-price: 0.9
     max-stack: 6
   pale_oak_fence:
     slot: 61
-    displayName: "&fPale Oak Fence"
+    displayName: "&fHàng Rào Sồi Nhạt"
     material: PALE_OAK_FENCE
     price: 5.85
     sell-price: 1.47
     max-stack: 3
   pale_oak_fence_gate:
     slot: 62
-    displayName: "&fPale Oak Fence Gate"
+    displayName: "&fCổng Hàng Rào Sồi Nhạt"
     material: PALE_OAK_FENCE_GATE
     price: 4.75
     sell-price: 1.19
     max-stack: 64
   bamboo_mosaic:
     slot: 63
-    displayName: "&fBamboo Mosaic"
+    displayName: "&fKhảm Tre"
     material: BAMBOO_MOSAIC
     price: 0.55
     sell-price: 0.14
     max-stack: 64
   bamboo_block:
     slot: 64
-    displayName: "&fBamboo Block"
+    displayName: "&fKhối Tre"
     material: BAMBOO_BLOCK
     price: 0.95
     sell-price: 0.24
     max-stack: 64
   bamboo_planks:
     slot: 65
-    displayName: "&fBamboo Planks"
+    displayName: "&fVán Tre"
     material: BAMBOO_PLANKS
     price: 2
     sell-price: 0.52
     max-stack: 4
   bamboo_stairs:
     slot: 66
-    displayName: "&fBamboo Stairs"
+    displayName: "&fCầu Thang Tre"
     material: BAMBOO_STAIRS
     price: 3.16
     sell-price: 0.8
     max-stack: 4
   bamboo_slab:
     slot: 67
-    displayName: "&fBamboo Slab"
+    displayName: "&fTấm Tre"
     material: BAMBOO_SLAB
     price: 1.62
     sell-price: 0.9
     max-stack: 6
   bamboo_fence:
     slot: 68
-    displayName: "&fBamboo Fence"
+    displayName: "&fHàng Rào Tre"
     material: BAMBOO_FENCE
     price: 3.3
     sell-price: 0.84
     max-stack: 3
   bamboo_fence_gate:
     slot: 69
-    displayName: "&fBamboo Fence Gate"
+    displayName: "&fCổng Hàng Rào Tre"
     material: BAMBOO_FENCE_GATE
     price: 3.48
     sell-price: 0.87
     max-stack: 64
   crimson_hyphae:
     slot: 70
-    displayName: "&fCrimson Hyphae"
+    displayName: "&fSợi Nấm Đỏ"
     material: CRIMSON_HYPHAE
     price: 4.2
     sell-price: 1.05
     max-stack: 64
   crimson_stem:
     slot: 71
-    displayName: "&fCrimson Stem"
+    displayName: "&fThân Nấm Đỏ"
     material: CRIMSON_STEM
     price: 3
     sell-price: 0.75
     max-stack: 64
   crimson_planks:
     slot: 72
-    displayName: "&fCrimson Planks"
+    displayName: "&fVán Nấm Đỏ"
     material: CRIMSON_PLANKS
     price: 3.16
     sell-price: 0.8
     max-stack: 4
   crimson_stairs:
     slot: 73
-    displayName: "&fCrimson Stairs"
+    displayName: "&fCầu Thang Nấm Đỏ"
     material: CRIMSON_STAIRS
     price: 5
     sell-price: 1.28
     max-stack: 4
   crimson_slab:
     slot: 74
-    displayName: "&fCrimson Slab"
+    displayName: "&fTấm Nấm Đỏ"
     material: CRIMSON_SLAB
     price: 2.52
     sell-price: 0.66
     max-stack: 6
   crimson_fence:
     slot: 75
-    displayName: "&fCrimson Fence"
+    displayName: "&fHàng Rào Nấm Đỏ"
     material: CRIMSON_FENCE
     price: 5.85
     sell-price: 1.47
     max-stack: 3
   crimson_fence_gate:
     slot: 76
-    displayName: "&fCrimson Fence Gate"
+    displayName: "&fCổng Hàng Rào Nấm Đỏ"
     material: CRIMSON_FENCE_GATE
     price: 4.75
     sell-price: 1.19
     max-stack: 64
   warped_hyphae:
     slot: 77
-    displayName: "&fWarped Hyphae"
+    displayName: "&fSợi Nấm Xanh"
     material: WARPED_HYPHAE
     price: 4.2
     sell-price: 1.05
     max-stack: 64
   warped_stem:
     slot: 78
-    displayName: "&fWarped Stem"
+    displayName: "&fThân Nấm Xanh"
     material: WARPED_STEM
     price: 3
     sell-price: 0.75
     max-stack: 64
   warped_planks:
     slot: 79
-    displayName: "&fWarped Planks"
+    displayName: "&fVán Nấm Xanh"
     material: WARPED_PLANKS
     price: 3.16
     sell-price: 0.8
     max-stack: 4
   warped_stairs:
     slot: 80
-    displayName: "&fWarped Stairs"
+    displayName: "&fCầu Thang Nấm Xanh"
     material: WARPED_STAIRS
     price: 5
     sell-price: 1.28
     max-stack: 4
   warped_slab:
     slot: 81
-    displayName: "&fWarped Slab"
+    displayName: "&fTấm Nấm Xanh"
     material: WARPED_SLAB
     price: 2.52
     sell-price: 0.66
     max-stack: 6
   warped_fence:
     slot: 82
-    displayName: "&fWarped Fence"
+    displayName: "&fHàng Rào Nấm Xanh"
     material: WARPED_FENCE
     price: 5.85
     sell-price: 1.47
     max-stack: 3
   warped_fence_gate:
     slot: 83
-    displayName: "&fWarped Fence Gate"
+    displayName: "&fCổng Hàng Rào Nấm Xanh"
     material: WARPED_FENCE_GATE
     price: 4.75
     sell-price: 1.19

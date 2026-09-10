@@ -3,420 +3,420 @@ Size: 54
 items:
   leather_helmet:
     slot: 0
-    displayName: "&fLeather Helmet"
+    displayName: "&fMũ Da"
     material: LEATHER_HELMET
     price: 176.4
     sell-price: 44.1
     max-stack: 64
   leather_chestplate:
     slot: 1
-    displayName: "&fLeather Chestplate"
+    displayName: "&fÁo Giáp Da"
     material: LEATHER_CHESTPLATE
     price: 282.24
     sell-price: 70.56
     max-stack: 64
   leather_leggings:
     slot: 2
-    displayName: "&fLeather Leggings"
+    displayName: "&fQuần Giáp Da"
     material: LEATHER_LEGGINGS
     price: 246.96
     sell-price: 61.74
     max-stack: 64
   leather_boots:
     slot: 3
-    displayName: "&fLeather Boots"
+    displayName: "&fGiày Da"
     material: LEATHER_BOOTS
     price: 141.12
     sell-price: 35.28
     max-stack: 64
   chainmail_helmet:
     slot: 4
-    displayName: "&fChainmail Helmet"
+    displayName: "&fMũ Xích"
     material: CHAINMAIL_HELMET
     price: 40
     sell-price: 10
     max-stack: 64
   chainmail_chestplate:
     slot: 5
-    displayName: "&fChainmail Chestplate"
+    displayName: "&fÁo Giáp Xích"
     material: CHAINMAIL_CHESTPLATE
     price: 60
     sell-price: 15
     max-stack: 64
   chainmail_leggings:
     slot: 6
-    displayName: "&fChainmail Leggings"
+    displayName: "&fQuần Giáp Xích"
     material: CHAINMAIL_LEGGINGS
     price: 60
     sell-price: 15
     max-stack: 64
   chainmail_boots:
     slot: 7
-    displayName: "&fChainmail Boots"
+    displayName: "&fGiày Xích"
     material: CHAINMAIL_BOOTS
     price: 40
     sell-price: 10
     max-stack: 64
   copper_helmet:
     slot: 8
-    displayName: "&fCopper Helmet"
+    displayName: "&fMũ Đồng"
     material: COPPER_HELMET
     price: 5.23
     sell-price: 1.27
     max-stack: 64
   copper_chestplate:
     slot: 9
-    displayName: "&fCopper Chestplate"
+    displayName: "&fÁo Giáp Đồng"
     material: COPPER_CHESTPLATE
     price: 7.56
     sell-price: 1.95
     max-stack: 64
   copper_leggings:
     slot: 10
-    displayName: "&fCopper Leggings"
+    displayName: "&fQuần Giáp Đồng"
     material: COPPER_LEGGINGS
     price: 6.64
     sell-price: 1.72
     max-stack: 64
   copper_boots:
     slot: 11
-    displayName: "&fCopper Boots"
+    displayName: "&fGiày Đồng"
     material: COPPER_BOOTS
     price: 3.84
     sell-price: 1.02
     max-stack: 64
   iron_helmet:
     slot: 12
-    displayName: "&fIron Helmet"
+    displayName: "&fMũ Sắt"
     material: IRON_HELMET
     price: 28.95
     sell-price: 7.24
     max-stack: 64
   iron_chestplate:
     slot: 13
-    displayName: "&fIron Chestplate"
+    displayName: "&fÁo Giáp Sắt"
     material: IRON_CHESTPLATE
     price: 46.31
     sell-price: 11.58
     max-stack: 64
   iron_leggings:
     slot: 14
-    displayName: "&fIron Leggings"
+    displayName: "&fQuần Giáp Sắt"
     material: IRON_LEGGINGS
     price: 40.52
     sell-price: 10.13
     max-stack: 64
   iron_boots:
     slot: 15
-    displayName: "&fIron Boots"
+    displayName: "&fGiày Sắt"
     material: IRON_BOOTS
     price: 23.16
     sell-price: 5.79
     max-stack: 64
   golden_helmet:
     slot: 16
-    displayName: "&fGolden Helmet"
+    displayName: "&fMũ Vàng"
     material: GOLDEN_HELMET
     price: 43.42
     sell-price: 10.86
     max-stack: 64
   golden_chestplate:
     slot: 17
-    displayName: "&fGolden Chestplate"
+    displayName: "&fÁo Giáp Vàng"
     material: GOLDEN_CHESTPLATE
     price: 69.46
     sell-price: 17.37
     max-stack: 64
   golden_leggings:
     slot: 18
-    displayName: "&fGolden Leggings"
+    displayName: "&fQuần Giáp Vàng"
     material: GOLDEN_LEGGINGS
     price: 60.78
     sell-price: 15.2
     max-stack: 64
   golden_boots:
     slot: 19
-    displayName: "&fGolden Boots"
+    displayName: "&fGiày Vàng"
     material: GOLDEN_BOOTS
     price: 34.73
     sell-price: 8.69
     max-stack: 64
   diamond_helmet:
     slot: 20
-    displayName: "&fDiamond Helmet"
+    displayName: "&fMũ Kim Cương"
     material: DIAMOND_HELMET
     price: 275.63
     sell-price: 68.91
     max-stack: 64
   diamond_chestplate:
     slot: 21
-    displayName: "&fDiamond Chestplate"
+    displayName: "&fÁo Giáp Kim Cương"
     material: DIAMOND_CHESTPLATE
     price: 441
     sell-price: 110.25
     max-stack: 64
   diamond_leggings:
     slot: 22
-    displayName: "&fDiamond Leggings"
+    displayName: "&fQuần Giáp Kim Cương"
     material: DIAMOND_LEGGINGS
     price: 385.88
     sell-price: 96.47
     max-stack: 64
   diamond_boots:
     slot: 23
-    displayName: "&fDiamond Boots"
+    displayName: "&fGiày Kim Cương"
     material: DIAMOND_BOOTS
     price: 220.5
     sell-price: 55.13
     max-stack: 64
   netherite_helmet:
     slot: 24
-    displayName: "&fNetherite Helmet"
+    displayName: "&fMũ Netherite"
     material: NETHERITE_HELMET
     price: 2775.41
     sell-price: 693.86
     max-stack: 64
   netherite_chestplate:
     slot: 25
-    displayName: "&fNetherite Chestplate"
+    displayName: "&fÁo Giáp Netherite"
     material: NETHERITE_CHESTPLATE
     price: 2949.05
     sell-price: 737.27
     max-stack: 64
   netherite_leggings:
     slot: 26
-    displayName: "&fNetherite Leggings"
+    displayName: "&fQuần Giáp Netherite"
     material: NETHERITE_LEGGINGS
     price: 2891.17
     sell-price: 722.8
     max-stack: 64
   netherite_boots:
     slot: 27
-    displayName: "&fNetherite Boots"
+    displayName: "&fGiày Netherite"
     material: NETHERITE_BOOTS
     price: 2717.53
     sell-price: 679.39
     max-stack: 64
   leather_horse_armor:
     slot: 28
-    displayName: "&fLeather Horse Armor"
+    displayName: "&fGiáp Ngựa Da"
     material: LEATHER_HORSE_ARMOR
     price: 100
     sell-price: 25
     max-stack: 64
   copper_horse_armor:
     slot: 29
-    displayName: "&fCopper Horse Armor"
+    displayName: "&fGiáp Ngựa Đồng"
     material: COPPER_HORSE_ARMOR
     price: 75
     sell-price: 28.6
     max-stack: 64
   iron_horse_armor:
     slot: 30
-    displayName: "&fIron Horse Armor"
+    displayName: "&fGiáp Ngựa Sắt"
     material: IRON_HORSE_ARMOR
     price: 175
     sell-price: 43.75
     max-stack: 64
   golden_horse_armor:
     slot: 31
-    displayName: "&fGolden Horse Armor"
+    displayName: "&fGiáp Ngựa Vàng"
     material: GOLDEN_HORSE_ARMOR
     price: 775
     sell-price: 193.75
     max-stack: 64
   diamond_horse_armor:
     slot: 32
-    displayName: "&fDiamond Horse Armor"
+    displayName: "&fGiáp Ngựa Kim Cương"
     material: DIAMOND_HORSE_ARMOR
     price: 2250
     sell-price: 562.5
     max-stack: 64
   netherite_horse_armor:
     slot: 33
-    displayName: "&fNetherite Horse Armor"
+    displayName: "&fGiáp Ngựa Netherite"
     material: NETHERITE_HORSE_ARMOR
     price: 3750
     sell-price: 871
     max-stack: 64
   wolf_armor:
     slot: 34
-    displayName: "&fWolf Armor"
+    displayName: "&fGiáp Sói"
     material: WOLF_ARMOR
     price: 3339
     sell-price: 834.75
     max-stack: 64
   turtle_helmet:
     slot: 35
-    displayName: "&fTurtle Helmet"
+    displayName: "&fMũ Rùa"
     material: TURTLE_HELMET
     price: 2782.5
     sell-price: 695.63
     max-stack: 64
   copper_nautilus_armor:
     slot: 36
-    displayName: "&fCopper Nautilus Armor"
+    displayName: "&fGiáp Ốc Đồng"
     material: COPPER_NAUTILUS_ARMOR
     price: 125
     sell-price: 42.5
     max-stack: 64
   iron_nautilus_armor:
     slot: 37
-    displayName: "&fIron Nautilus Armor"
+    displayName: "&fGiáp Ốc Sắt"
     material: IRON_NAUTILUS_ARMOR
     price: 800
     sell-price: 250
     max-stack: 64
   golden_nautilus_armor:
     slot: 38
-    displayName: "&fGolden Nautilus Armor"
+    displayName: "&fGiáp Ốc Vàng"
     material: GOLDEN_NAUTILUS_ARMOR
     price: 1725
     sell-price: 450
     max-stack: 64
   diamond_nautilus_armor:
     slot: 39
-    displayName: "&fDiamond Nautilus Armor"
+    displayName: "&fGiáp Ốc Kim Cương"
     material: DIAMOND_NAUTILUS_ARMOR
     price: 3400
     sell-price: 925
     max-stack: 64
   netherite_nautilus_armor:
     slot: 40
-    displayName: "&fNetherite Nautilus Armor"
+    displayName: "&fGiáp Ốc Netherite"
     material: NETHERITE_NAUTILUS_ARMOR
     price: 4850
     sell-price: 1250
     max-stack: 64
   bolt_armor_trim_smithing_template:
     slot: 41
-    displayName: "&fBolt Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Tia Chớp"
     material: BOLT_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 389.93
     sell-price: 97.49
     max-stack: 64
   coast_armor_trim_smithing_template:
     slot: 42
-    displayName: "&fCoast Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Bờ Biển"
     material: COAST_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 193.3
     sell-price: 48.33
     max-stack: 64
   dune_armor_trim_smithing_template:
     slot: 43
-    displayName: "&fDune Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Cồn Cát"
     material: DUNE_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 199.24
     sell-price: 49.81
     max-stack: 64
   eye_armor_trim_smithing_template:
     slot: 44
-    displayName: "&fEye Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Con Mắt"
     material: EYE_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 195.57
     sell-price: 48.9
     max-stack: 64
   flow_armor_trim_smithing_template:
     slot: 45
-    displayName: "&fFlow Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Dòng Chảy"
     material: FLOW_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 406.88
     sell-price: 101.72
     max-stack: 64
   host_armor_trim_smithing_template:
     slot: 46
-    displayName: "&fHost Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Chủ Nhân"
     material: HOST_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 204.52
     sell-price: 51.13
     max-stack: 64
   netherite_upgrade_smithing_template:
     slot: 47
-    displayName: "&fNetherite Upgrade Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Nâng Cấp Netherite"
     material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
     price: 193.05
     sell-price: 48.27
     max-stack: 64
   raiser_armor_trim_smithing_template:
     slot: 48
-    displayName: "&fRaiser Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Người Gọi Hồn"
     material: RAISER_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 204.52
     sell-price: 51.13
     max-stack: 64
   rib_armor_trim_smithing_template:
     slot: 49
-    displayName: "&fRib Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Xương Sườn"
     material: RIB_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 193.05
     sell-price: 48.27
     max-stack: 64
   sentry_armor_trim_smithing_template:
     slot: 50
-    displayName: "&fSentry Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Lính Canh"
     material: SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 193.3
     sell-price: 48.33
     max-stack: 64
   shaper_armor_trim_smithing_template:
     slot: 51
-    displayName: "&fShaper Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Thợ Định Hình"
     material: SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 204.52
     sell-price: 51.13
     max-stack: 64
   silence_armor_trim_smithing_template:
     slot: 52
-    displayName: "&fSilence Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Im Lặng"
     material: SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 193.3
     sell-price: 48.33
     max-stack: 64
   snout_armor_trim_smithing_template:
     slot: 53
-    displayName: "&fSnout Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Mõm"
     material: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 193.34
     sell-price: 48.34
     max-stack: 64
   spire_armor_trim_smithing_template:
     slot: 54
-    displayName: "&fSpire Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Tháp Nhọn"
     material: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 194.68
     sell-price: 48.67
     max-stack: 64
   tide_armor_trim_smithing_template:
     slot: 55
-    displayName: "&fTide Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Thủy Triều"
     material: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 208.38
     sell-price: 52.1
     max-stack: 64
   vex_armor_trim_smithing_template:
     slot: 56
-    displayName: "&fVex Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Vex"
     material: VEX_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 193.3
     sell-price: 48.33
     max-stack: 64
   ward_armor_trim_smithing_template:
     slot: 57
-    displayName: "&fWard Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Hộ Vệ"
     material: WARD_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 193.3
     sell-price: 48.33
     max-stack: 64
   wayfinder_armor_trim_smithing_template:
     slot: 58
-    displayName: "&fWayfinder Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Người Dẫn Đường"
     material: WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 204.52
     sell-price: 51.13
     max-stack: 64
   wild_armor_trim_smithing_template:
     slot: 59
-    displayName: "&fWild Armor Trim Smithing Template"
+    displayName: "&fMẫu Rèn Đúc Viền Giáp Hoang Dã"
     material: WILD_ARMOR_TRIM_SMITHING_TEMPLATE
     price: 197.18
     sell-price: 49.3

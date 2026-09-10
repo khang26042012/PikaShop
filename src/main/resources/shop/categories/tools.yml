@@ -3,196 +3,196 @@ Size: 54
 items:
   wooden_pickaxe:
     slot: 0
-    displayName: "&fWooden Pickaxe"
+    displayName: "&fCúp Gỗ"
     material: WOODEN_PICKAXE
     price: 4.69
     sell-price: 1.18
     max-stack: 64
   stone_pickaxe:
     slot: 1
-    displayName: "&fStone Pickaxe"
+    displayName: "&fCúp Đá"
     material: STONE_PICKAXE
     price: 3.36
     sell-price: 0.84
     max-stack: 64
   copper_pickaxe:
     slot: 2
-    displayName: "&fCopper Pickaxe"
+    displayName: "&fCúp Đồng"
     material: COPPER_PICKAXE
     price: 4.15
     sell-price: 0.97
     max-stack: 64
   iron_pickaxe:
     slot: 3
-    displayName: "&fIron Pickaxe"
+    displayName: "&fCúp Sắt"
     material: IRON_PICKAXE
     price: 18.58
     sell-price: 4.65
     max-stack: 64
   golden_pickaxe:
     slot: 4
-    displayName: "&fGolden Pickaxe"
+    displayName: "&fCúp Vàng"
     material: GOLDEN_PICKAXE
     price: 27.27
     sell-price: 6.82
     max-stack: 64
   diamond_pickaxe:
     slot: 5
-    displayName: "&fDiamond Pickaxe"
+    displayName: "&fCúp Kim Cương"
     material: DIAMOND_PICKAXE
     price: 166.6
     sell-price: 41.65
     max-stack: 64
   netherite_pickaxe:
     slot: 6
-    displayName: "&fNetherite Pickaxe"
+    displayName: "&fCúp Netherite"
     material: NETHERITE_PICKAXE
     price: 2660.92
     sell-price: 665.23
     max-stack: 64
   wooden_axe:
     slot: 7
-    displayName: "&fWooden Axe"
+    displayName: "&fRìu Gỗ"
     material: WOODEN_AXE
     price: 4.69
     sell-price: 1.18
     max-stack: 64
   stone_axe:
     slot: 8
-    displayName: "&fStone Axe"
+    displayName: "&fRìu Đá"
     material: STONE_AXE
     price: 3.36
     sell-price: 0.84
     max-stack: 64
   copper_axe:
     slot: 9
-    displayName: "&fCopper Axe"
+    displayName: "&fRìu Đồng"
     material: COPPER_AXE
     price: 4.15
     sell-price: 0.97
     max-stack: 64
   iron_axe:
     slot: 10
-    displayName: "&fIron Axe"
+    displayName: "&fRìu Sắt"
     material: IRON_AXE
     price: 18.58
     sell-price: 4.65
     max-stack: 64
   golden_axe:
     slot: 11
-    displayName: "&fGolden Axe"
+    displayName: "&fRìu Vàng"
     material: GOLDEN_AXE
     price: 27.27
     sell-price: 6.82
     max-stack: 64
   diamond_axe:
     slot: 12
-    displayName: "&fDiamond Axe"
+    displayName: "&fRìu Kim Cương"
     material: DIAMOND_AXE
     price: 166.6
     sell-price: 41.65
     max-stack: 64
   netherite_axe:
     slot: 13
-    displayName: "&fNetherite Axe"
+    displayName: "&fRìu Netherite"
     material: NETHERITE_AXE
     price: 2660.92
     sell-price: 665.23
     max-stack: 64
   wooden_shovel:
     slot: 14
-    displayName: "&fWooden Shovel"
+    displayName: "&fXẻng Gỗ"
     material: WOODEN_SHOVEL
     price: 2.38
     sell-price: 0.6
     max-stack: 64
   stone_shovel:
     slot: 15
-    displayName: "&fStone Shovel"
+    displayName: "&fXẻng Đá"
     material: STONE_SHOVEL
     price: 1.93
     sell-price: 0.49
     max-stack: 64
   copper_shovel:
     slot: 16
-    displayName: "&fCopper Shovel"
+    displayName: "&fXẻng Đồng"
     material: COPPER_SHOVEL
     price: 2.17
     sell-price: 0.54
     max-stack: 64
   iron_shovel:
     slot: 17
-    displayName: "&fIron Shovel"
+    displayName: "&fXẻng Sắt"
     material: IRON_SHOVEL
     price: 7.01
     sell-price: 1.76
     max-stack: 64
   golden_shovel:
     slot: 18
-    displayName: "&fGolden Shovel"
+    displayName: "&fXẻng Vàng"
     material: GOLDEN_SHOVEL
     price: 9.9
     sell-price: 2.48
     max-stack: 64
   diamond_shovel:
     slot: 19
-    displayName: "&fDiamond Shovel"
+    displayName: "&fXẻng Kim Cương"
     material: DIAMOND_SHOVEL
     price: 56.35
     sell-price: 14.09
     max-stack: 64
   netherite_shovel:
     slot: 20
-    displayName: "&fNetherite Shovel"
+    displayName: "&fXẻng Netherite"
     material: NETHERITE_SHOVEL
     price: 2545.16
     sell-price: 636.29
     max-stack: 64
   wooden_hoe:
     slot: 21
-    displayName: "&fWooden Hoe"
+    displayName: "&fCuốc Gỗ"
     material: WOODEN_HOE
     price: 3.54
     sell-price: 0.89
     max-stack: 64
   stone_hoe:
     slot: 22
-    displayName: "&fStone Hoe"
+    displayName: "&fCuốc Đá"
     material: STONE_HOE
     price: 2.65
     sell-price: 0.67
     max-stack: 64
   copper_hoe:
     slot: 23
-    displayName: "&fCopper Hoe"
+    displayName: "&fCuốc Đồng"
     material: COPPER_HOE
     price: 3.24
     sell-price: 0.77
     max-stack: 64
   iron_hoe:
     slot: 24
-    displayName: "&fIron Hoe"
+    displayName: "&fCuốc Sắt"
     material: IRON_HOE
     price: 12.8
     sell-price: 3.2
     max-stack: 64
   golden_hoe:
     slot: 25
-    displayName: "&fGolden Hoe"
+    displayName: "&fCuốc Vàng"
     material: GOLDEN_HOE
     price: 18.58
     sell-price: 4.65
     max-stack: 64
   diamond_hoe:
     slot: 26
-    displayName: "&fDiamond Hoe"
+    displayName: "&fCuốc Kim Cương"
     material: DIAMOND_HOE
     price: 111.47
     sell-price: 27.87
     max-stack: 64
   netherite_hoe:
     slot: 27
-    displayName: "&fNetherite Hoe"
+    displayName: "&fCuốc Netherite"
     material: NETHERITE_HOE
     price: 2603.04
     sell-price: 650.76

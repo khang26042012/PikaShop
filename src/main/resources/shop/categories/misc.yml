@@ -3,368 +3,368 @@ Size: 54
 items:
   name_tag:
     slot: 0
-    displayName: "&fName Tag"
+    displayName: "&fThẻ Tên"
     material: NAME_TAG
     price: 100
     sell-price: 25
     max-stack: 64
   lead:
     slot: 1
-    displayName: "&fLead"
+    displayName: "&fDây Dắt"
     material: LEAD
     price: 17.33
     sell-price: 4.34
     max-stack: 64
   compass:
     slot: 2
-    displayName: "&fCompass"
+    displayName: "&fLa Bàn"
     material: COMPASS
     price: 26.83
     sell-price: 6.71
     max-stack: 64
   recovery_compass:
     slot: 3
-    displayName: "&fRecovery Compass"
+    displayName: "&fLa Bàn Hồi Sinh"
     material: RECOVERY_COMPASS
     price: 868.17
     sell-price: 217.05
     max-stack: 64
   scute:
     slot: 4
-    displayName: "&fScute"
+    displayName: "&fVảy Rùa"
     material: SCUTE
     price: 530
     sell-price: 132.5
     max-stack: 64
   water_bucket:
     slot: 5
-    displayName: "&fWater Bucket"
+    displayName: "&fXô Nước"
     material: WATER_BUCKET
     price: 18.34
     sell-price: 4.59
     max-stack: 64
   lava_bucket:
     slot: 6
-    displayName: "&fLava Bucket"
+    displayName: "&fXô Dung Nham"
     material: LAVA_BUCKET
     price: 18.4
     sell-price: 4.6
     max-stack: 64
   milk_bucket:
     slot: 7
-    displayName: "&fMilk Bucket"
+    displayName: "&fXô Sữa"
     material: MILK_BUCKET
     price: 18.45
     sell-price: 4.62
     max-stack: 64
   powder_snow_bucket:
     slot: 8
-    displayName: "&fPowder Snow Bucket"
+    displayName: "&fXô Tuyết Bột"
     material: POWDER_SNOW_BUCKET
     price: 33.99
     sell-price: 8.5
     max-stack: 64
   axolotl_bucket:
     slot: 9
-    displayName: "&fAxolotl Bucket"
+    displayName: "&fXô Axolotl"
     material: AXOLOTL_BUCKET
     price: 19.47
     sell-price: 4.87
     max-stack: 64
   cod_bucket:
     slot: 10
-    displayName: "&fCod Bucket"
+    displayName: "&fXô Cá Tuyết"
     material: COD_BUCKET
     price: 25.77
     sell-price: 6.45
     max-stack: 64
   salmon_bucket:
     slot: 11
-    displayName: "&fSalmon Bucket"
+    displayName: "&fXô Cá Hồi"
     material: SALMON_BUCKET
     price: 25.77
     sell-price: 6.45
     max-stack: 64
   tropical_fish_bucket:
     slot: 12
-    displayName: "&fTropical Fish Bucket"
+    displayName: "&fXô Cá Nhiệt Đới"
     material: TROPICAL_FISH_BUCKET
     price: 25.77
     sell-price: 6.45
     max-stack: 64
   tadpole_bucket:
     slot: 13
-    displayName: "&fTadpole Bucket"
+    displayName: "&fXô Nòng Nọc"
     material: TADPOLE_BUCKET
     price: 19.47
     sell-price: 4.87
     max-stack: 64
   bucket:
     slot: 14
-    displayName: "&fBucket"
+    displayName: "&fXô"
     material: BUCKET
     price: 17.37
     sell-price: 4.35
     max-stack: 64
   ender_eye:
     slot: 15
-    displayName: "&fEnder Eye"
+    displayName: "&fMắt Ender"
     material: ENDER_EYE
     price: 10.11
     sell-price: 2.53
     max-stack: 64
   armadillo_scute:
     slot: 16
-    displayName: "&fArmadillo Scute"
+    displayName: "&fVảy Armadillo"
     material: ARMADILLO_SCUTE
     price: 530
     sell-price: 132.5
     max-stack: 64
   experience_bottle:
     slot: 17
-    displayName: "&fExperience Bottle"
+    displayName: "&fChai Kinh Nghiệm"
     material: EXPERIENCE_BOTTLE
     price: 107.94
     max-stack: 64
   firework:
     slot: 18
-    displayName: "&fFirework"
+    displayName: "&fPháo Hoa"
     material: FIREWORK
     price: 303
     sell-price: 75
     max-stack: 64
   minecart:
     slot: 19
-    displayName: "&fMinecart"
+    displayName: "&fXe Mỏ"
     material: MINECART
     price: 28.95
     sell-price: 7.24
     max-stack: 64
   dragon_egg:
     slot: 20
-    displayName: "&fDragon Egg"
+    displayName: "&fTrứng Rồng"
     material: DRAGON_EGG
     price: 5000
     sell-price: 1250
     max-stack: 64
   elytra:
     slot: 21
-    displayName: "&fElytra"
+    displayName: "&fCánh Elytra"
     material: ELYTRA
     price: 2415.2
     max-stack: 64
   end_rod:
     slot: 22
-    displayName: "&fEnd Rod"
+    displayName: "&fQue End"
     material: END_ROD
     price: 2.14
     sell-price: 0.54
     max-stack: 64
   saddle:
     slot: 23
-    displayName: "&fSaddle"
+    displayName: "&fYên Ngựa"
     material: SADDLE
     price: 60
     sell-price: 15
     max-stack: 64
   nether_star:
     slot: 24
-    displayName: "&fNether Star"
+    displayName: "&fSao Địa Ngục"
     material: NETHER_STAR
     price: 1400
     sell-price: 350
     max-stack: 64
   beacon:
     slot: 25
-    displayName: "&fBeacon"
+    displayName: "&fĐèn Hiệu"
     material: BEACON
     price: 1601.52
     sell-price: 400.38
     max-stack: 64
   dragon_breath:
     slot: 26
-    displayName: "&fDragon Breath"
+    displayName: "&fHơi Thở Rồng"
     material: DRAGON_BREATH
     price: 109.93
     sell-price: 27.49
     max-stack: 64
   ominous_bottle:
     slot: 27
-    displayName: "&fOminous Bottle"
+    displayName: "&fChai Ominous"
     material: OMINOUS_BOTTLE
     price: 17500
     sell-price: 3875
     max-stack: 64
   map:
     slot: 28
-    displayName: "&fMap"
+    displayName: "&fBản Đồ"
     material: MAP
     price: 29.06
     sell-price: 7.27
     max-stack: 64
   snow:
     slot: 29
-    displayName: "&fSnow"
+    displayName: "&fTuyết"
     material: SNOW
     price: 6.62
     sell-price: 1.66
     max-stack: 64
   torch:
     slot: 30
-    displayName: "&fTorch"
+    displayName: "&fĐuốc"
     material: TORCH
     price: 1.54
     sell-price: 0.39
     max-stack: 64
   soul_torch:
     slot: 31
-    displayName: "&fSoul Torch"
+    displayName: "&fĐuốc Linh Hồn"
     material: SOUL_TORCH
     price: 4.16
     sell-price: 1.04
     max-stack: 64
   lantern:
     slot: 32
-    displayName: "&fLantern"
+    displayName: "&fĐèn Lồng"
     material: LANTERN
     price: 6.5
     sell-price: 1.63
     max-stack: 64
   soul_lantern:
     slot: 33
-    displayName: "&fSoul Lantern"
+    displayName: "&fĐèn Lồng Linh Hồn"
     material: SOUL_LANTERN
     price: 9.26
     sell-price: 2.32
     max-stack: 64
   campfire:
     slot: 34
-    displayName: "&fCampfire"
+    displayName: "&fLửa Trại"
     material: CAMPFIRE
     price: 16.79
     sell-price: 4.2
     max-stack: 64
   soul_campfire:
     slot: 35
-    displayName: "&fSoul Campfire"
+    displayName: "&fLửa Trại Linh Hồn"
     material: SOUL_CAMPFIRE
     price: 21.78
     sell-price: 5.45
     max-stack: 64
   scaffolding:
     slot: 36
-    displayName: "&fScaffolding"
+    displayName: "&fGiàn Giáo"
     material: SCAFFOLDING
     price: 1.33
     sell-price: 0.34
     max-stack: 64
   shears:
     slot: 37
-    displayName: "&fShears"
+    displayName: "&fKéo"
     material: SHEARS
     price: 11.58
     sell-price: 2.9
     max-stack: 64
   fishing_rod:
     slot: 38
-    displayName: "&fFishing Rod"
+    displayName: "&fCần Câu Cá"
     material: FISHING_ROD
     price: 16.53
     sell-price: 4.14
     max-stack: 64
   carrot_on_a_stick:
     slot: 39
-    displayName: "&fCarrot On A Stick"
+    displayName: "&fCà Rốt Trên Gậy"
     material: CARROT_ON_A_STICK
     price: 7.08
     sell-price: 1.77
     max-stack: 64
   warped_fungus_on_a_stick:
     slot: 40
-    displayName: "&fWarped Fungus On A Stick"
+    displayName: "&fNấm Xanh Trên Gậy"
     material: WARPED_FUNGUS_ON_A_STICK
     price: 23.65
     sell-price: 5.92
     max-stack: 64
   flint_and_steel:
     slot: 41
-    displayName: "&fFlint And Steel"
+    displayName: "&fĐá Lửa Và Thép"
     material: FLINT_AND_STEEL
     price: 7.89
     sell-price: 1.98
     max-stack: 64
   iron_bars:
     slot: 42
-    displayName: "&fIron Bars"
+    displayName: "&fSong Sắt"
     material: IRON_BARS
     price: 2.18
     sell-price: 0.55
     max-stack: 64
   chain:
     slot: 43
-    displayName: "&fChain"
+    displayName: "&fXích"
     material: CHAIN
     price: 7.02
     sell-price: 1.76
     max-stack: 64
   pointed_dripstone:
     slot: 44
-    displayName: "&fPointed Dripstone"
+    displayName: "&fMũi Đá Nhỏ Giọt"
     material: POINTED_DRIPSTONE
     price: 1
     sell-price: 0.25
     max-stack: 64
   heart_of_the_sea:
     slot: 45
-    displayName: "&fHeart Of The Sea"
+    displayName: "&fTrái Tim Biển"
     material: HEART_OF_THE_SEA
     price: 551.25
     sell-price: 137.82
     max-stack: 64
   nautilus_shell:
     slot: 46
-    displayName: "&fNautilus Shell"
+    displayName: "&fVỏ Ốc Anh Vũ"
     material: NAUTILUS_SHELL
     price: 180
     sell-price: 45
     max-stack: 64
   echo_shard:
     slot: 47
-    displayName: "&fEcho Shard"
+    displayName: "&fMảnh Tiếng Vọng"
     material: ECHO_SHARD
     price: 100
     sell-price: 25
     max-stack: 64
   bell:
     slot: 48
-    displayName: "&fBell"
+    displayName: "&fChuông"
     material: BELL
     price: 1000
     sell-price: 250
     max-stack: 64
   brush:
     slot: 49
-    displayName: "&fBrush"
+    displayName: "&fChổi"
     material: BRUSH
     price: 7.88
     sell-price: 1.97
     max-stack: 64
   anvil:
     slot: 50
-    displayName: "&fAnvil"
+    displayName: "&fĐe"
     material: ANVIL
     price: 187.25
     sell-price: 46.82
     max-stack: 64
   lodestone:
     slot: 51
-    displayName: "&fLodestone"
+    displayName: "&fĐá Từ"
     material: LODESTONE
     price: 650
     max-stack: 64
   respawn_anchor:
     slot: 52
-    displayName: "&fRespawn Anchor"
+    displayName: "&fMỏ Hồi Sinh"
     material: RESPAWN_ANCHOR
     price: 486.36
     sell-price: 121.59
@@ -378,7 +378,7 @@ items:
     max-stack: 64
   sculk_catalyst:
     slot: 54
-    displayName: "&fSculk Catalyst"
+    displayName: "&fChất Xúc Tác Sculk"
     material: SCULK_CATALYST
     price: 5000
     sell-price: 1250
@@ -392,42 +392,42 @@ items:
     max-stack: 64
   spyglass:
     slot: 56
-    displayName: "&fSpyglass"
+    displayName: "&fKính Viễn Vọng"
     material: SPYGLASS
     price: 3.31
     sell-price: 0.83
     max-stack: 64
   cobweb:
     slot: 57
-    displayName: "&fCobweb"
+    displayName: "&fMạng Nhện"
     material: COBWEB
     price: 40
     sell-price: 10
     max-stack: 64
   writable_book:
     slot: 58
-    displayName: "&fWritable Book"
+    displayName: "&fSách Viết Được"
     material: WRITABLE_BOOK
     price: 48.95
     sell-price: 12.24
     max-stack: 64
   turtle_egg:
     slot: 59
-    displayName: "&fTurtle Egg"
+    displayName: "&fTrứng Rùa"
     material: TURTLE_EGG
     price: 15
     sell-price: 3.75
     max-stack: 64
   sniffer_egg:
     slot: 60
-    displayName: "&fSniffer Egg"
+    displayName: "&fTrứng Sniffer"
     material: SNIFFER_EGG
     price: 23
     sell-price: 5.75
     max-stack: 64
   end_crystal:
     slot: 61
-    displayName: "&fEnd Crystal"
+    displayName: "&fPha Lê End"
     material: END_CRYSTAL
     price: 240000
     sell-price: 24.73

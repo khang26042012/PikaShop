@@ -63,7 +63,7 @@ public class ShopGui implements Listener {
             ItemMeta meta = icon.getItemMeta();
             if (meta != null) {
                 meta.setDisplayName(color(c.displayName));
-                meta.setLore(Arrays.asList(ChatColor.GRAY + "Nhan de xem gian hang",
+                meta.setLore(Arrays.asList(ChatColor.GRAY + "Nhấn để xem gian hàng",
                         ChatColor.DARK_GRAY + c.id));
                 icon.setItemMeta(meta);
             }
@@ -103,20 +103,20 @@ public class ShopGui implements Listener {
             if (meta != null) {
                 meta.setDisplayName(color(it.displayName));
                 List<String> lore = new ArrayList<>();
-                lore.add(ChatColor.WHITE + "Gia mua: " + ChatColor.GREEN + "$" + money(it.price));
+                lore.add(ChatColor.WHITE + "Giá mua: " + ChatColor.GREEN + "$" + money(it.price));
                 if (it.sellPrice > 0) {
-                    lore.add(ChatColor.WHITE + "Gia ban: " + ChatColor.GOLD + "$" + money(it.sellPrice));
+                    lore.add(ChatColor.WHITE + "Giá bán: " + ChatColor.GOLD + "$" + money(it.sellPrice));
                 }
-                lore.add(ChatColor.GRAY + "Nhan de chon so luong");
+                lore.add(ChatColor.GRAY + "Nhấn để chọn số lượng");
                 lore.add(ChatColor.DARK_GRAY + c.id + "/" + it.key);
                 meta.setLore(lore);
                 icon.setItemMeta(meta);
             }
             inv.setItem(i - from, icon);
         }
-        if (page > 0) inv.setItem(NAV_PREV, named(Material.ARROW, ChatColor.YELLOW + "TRANG TRUOC"));
+        if (page > 0) inv.setItem(NAV_PREV, named(Material.ARROW, ChatColor.YELLOW + "TRANG TRƯỚC"));
         if (page < pages - 1) inv.setItem(NAV_NEXT, named(Material.ARROW, ChatColor.YELLOW + "TRANG SAU"));
-        inv.setItem(NAV_BACK, named(Material.RED_STAINED_GLASS_PANE, ChatColor.RED + "QUAY LAI"));
+        inv.setItem(NAV_BACK, named(Material.RED_STAINED_GLASS_PANE, ChatColor.RED + "QUAY LẠI"));
         p.openInventory(inv);
     }
 
@@ -182,15 +182,15 @@ public class ShopGui implements Listener {
         if (meta != null) {
             meta.setDisplayName(color(it.displayName));
             List<String> lore = new ArrayList<>();
-            lore.add(ChatColor.WHITE + "So luong: " + ChatColor.YELLOW + pd.amount);
-            lore.add(ChatColor.WHITE + "Tong: " + ChatColor.GREEN + "$" + money(it.price * pd.amount));
+            lore.add(ChatColor.WHITE + "Số lượng: " + ChatColor.YELLOW + pd.amount);
+            lore.add(ChatColor.WHITE + "Tổng: " + ChatColor.GREEN + "$" + money(it.price * pd.amount));
             meta.setLore(lore);
             info.setItemMeta(meta);
         }
         info.setAmount(Math.max(1, Math.min(pd.amount, 64)));
         inv.setItem(INFO_SLOT, info);
-        inv.setItem(CONFIRM_SLOT, named(Material.LIME_STAINED_GLASS_PANE, ChatColor.GREEN + "XAC NHAN"));
-        inv.setItem(CANCEL_SLOT, named(Material.RED_STAINED_GLASS_PANE, ChatColor.RED + "HUY"));
+        inv.setItem(CONFIRM_SLOT, named(Material.LIME_STAINED_GLASS_PANE, ChatColor.GREEN + "XÁC NHẬN"));
+        inv.setItem(CANCEL_SLOT, named(Material.RED_STAINED_GLASS_PANE, ChatColor.RED + "HỦY"));
         p.openInventory(inv);
     }
 

@@ -46,8 +46,8 @@ public class ShardGui implements Listener {
             if (meta != null) {
                 meta.setDisplayName(color(e.name));
                 List<String> lore = new ArrayList<>();
-                lore.add(ChatColor.WHITE + "Gia: " + ChatColor.LIGHT_PURPLE + e.price + " shard");
-                lore.add(ChatColor.GRAY + "Nhan de mua");
+                lore.add(ChatColor.WHITE + "Giá: " + ChatColor.LIGHT_PURPLE + e.price + " shard");
+                lore.add(ChatColor.GRAY + "Nhấn để mua");
                 meta.setLore(lore);
                 it.setItemMeta(meta);
             }
@@ -84,7 +84,7 @@ public class ShardGui implements Listener {
             }
             inv.setItem(slot, head);
         }
-        if (pg > 0) inv.setItem(48, named(Material.ARROW, ChatColor.YELLOW + "Trang truoc"));
+        if (pg > 0) inv.setItem(48, named(Material.ARROW, ChatColor.YELLOW + "Trang trước"));
         if (pg < maxPage) inv.setItem(50, named(Material.ARROW, ChatColor.YELLOW + "Trang sau"));
         p.openInventory(inv);
     }
