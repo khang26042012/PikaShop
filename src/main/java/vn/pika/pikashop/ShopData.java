@@ -30,6 +30,10 @@ public class ShopData {
         public String displayName = "?";
         public Material material = Material.STONE;
         public double price = 0;
+        public double sellPrice = -1; // gia ban lai cho shop; -1 = khong ban duoc
+        public String potion = null; // FIRE_RESISTANCE... (POTION/SPLASH/LINGERING/TIPPED_ARROW)
+        public String enchant = null; // dang TEN:CAP (ENCHANTED_BOOK)
+        public String spawner = null; // EntityType (SPAWNER)
         public int maxStack = 64;
         public int slot = -1;
     }
@@ -81,6 +85,10 @@ public class ShopData {
             it.displayName = s.getString("displayName", key);
             it.material = match(s.getString("material", "STONE"));
             it.price = s.getDouble("price", 0);
+            it.sellPrice = s.getDouble("sell-price", -1);
+            it.potion = s.getString("potion", null);
+            it.enchant = s.getString("enchant", null);
+            it.spawner = s.getString("spawner", null);
             it.maxStack = Math.max(1, s.getInt("max-stack", it.material.getMaxStackSize()));
             it.slot = s.getInt("slot", -1);
             c.items.put(key, it);

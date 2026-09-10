@@ -1,0 +1,283 @@
+Title: "SHOP - STORAGE"
+Size: 54
+items:
+  chest:
+    slot: 0
+    displayName: "&fChest"
+    material: CHEST
+    price: 9.27
+    sell-price: 2.32
+    max-stack: 64
+  barrel:
+    slot: 1
+    displayName: "&fBarrel"
+    material: BARREL
+    price: 8.17
+    sell-price: 2.05
+    max-stack: 64
+  copper_chest:
+    slot: 2
+    displayName: "&fCopper Chest"
+    material: COPPER_CHEST
+    price: 19.2
+    sell-price: 5.82
+    max-stack: 64
+  ender_chest:
+    slot: 3
+    displayName: "&fEnder Chest"
+    material: ENDER_CHEST
+    price: 273.12
+    sell-price: 68.28
+    max-stack: 64
+  decorated_pot:
+    slot: 4
+    displayName: "&fDecorated Pot"
+    material: DECORATED_POT
+    price: 92.61
+    sell-price: 23.16
+    max-stack: 64
+  chiseled_bookshelf:
+    slot: 5
+    displayName: "&fChiseled Bookshelf"
+    material: CHISELED_BOOKSHELF
+    price: 8.77
+    sell-price: 2.2
+    max-stack: 64
+  cauldron:
+    slot: 6
+    displayName: "&fCauldron"
+    material: CAULDRON
+    price: 28.95
+    sell-price: 7.24
+    max-stack: 64
+  bundle:
+    slot: 7
+    displayName: "&fBundle"
+    material: BUNDLE
+    price: 252
+    sell-price: 5.2
+    max-stack: 64
+  white_bundle:
+    slot: 8
+    displayName: "&fWhite Bundle"
+    material: WHITE_BUNDLE
+    price: 253.5
+    sell-price: 5.35
+    max-stack: 64
+  light_gray_bundle:
+    slot: 9
+    displayName: "&fLight Gray Bundle"
+    material: LIGHT_GRAY_BUNDLE
+    price: 253
+    sell-price: 5.3
+    max-stack: 64
+  gray_bundle:
+    slot: 10
+    displayName: "&fGray Bundle"
+    material: GRAY_BUNDLE
+    price: 255.25
+    sell-price: 5.26
+    max-stack: 64
+  black_bundle:
+    slot: 11
+    displayName: "&fBlack Bundle"
+    material: BLACK_BUNDLE
+    price: 257
+    sell-price: 5.7
+    max-stack: 64
+  brown_bundle:
+    slot: 12
+    displayName: "&fBrown Bundle"
+    material: BROWN_BUNDLE
+    price: 254
+    sell-price: 5.4
+    max-stack: 64
+  red_bundle:
+    slot: 13
+    displayName: "&fRed Bundle"
+    material: RED_BUNDLE
+    price: 253
+    sell-price: 5.3
+    max-stack: 64
+  orange_bundle:
+    slot: 14
+    displayName: "&fOrange Bundle"
+    material: ORANGE_BUNDLE
+    price: 253
+    sell-price: 5.3
+    max-stack: 64
+  yellow_bundle:
+    slot: 15
+    displayName: "&fYellow Bundle"
+    material: YELLOW_BUNDLE
+    price: 252.67
+    sell-price: 5.27
+    max-stack: 64
+  lime_bundle:
+    slot: 16
+    displayName: "&fLime Bundle"
+    material: LIME_BUNDLE
+    price: 252.8
+    sell-price: 5.28
+    max-stack: 64
+  green_bundle:
+    slot: 17
+    displayName: "&fGreen Bundle"
+    material: GREEN_BUNDLE
+    price: 252.1
+    sell-price: 5.21
+    max-stack: 64
+  cyan_bundle:
+    slot: 18
+    displayName: "&fCyan Bundle"
+    material: CYAN_BUNDLE
+    price: 252.55
+    sell-price: 5.26
+    max-stack: 64
+  light_blue_bundle:
+    slot: 19
+    displayName: "&fLight Blue Bundle"
+    material: LIGHT_BLUE_BUNDLE
+    price: 253
+    sell-price: 5.3
+    max-stack: 64
+  blue_bundle:
+    slot: 20
+    displayName: "&fBlue Bundle"
+    material: BLUE_BUNDLE
+    price: 253
+    sell-price: 5.3
+    max-stack: 64
+  purple_bundle:
+    slot: 21
+    displayName: "&fPurple Bundle"
+    material: PURPLE_BUNDLE
+    price: 253
+    sell-price: 5.3
+    max-stack: 64
+  magenta_bundle:
+    slot: 22
+    displayName: "&fMagenta Bundle"
+    material: MAGENTA_BUNDLE
+    price: 253
+    sell-price: 5.3
+    max-stack: 64
+  pink_bundle:
+    slot: 23
+    displayName: "&fPink Bundle"
+    material: PINK_BUNDLE
+    price: 253
+    sell-price: 5.3
+    max-stack: 64
+  white_shulker_box:
+    slot: 24
+    displayName: "&fWhite Shulker Box"
+    material: WHITE_SHULKER_BOX
+    price: 521.5
+    sell-price: 6.84
+    max-stack: 64
+  light_gray_shulker_box:
+    slot: 25
+    displayName: "&fLight Gray Shulker Box"
+    material: LIGHT_GRAY_SHULKER_BOX
+    price: 521
+    sell-price: 6.69
+    max-stack: 64
+  gray_shulker_box:
+    slot: 26
+    displayName: "&fGray Shulker Box"
+    material: GRAY_SHULKER_BOX
+    price: 523.25
+    sell-price: 7.36
+    max-stack: 64
+  black_shulker_box:
+    slot: 27
+    displayName: "&fBlack Shulker Box"
+    material: BLACK_SHULKER_BOX
+    price: 525
+    sell-price: 7.79
+    max-stack: 64
+  brown_shulker_box:
+    slot: 28
+    displayName: "&fBrown Shulker Box"
+    material: BROWN_SHULKER_BOX
+    price: 522
+    sell-price: 8.07
+    max-stack: 64
+  red_shulker_box:
+    slot: 29
+    displayName: "&fRed Shulker Box"
+    material: RED_SHULKER_BOX
+    price: 521
+    sell-price: 6.69
+    max-stack: 64
+  orange_shulker_box:
+    slot: 30
+    displayName: "&fOrange Shulker Box"
+    material: ORANGE_SHULKER_BOX
+    price: 521
+    sell-price: 6.69
+    max-stack: 64
+  yellow_shulker_box:
+    slot: 31
+    displayName: "&fYellow Shulker Box"
+    material: YELLOW_SHULKER_BOX
+    price: 520.67
+    sell-price: 6.6
+    max-stack: 64
+  lime_shulker_box:
+    slot: 32
+    displayName: "&fLime Shulker Box"
+    material: LIME_SHULKER_BOX
+    price: 520.8
+    sell-price: 8.07
+    max-stack: 64
+  green_shulker_box:
+    slot: 33
+    displayName: "&fGreen Shulker Box"
+    material: GREEN_SHULKER_BOX
+    price: 520.1
+    sell-price: 6.44
+    max-stack: 64
+  cyan_shulker_box:
+    slot: 34
+    displayName: "&fCyan Shulker Box"
+    material: CYAN_SHULKER_BOX
+    price: 520.55
+    sell-price: 6.58
+    max-stack: 64
+  light_blue_shulker_box:
+    slot: 35
+    displayName: "&fLight Blue Shulker Box"
+    material: LIGHT_BLUE_SHULKER_BOX
+    price: 521
+    sell-price: 6.69
+    max-stack: 64
+  blue_shulker_box:
+    slot: 36
+    displayName: "&fBlue Shulker Box"
+    material: BLUE_SHULKER_BOX
+    price: 521
+    sell-price: 6.69
+    max-stack: 64
+  purple_shulker_box:
+    slot: 37
+    displayName: "&fPurple Shulker Box"
+    material: PURPLE_SHULKER_BOX
+    price: 521
+    sell-price: 6.71
+    max-stack: 64
+  magenta_shulker_box:
+    slot: 38
+    displayName: "&fMagenta Shulker Box"
+    material: MAGENTA_SHULKER_BOX
+    price: 521
+    sell-price: 6.69
+    max-stack: 64
+  pink_shulker_box:
+    slot: 39
+    displayName: "&fPink Shulker Box"
+    material: PINK_SHULKER_BOX
+    price: 521
+    sell-price: 6.69
+    max-stack: 64

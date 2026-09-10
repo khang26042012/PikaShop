@@ -73,8 +73,25 @@ public class SellData {
         plugin.getLogger().info("Nap " + categories.size() + " category sell, " + count + " muc gia.");
     }
 
-    /** Gia don vi co ban cua vat lieu, -1 neu khong ban duoc. */
+    /** Gia don vi co ban cua vat lieu, -1 neu khong ban duoc.
+     * Thu tu: shop categories (sell-price trong shop/*.yml, be tu Premium) truoc,
+     * roi moi toi bang multiplier rieng (sell/multiplier/*.yml). */
     public double unitPrice(Material m) {
+        return unitPrice(m, null);
+    }
+
+    public double unitPrice2(PikaShop plugin, Material m) {
+        return unitPrice(m, plugin);
+    }
+
+    public double unitPrice(Material m, PikaShop plugin) {
+        if (plugin != null) {
+            for (ShopData.Category c : plugin.shops().categories.values()) {
+                for (ShopData.ShopItem it : c.items.values()) {
+                    if (it.material == m && it.sellPrice > 0) return it.sellPrice;
+                }
+            }
+        }
         for (Category c : categories.values()) {
             Double p = c.prices.get(m);
             if (p != null) return p;
@@ -83,33 +100,40 @@ public class SellData {
     }
 
     /**
-     * Admin dat gia sell: ghi vao category dang co vat lieu, neu chua co thi vao ores.yml.
-     * Tra ve id category da ghi. Gia 0 = go khoi bang gia.
+     * Admin dat gia sell (/sellprice): ghi vao item shop dau tien co material nay
+     * (shop/categories/*.yml, field sell-price). Gia 0 = xoa (khong ban duoc).
+     * Tra ve id category shop da ghi; "?" neu material chua co trong shop.
      */
-    public String setPrice(Material m, double price) {
-        Category target = categoryOf(m);
-        if (target == null) {
-            target = categories.get("ores");
-            if (target == null && !categories.isEmpty()) {
-                target = categories.values().iterator().next();
+    public String setPrice(PikaShop plugin, Material m, double price) {
+        if (plugin != null) {
+            for (ShopData.Category c : plugin.shops().categories.values()) {
+                for (ShopData.ShopItem it : c.items.values()) {
+                    if (it.material == m) {
+                        java.io.File f = new java.io.File(plugin.getDataFolder(), "shop/categories/" + c.file);
+                        YamlConfiguration y = YamlConfiguration.loadConfiguration(f);
+                        String base = "items." + it.key;
+                        if (price == 0) {
+                            y.set(base + ".sell-price", null);
+                            it.sellPrice = -1;
+                        } else {
+                            y.set(base + ".sell-price", price);
+                            it.sellPrice = price;
+                        }
+                        try {
+                            y.save(f);
+                        } catch (java.io.IOException e) {
+                            // giu gia trong RAM du co loi ghi file
+                        }
+                        return c.id;
+                    }
+                }
             }
-            if (target == null) return "?";
         }
-        YamlConfiguration y = YamlConfiguration.loadConfiguration(target.file);
-        String base = "allowed-types." + m.name();
-        if (price == 0) {
-            y.set(base, null);
-            target.prices.remove(m);
-        } else {
-            y.set(base + ".price-per-unit", price);
-            target.prices.put(m, price);
-        }
-        try {
-            y.save(target.file);
-        } catch (java.io.IOException e) {
-            // giu gia trong RAM du co loi ghi file
-        }
-        return target.id;
+        return "?";
+    }
+
+    public String setPrice(Material m, double price) {
+        return "?";
     }
 
     /** Category chua vat lieu nay, null neu khong co. */

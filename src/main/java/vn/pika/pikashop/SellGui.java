@@ -78,7 +78,7 @@ public class SellGui implements Listener {
         if (e.getClick().isShiftClick() && e.getClickedInventory() != null
                 && e.getClickedInventory().equals(e.getView().getBottomInventory())) {
             ItemStack cur = e.getCurrentItem();
-            if (cur != null && !cur.getType().isAir() && plugin.sells().unitPrice(cur.getType()) < 0) {
+            if (cur != null && !cur.getType().isAir() && plugin.sells().unitPrice2(plugin, cur.getType()) < 0) {
                 e.setCancelled(true);
                 p.sendMessage(plugin.msg("messages.not-sellable"));
             }
@@ -135,7 +135,7 @@ public class SellGui implements Listener {
             ItemStack it = inv.getItem(i);
             if (it == null || it.getType().isAir()) continue;
             inv.setItem(i, null);
-            if (plugin.sells().unitPrice(it.getType()) < 0) {
+            if (plugin.sells().unitPrice2(plugin, it.getType()) < 0) {
                 unsellable.add(it);
             }
         }
@@ -206,7 +206,7 @@ public class SellGui implements Listener {
         for (int i = 0; i < SELL_ROWS * 9; i++) {
             ItemStack it = inv.getItem(i);
             if (it == null || it.getType().isAir()) continue;
-            double unit = plugin.sells().unitPrice(it.getType());
+            double unit = plugin.sells().unitPrice2(plugin, it.getType());
             if (unit < 0) continue;
             SellData.Category c = plugin.sells().categoryOf(it.getType());
             double line = unit * it.getAmount() * plugin.multi().factor(p.getUniqueId(), c);
@@ -237,7 +237,7 @@ public class SellGui implements Listener {
                 p.getWorld().dropItemNaturally(p.getLocation(), l);
             }
         }
-        if (!items.isEmpty() && items.stream().anyMatch(i -> plugin.sells().unitPrice(i.getType()) < 0)) {
+        if (!items.isEmpty() && items.stream().anyMatch(i -> plugin.sells().unitPrice2(plugin, i.getType()) < 0)) {
             // da bao rieng o settle; giu im lang o cancel
         }
     }
@@ -259,6 +259,111 @@ public class SellGui implements Listener {
         }
     }
 
+    /** /sell hand: ban vat dang cam. /sell all: quet toan tui (tru giap dang mac). */
+    public void sellHand(Player p) {
+        ItemStack hand = p.getInventory().getItemInMainHand();
+        if (hand == null || hand.getType().isAir()) {
+            p.sendMessage(plugin.msg("messages.worth-empty-hand"));
+            return;
+        }
+        double unit = plugin.sells().unitPrice2(plugin, hand.getType());
+        if (unit < 0) {
+            p.sendMessage(plugin.msg("messages.not-sellable"));
+            return;
+        }
+        SellData.Category c = plugin.sells().categoryOf(hand.getType());
+        double line = unit * hand.getAmount() * plugin.multi().factor(p.getUniqueId(), c);
+        if (!plugin.vault().ready()) {
+            p.sendMessage(plugin.msg("messages.no-economy"));
+            return;
+        }
+        p.getInventory().setItemInMainHand(null);
+        net.milkbowl.vault.economy.EconomyResponse dp = plugin.vault().get().depositPlayer(p, line);
+        if (dp == null || !dp.transactionSuccess()) {
+            p.getInventory().setItemInMainHand(hand);
+            p.sendMessage(plugin.msg("messages.no-economy"));
+            return;
+        }
+        plugin.store().addSale(p.getUniqueId(), hand.getType().name(), hand.getAmount(), line);
+        if (c != null) {
+            int before = plugin.multi().level(p.getUniqueId(), c.id);
+            plugin.store().addSpent(p.getUniqueId(), c.id, line);
+            int after = plugin.multi().level(p.getUniqueId(), c.id);
+            if (after > before) {
+                Map<String, String> lv = new HashMap<>();
+                lv.put("category", c.id);
+                lv.put("level", String.valueOf(after));
+                p.sendMessage(plugin.msg("messages.level-up", lv));
+            }
+        }
+        Map<String, String> ph = new HashMap<>();
+        ph.put("total", money(line));
+        ph.put("count", String.valueOf(hand.getAmount()));
+        p.sendMessage(plugin.msg("messages.sold-total", ph));
+    }
+
+    public void sellAll(Player p) {
+        List<ItemStack> sold = new ArrayList<>();
+        Map<ItemStack, Double> priced = new HashMap<>();
+        double total = 0;
+        int count = 0;
+        ItemStack[] armor = p.getInventory().getArmorContents();
+        java.util.Set<Material> armorTypes = new java.util.HashSet<>();
+        for (ItemStack a : armor) if (a != null && !a.getType().isAir()) armorTypes.add(a.getType());
+        for (int i = 0; i < p.getInventory().getStorageContents().length; i++) {
+            ItemStack it = p.getInventory().getStorageContents()[i];
+            if (it == null || it.getType().isAir()) continue;
+            if (armorTypes.contains(it.getType())) continue;
+            double unit = plugin.sells().unitPrice2(plugin, it.getType());
+            if (unit < 0) continue;
+            SellData.Category c = plugin.sells().categoryOf(it.getType());
+            double line = unit * it.getAmount() * plugin.multi().factor(p.getUniqueId(), c);
+            total += line;
+            count += it.getAmount();
+            ItemStack key = it.clone();
+            sold.add(key);
+            priced.put(key, line);
+            p.getInventory().clear(i);
+        }
+        if (total <= 0) {
+            p.sendMessage(plugin.msg("messages.sell-empty"));
+            return;
+        }
+        if (!plugin.vault().ready()) {
+            giveBack(p, sold);
+            p.sendMessage(plugin.msg("messages.no-economy"));
+            return;
+        }
+        net.milkbowl.vault.economy.EconomyResponse dp = plugin.vault().get().depositPlayer(p, total);
+        if (dp == null || !dp.transactionSuccess()) {
+            giveBack(p, sold);
+            p.sendMessage(plugin.msg("messages.no-economy"));
+            return;
+        }
+        Map<String, Double> spentByCat = new HashMap<>();
+        for (ItemStack it : sold) {
+            SellData.Category c = plugin.sells().categoryOf(it.getType());
+            double line = priced.get(it) != null ? priced.get(it) : 0.0;
+            plugin.store().addSale(p.getUniqueId(), it.getType().name(), it.getAmount(), line);
+            if (c != null) spentByCat.put(c.id, spentByCat.getOrDefault(c.id, 0.0) + line);
+        }
+        for (Map.Entry<String, Double> e : spentByCat.entrySet()) {
+            int before = plugin.multi().level(p.getUniqueId(), e.getKey());
+            plugin.store().addSpent(p.getUniqueId(), e.getKey(), e.getValue());
+            int after = plugin.multi().level(p.getUniqueId(), e.getKey());
+            if (after > before) {
+                Map<String, String> lv = new HashMap<>();
+                lv.put("category", e.getKey());
+                lv.put("level", String.valueOf(after));
+                p.sendMessage(plugin.msg("messages.level-up", lv));
+            }
+        }
+        Map<String, String> ph = new HashMap<>();
+        ph.put("total", money(total));
+        ph.put("count", String.valueOf(count));
+        p.sendMessage(plugin.msg("messages.sold-total", ph));
+    }
+
     /** /worth: xem gia do dang cam hoac tong tui. */
     public void showWorth(Player p, boolean all) {
         if (all) {
@@ -266,7 +371,7 @@ public class SellGui implements Listener {
             int count = 0;
             for (ItemStack it : p.getInventory().getStorageContents()) {
                 if (it == null || it.getType().isAir()) continue;
-                double unit = plugin.sells().unitPrice(it.getType());
+                double unit = plugin.sells().unitPrice2(plugin, it.getType());
                 if (unit < 0) continue;
                 total += unit * it.getAmount();
                 count += it.getAmount();
@@ -282,7 +387,7 @@ public class SellGui implements Listener {
             p.sendMessage(plugin.msg("messages.worth-empty-hand"));
             return;
         }
-        double unit = plugin.sells().unitPrice(hand.getType());
+        double unit = plugin.sells().unitPrice2(plugin, hand.getType());
         if (unit < 0) {
             p.sendMessage(plugin.msg("messages.not-sellable"));
             return;

@@ -1,24 +1,114 @@
-# Menu shop chinh PikaShop - 4 gian mac dinh theo DonutShop (end/nether/gear/food).
+# Menu shop chinh PikaShop - converted from EconomyShopGUI-Premium.
 Title: "SHOP"
-Size: 27
+Size: 54
 categories:
-  end:
-    displayName: "&aEND"
-    material: END_STONE
+  misc:
+    displayName: "&aMISC"
+    material: NAME_TAG
+    slot: 10
+    file: "misc.yml"
+  music:
+    displayName: "&aMUSIC"
+    material: MUSIC_DISC_11
     slot: 11
-    file: "end.yml"
-  nether:
-    displayName: "&aNETHER"
-    material: NETHERRACK
+    file: "music.yml"
+  resources:
+    displayName: "&aRESOURCES"
+    material: COPPER_BLOCK
     slot: 12
-    file: "nether.yml"
-  gear:
-    displayName: "&aGEAR"
-    material: TOTEM_OF_UNDYING
+    file: "resources.yml"
+  storage:
+    displayName: "&aSTORAGE"
+    material: CHEST
     slot: 13
-    file: "gear.yml"
+    file: "storage.yml"
+  everything-else:
+    displayName: "&aEVERYTHING ELSE"
+    material: BAMBOO_MOSAIC_SLAB
+    slot: 14
+    file: "everything-else.yml"
+  wood:
+    displayName: "&aWOOD"
+    material: OAK_WOOD
+    slot: 15
+    file: "wood.yml"
+  stone:
+    displayName: "&aSTONE"
+    material: STONE
+    slot: 16
+    file: "stone.yml"
+  natural:
+    displayName: "&aNATURAL"
+    material: DIRT
+    slot: 17
+    file: "natural.yml"
+  decorative-blocks:
+    displayName: "&aDECORATIVE BLOCKS"
+    material: GLASS
+    slot: 18
+    file: "decorative-blocks.yml"
+  weapons:
+    displayName: "&aWEAPONS"
+    material: WOODEN_SWORD
+    slot: 19
+    file: "weapons.yml"
+  armor:
+    displayName: "&aARMOR"
+    material: LEATHER_HELMET
+    slot: 20
+    file: "armor.yml"
+  tools:
+    displayName: "&aTOOLS"
+    material: WOODEN_PICKAXE
+    slot: 21
+    file: "tools.yml"
+  redstone:
+    displayName: "&aREDSTONE"
+    material: REDSTONE_TORCH
+    slot: 22
+    file: "redstone.yml"
+  decorative:
+    displayName: "&aDECORATIVE"
+    material: GLOW_LICHEN
+    slot: 23
+    file: "decorative.yml"
+  dyes:
+    displayName: "&aDYES"
+    material: WHITE_DYE
+    slot: 24
+    file: "dyes.yml"
+  crops:
+    displayName: "&aCROPS"
+    material: MELON
+    slot: 25
+    file: "crops.yml"
   food:
     displayName: "&aFOOD"
-    material: COOKED_BEEF
-    slot: 14
+    material: COOKIE
+    slot: 26
     file: "food.yml"
+  enchanting:
+    displayName: "&aENCHANTING"
+    material: ENCHANTED_BOOK
+    slot: 27
+    file: "enchanting.yml"
+  potions:
+    displayName: "&aPOTIONS"
+    material: POTION
+    slot: 28
+    file: "potions.yml"
+  mob-drops:
+    displayName: "&aMOB DROPS"
+    material: ROTTEN_FLESH
+    slot: 29
+    file: "mob-drops.yml"
+  spawn-eggs:
+    displayName: "&aSPAWN EGGS"
+    material: ALLAY_SPAWN_EGG
+    slot: 30
+    file: "spawn-eggs.yml"
+  spawners:
+    displayName: "&aSPAWNERS"
+    material: SPAWNER
+    slot: 31
+    file: "spawners.yml"

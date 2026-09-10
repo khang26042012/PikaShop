@@ -1,0 +1,213 @@
+Title: "SHOP - MUSIC"
+Size: 54
+items:
+  disc_11:
+    slot: 0
+    displayName: "&fMusic Disc 11"
+    material: MUSIC_DISC_11
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  disc_13:
+    slot: 1
+    displayName: "&fMusic Disc 13"
+    material: MUSIC_DISC_13
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  disc_5:
+    slot: 2
+    displayName: "&fMusic Disc 5"
+    material: MUSIC_DISC_5
+    price: 945
+    sell-price: 236.25
+    max-stack: 64
+  disc_blocks:
+    slot: 3
+    displayName: "&fMusic Disc Blocks"
+    material: MUSIC_DISC_BLOCKS
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  disc_cat:
+    slot: 4
+    displayName: "&fMusic Disc Cat"
+    material: MUSIC_DISC_CAT
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  disc_chirp:
+    slot: 5
+    displayName: "&fMusic Disc Chirp"
+    material: MUSIC_DISC_CHIRP
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  disc_creator:
+    slot: 6
+    displayName: "&fMusic Disc Creator"
+    material: MUSIC_DISC_CREATOR
+    price: 100
+    sell-price: 25
+    max-stack: 64
+  disc_creator_music_box:
+    slot: 7
+    displayName: "&fMusic Disc Creator Music Box"
+    material: MUSIC_DISC_CREATOR_MUSIC_BOX
+    price: 100
+    sell-price: 25
+    max-stack: 64
+  disc_far:
+    slot: 8
+    displayName: "&fMusic Disc Far"
+    material: MUSIC_DISC_FAR
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  disc_mall:
+    slot: 9
+    displayName: "&fMusic Disc Mall"
+    material: MUSIC_DISC_MALL
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  disc_mellohi:
+    slot: 10
+    displayName: "&fMusic Disc Mellohi"
+    material: MUSIC_DISC_MELLOHI
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  disc_otherside:
+    slot: 11
+    displayName: "&fMusic Disc Otherside"
+    material: MUSIC_DISC_OTHERSIDE
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  disc_pigstep:
+    slot: 12
+    displayName: "&fMusic Disc Pigstep"
+    material: MUSIC_DISC_PIGSTEP
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  disc_precipice:
+    slot: 13
+    displayName: "&fMusic Disc Precipice"
+    material: MUSIC_DISC_PRECIPICE
+    price: 100
+    sell-price: 25
+    max-stack: 64
+  disc_relic:
+    slot: 14
+    displayName: "&fMusic Disc Relic"
+    material: MUSIC_DISC_RELIC
+    price: 100
+    sell-price: 25
+    max-stack: 64
+  disc_stal:
+    slot: 15
+    displayName: "&fMusic Disc Stal"
+    material: MUSIC_DISC_STAL
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  disc_strad:
+    slot: 16
+    displayName: "&fMusic Disc Strad"
+    material: MUSIC_DISC_STRAD
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  disc_wait:
+    slot: 17
+    displayName: "&fMusic Disc Wait"
+    material: MUSIC_DISC_WAIT
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  disc_ward:
+    slot: 18
+    displayName: "&fMusic Disc Ward"
+    material: MUSIC_DISC_WARD
+    price: 75
+    sell-price: 18.75
+    max-stack: 64
+  horn_ponder:
+    slot: 19
+    displayName: "&fGoat Horn"
+    material: GOAT_HORN
+    price: 100
+    sell-price: 25
+    max-stack: 64
+  horn_admire:
+    slot: 20
+    displayName: "&fGoat Horn"
+    material: GOAT_HORN
+    price: 100
+    sell-price: 25
+    max-stack: 64
+  horn_call:
+    slot: 21
+    displayName: "&fGoat Horn"
+    material: GOAT_HORN
+    price: 100
+    sell-price: 25
+    max-stack: 64
+  horn_dream:
+    slot: 22
+    displayName: "&fGoat Horn"
+    material: GOAT_HORN
+    price: 100
+    sell-price: 25
+    max-stack: 64
+  horn_feel:
+    slot: 23
+    displayName: "&fGoat Horn"
+    material: GOAT_HORN
+    price: 100
+    sell-price: 25
+    max-stack: 64
+  horn_seek:
+    slot: 24
+    displayName: "&fGoat Horn"
+    material: GOAT_HORN
+    price: 100
+    sell-price: 25
+    max-stack: 64
+  horn_sing:
+    slot: 25
+    displayName: "&fGoat Horn"
+    material: GOAT_HORN
+    price: 100
+    sell-price: 25
+    max-stack: 64
+  horn_yearn:
+    slot: 26
+    displayName: "&fGoat Horn"
+    material: GOAT_HORN
+    price: 100
+    sell-price: 25
+    max-stack: 64
+  jukebox:
+    slot: 27
+    displayName: "&fJukebox"
+    material: JUKEBOX
+    price: 64.39
+    sell-price: 16.1
+    max-stack: 64
+  note_block:
+    slot: 28
+    displayName: "&fNote Block"
+    material: NOTE_BLOCK
+    price: 12.94
+    sell-price: 3.24
+    max-stack: 64
+  disc_fragment:
+    slot: 29
+    displayName: "&fDisc Fragment"
+    material: DISC_FRAGMENT
+    price: 100
+    sell-price: 25
+    max-stack: 64

@@ -1,0 +1,605 @@
+Title: "SHOP - DECORATIVE"
+Size: 54
+items:
+  glow_lichen:
+    slot: 0
+    displayName: "&fGlow Lichen"
+    material: GLOW_LICHEN
+    price: 1
+    sell-price: 0.25
+    max-stack: 64
+  twisting_vines:
+    slot: 1
+    displayName: "&fTwisting Vines"
+    material: TWISTING_VINES
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  vine:
+    slot: 2
+    displayName: "&fVine"
+    material: VINE
+    price: 7
+    sell-price: 1.75
+    max-stack: 64
+  weeping_vines:
+    slot: 3
+    displayName: "&fWeeping Vines"
+    material: WEEPING_VINES
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  big_dripleaf:
+    slot: 4
+    displayName: "&fBig Dripleaf"
+    material: BIG_DRIPLEAF
+    price: 10
+    sell-price: 2.5
+    max-stack: 64
+  small_dripleaf:
+    slot: 5
+    displayName: "&fSmall Dripleaf"
+    material: SMALL_DRIPLEAF
+    price: 10
+    sell-price: 2.5
+    max-stack: 64
+  spore_blossom:
+    slot: 6
+    displayName: "&fSpore Blossom"
+    material: SPORE_BLOSSOM
+    price: 3.5
+    sell-price: 0.88
+    max-stack: 64
+  flower_pot:
+    slot: 7
+    displayName: "&fFlower Pot"
+    material: FLOWER_POT
+    price: 69.46
+    sell-price: 17.37
+    max-stack: 64
+  azalea:
+    slot: 8
+    displayName: "&fAzalea"
+    material: AZALEA
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  flowering_azalea:
+    slot: 9
+    displayName: "&fFlowering Azalea"
+    material: FLOWERING_AZALEA
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  acacia_sapling:
+    slot: 10
+    displayName: "&fAcacia Sapling"
+    material: ACACIA_SAPLING
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  birch_sapling:
+    slot: 11
+    displayName: "&fBirch Sapling"
+    material: BIRCH_SAPLING
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  cherry_sapling:
+    slot: 12
+    displayName: "&fCherry Sapling"
+    material: CHERRY_SAPLING
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  dark_oak_sapling:
+    slot: 13
+    displayName: "&fDark Oak Sapling"
+    material: DARK_OAK_SAPLING
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  jungle_sapling:
+    slot: 14
+    displayName: "&fJungle Sapling"
+    material: JUNGLE_SAPLING
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  mangrove_propagule:
+    slot: 15
+    displayName: "&fMangrove Propagule"
+    material: MANGROVE_PROPAGULE
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  oak_sapling:
+    slot: 16
+    displayName: "&fOak Sapling"
+    material: OAK_SAPLING
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  spruce_sapling:
+    slot: 17
+    displayName: "&fSpruce Sapling"
+    material: SPRUCE_SAPLING
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  brain_coral:
+    slot: 18
+    displayName: "&fBrain Coral"
+    material: BRAIN_CORAL
+    price: 5
+    sell-price: 1.25
+    max-stack: 64
+  brain_coral_fan:
+    slot: 19
+    displayName: "&fBrain Coral Fan"
+    material: BRAIN_CORAL_FAN
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  bubble_coral:
+    slot: 20
+    displayName: "&fBubble Coral"
+    material: BUBBLE_CORAL
+    price: 5
+    sell-price: 1.25
+    max-stack: 64
+  bubble_coral_fan:
+    slot: 21
+    displayName: "&fBubble Coral Fan"
+    material: BUBBLE_CORAL_FAN
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  dead_brain_coral:
+    slot: 22
+    displayName: "&fDead Brain Coral"
+    material: DEAD_BRAIN_CORAL
+    price: 5
+    sell-price: 1.25
+    max-stack: 64
+  dead_brain_coral_fan:
+    slot: 23
+    displayName: "&fDead Brain Coral Fan"
+    material: DEAD_BRAIN_CORAL_FAN
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  dead_bubble_coral:
+    slot: 24
+    displayName: "&fDead Bubble Coral"
+    material: DEAD_BUBBLE_CORAL
+    price: 5
+    sell-price: 1.25
+    max-stack: 64
+  dead_bubble_coral_fan:
+    slot: 25
+    displayName: "&fDead Bubble Coral Fan"
+    material: DEAD_BUBBLE_CORAL_FAN
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  dead_fire_coral:
+    slot: 26
+    displayName: "&fDead Fire Coral"
+    material: DEAD_FIRE_CORAL
+    price: 5
+    sell-price: 1.25
+    max-stack: 64
+  dead_fire_coral_fan:
+    slot: 27
+    displayName: "&fDead Fire Coral Fan"
+    material: DEAD_FIRE_CORAL_FAN
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  dead_horn_coral:
+    slot: 28
+    displayName: "&fDead Horn Coral"
+    material: DEAD_HORN_CORAL
+    price: 5
+    sell-price: 1.25
+    max-stack: 64
+  dead_horn_coral_fan:
+    slot: 29
+    displayName: "&fDead Horn Coral Fan"
+    material: DEAD_HORN_CORAL_FAN
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  dead_tube_coral:
+    slot: 30
+    displayName: "&fDead Tube Coral"
+    material: DEAD_TUBE_CORAL
+    price: 5
+    sell-price: 1.25
+    max-stack: 64
+  dead_tube_coral_fan:
+    slot: 31
+    displayName: "&fDead Tube Coral Fan"
+    material: DEAD_TUBE_CORAL_FAN
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  fire_coral:
+    slot: 32
+    displayName: "&fFire Coral"
+    material: FIRE_CORAL
+    price: 5
+    sell-price: 1.25
+    max-stack: 64
+  fire_coral_fan:
+    slot: 33
+    displayName: "&fFire Coral Fan"
+    material: FIRE_CORAL_FAN
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  horn_coral:
+    slot: 34
+    displayName: "&fHorn Coral"
+    material: HORN_CORAL
+    price: 5
+    sell-price: 1.25
+    max-stack: 64
+  horn_coral_fan:
+    slot: 35
+    displayName: "&fHorn Coral Fan"
+    material: HORN_CORAL_FAN
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  tube_coral:
+    slot: 36
+    displayName: "&fTube Coral"
+    material: TUBE_CORAL
+    price: 5
+    sell-price: 1.25
+    max-stack: 64
+  tube_coral_fan:
+    slot: 37
+    displayName: "&fTube Coral Fan"
+    material: TUBE_CORAL_FAN
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  black_candle:
+    slot: 38
+    displayName: "&fBlack Candle"
+    material: BLACK_CANDLE
+    price: 16.71
+    sell-price: 4.18
+    max-stack: 64
+  blue_candle:
+    slot: 39
+    displayName: "&fBlue Candle"
+    material: BLUE_CANDLE
+    price: 12.3
+    sell-price: 3.08
+    max-stack: 64
+  brown_candle:
+    slot: 40
+    displayName: "&fBrown Candle"
+    material: BROWN_CANDLE
+    price: 17.81
+    sell-price: 4.46
+    max-stack: 64
+  candle:
+    slot: 41
+    displayName: "&fCandle"
+    material: CANDLE
+    price: 10.66
+    sell-price: 2.67
+    max-stack: 64
+  cyan_candle:
+    slot: 42
+    displayName: "&fCyan Candle"
+    material: CYAN_CANDLE
+    price: 11.83
+    sell-price: 2.96
+    max-stack: 64
+  gray_candle:
+    slot: 43
+    displayName: "&fGray Candle"
+    material: GRAY_CANDLE
+    price: 14.99
+    sell-price: 3.75
+    max-stack: 64
+  green_candle:
+    slot: 44
+    displayName: "&fGreen Candle"
+    material: GREEN_CANDLE
+    price: 11.31
+    sell-price: 2.83
+    max-stack: 64
+  light_blue_candle:
+    slot: 45
+    displayName: "&fLight Blue Candle"
+    material: LIGHT_BLUE_CANDLE
+    price: 12.3
+    sell-price: 3.08
+    max-stack: 64
+  light_gray_candle:
+    slot: 46
+    displayName: "&fLight Gray Candle"
+    material: LIGHT_GRAY_CANDLE
+    price: 12.3
+    sell-price: 3.08
+    max-stack: 64
+  lime_candle:
+    slot: 47
+    displayName: "&fLime Candle"
+    material: LIME_CANDLE
+    price: 17.81
+    sell-price: 4.46
+    max-stack: 64
+  magenta_candle:
+    slot: 48
+    displayName: "&fMagenta Candle"
+    material: MAGENTA_CANDLE
+    price: 12.3
+    sell-price: 3.08
+    max-stack: 64
+  orange_candle:
+    slot: 49
+    displayName: "&fOrange Candle"
+    material: ORANGE_CANDLE
+    price: 12.3
+    sell-price: 3.08
+    max-stack: 64
+  pink_candle:
+    slot: 50
+    displayName: "&fPink Candle"
+    material: PINK_CANDLE
+    price: 12.3
+    sell-price: 3.08
+    max-stack: 64
+  purple_candle:
+    slot: 51
+    displayName: "&fPurple Candle"
+    material: PURPLE_CANDLE
+    price: 12.35
+    sell-price: 3.09
+    max-stack: 64
+  red_candle:
+    slot: 52
+    displayName: "&fRed Candle"
+    material: RED_CANDLE
+    price: 12.3
+    sell-price: 3.08
+    max-stack: 64
+  white_candle:
+    slot: 53
+    displayName: "&fWhite Candle"
+    material: WHITE_CANDLE
+    price: 12.9
+    sell-price: 3.23
+    max-stack: 64
+  yellow_candle:
+    slot: 54
+    displayName: "&fYellow Candle"
+    material: YELLOW_CANDLE
+    price: 11.93
+    sell-price: 2.99
+    max-stack: 64
+  creeper_banner_pattern:
+    slot: 55
+    displayName: "&fCreeper Banner Pattern"
+    material: CREEPER_BANNER_PATTERN
+    price: 630.12
+    sell-price: 157.53
+    max-stack: 64
+  flow_banner_pattern:
+    slot: 56
+    displayName: "&fFlow Banner Pattern"
+    material: FLOW_BANNER_PATTERN
+    price: 1200
+    sell-price: 300
+    max-stack: 64
+  flower_banner_pattern:
+    slot: 57
+    displayName: "&fFlower Banner Pattern"
+    material: FLOWER_BANNER_PATTERN
+    price: 1.17
+    sell-price: 0.3
+    max-stack: 64
+  globe_banner_pattern:
+    slot: 58
+    displayName: "&fGlobe Banner Pattern"
+    material: GLOBE_BANNER_PATTERN
+    price: 330.75
+    sell-price: 82.69
+    max-stack: 64
+  guster_banner_pattern:
+    slot: 59
+    displayName: "&fGuster Banner Pattern"
+    material: GUSTER_BANNER_PATTERN
+    price: 800
+    sell-price: 200
+    max-stack: 64
+  mojang_banner_pattern:
+    slot: 60
+    displayName: "&fMojang Banner Pattern"
+    material: MOJANG_BANNER_PATTERN
+    price: 10500.12
+    sell-price: 2625.03
+    max-stack: 64
+  piglin_banner_pattern:
+    slot: 61
+    displayName: "&fPiglin Banner Pattern"
+    material: PIGLIN_BANNER_PATTERN
+    price: 10000
+    sell-price: 2500
+    max-stack: 64
+  skull_banner_pattern:
+    slot: 62
+    displayName: "&fSkull Banner Pattern"
+    material: SKULL_BANNER_PATTERN
+    price: 1050.12
+    sell-price: 262.53
+    max-stack: 64
+  angler_pottery_sherd:
+    slot: 63
+    displayName: "&fAngler Pottery Sherd"
+    material: ANGLER_POTTERY_SHERD
+    price: 29.91
+    sell-price: 7.48
+    max-stack: 64
+  archer_pottery_sherd:
+    slot: 64
+    displayName: "&fArcher Pottery Sherd"
+    material: ARCHER_POTTERY_SHERD
+    price: 28.05
+    sell-price: 7.02
+    max-stack: 64
+  arms_up_pottery_sherd:
+    slot: 65
+    displayName: "&fArms Up Pottery Sherd"
+    material: ARMS_UP_POTTERY_SHERD
+    price: 24.04
+    sell-price: 6.01
+    max-stack: 64
+  blade_pottery_sherd:
+    slot: 66
+    displayName: "&fBlade Pottery Sherd"
+    material: BLADE_POTTERY_SHERD
+    price: 29.91
+    sell-price: 7.48
+    max-stack: 64
+  brewer_pottery_sherd:
+    slot: 67
+    displayName: "&fBrewer Pottery Sherd"
+    material: BREWER_POTTERY_SHERD
+    price: 24.04
+    sell-price: 6.01
+    max-stack: 64
+  burn_pottery_sherd:
+    slot: 68
+    displayName: "&fBurn Pottery Sherd"
+    material: BURN_POTTERY_SHERD
+    price: 29.39
+    sell-price: 7.35
+    max-stack: 64
+  danger_pottery_sherd:
+    slot: 69
+    displayName: "&fDanger Pottery Sherd"
+    material: DANGER_POTTERY_SHERD
+    price: 29.39
+    sell-price: 7.35
+    max-stack: 64
+  explorer_pottery_sherd:
+    slot: 70
+    displayName: "&fExplorer Pottery Sherd"
+    material: EXPLORER_POTTERY_SHERD
+    price: 29.91
+    sell-price: 7.48
+    max-stack: 64
+  flow_pottery_sherd:
+    slot: 71
+    displayName: "&fFlow Pottery Sherd"
+    material: FLOW_POTTERY_SHERD
+    price: 32.05
+    sell-price: 8.02
+    max-stack: 64
+  friend_pottery_sherd:
+    slot: 72
+    displayName: "&fFriend Pottery Sherd"
+    material: FRIEND_POTTERY_SHERD
+    price: 29.39
+    sell-price: 7.35
+    max-stack: 64
+  guster_pottery_sherd:
+    slot: 73
+    displayName: "&fGuster Pottery Sherd"
+    material: GUSTER_POTTERY_SHERD
+    price: 32.05
+    sell-price: 8.02
+    max-stack: 64
+  heart_pottery_sherd:
+    slot: 74
+    displayName: "&fHeart Pottery Sherd"
+    material: HEART_POTTERY_SHERD
+    price: 29.39
+    sell-price: 7.35
+    max-stack: 64
+  heartbreak_pottery_sherd:
+    slot: 75
+    displayName: "&fHeartbreak Pottery Sherd"
+    material: HEARTBREAK_POTTERY_SHERD
+    price: 29.39
+    sell-price: 7.35
+    max-stack: 64
+  howl_pottery_sherd:
+    slot: 76
+    displayName: "&fHowl Pottery Sherd"
+    material: HOWL_POTTERY_SHERD
+    price: 29.39
+    sell-price: 7.35
+    max-stack: 64
+  miner_pottery_sherd:
+    slot: 77
+    displayName: "&fMiner Pottery Sherd"
+    material: MINER_POTTERY_SHERD
+    price: 28.05
+    sell-price: 7.02
+    max-stack: 64
+  mourner_pottery_sherd:
+    slot: 78
+    displayName: "&fMourner Pottery Sherd"
+    material: MOURNER_POTTERY_SHERD
+    price: 29.91
+    sell-price: 7.48
+    max-stack: 64
+  plenty_pottery_sherd:
+    slot: 79
+    displayName: "&fPlenty Pottery Sherd"
+    material: PLENTY_POTTERY_SHERD
+    price: 29.91
+    sell-price: 7.48
+    max-stack: 64
+  prize_pottery_sherd:
+    slot: 80
+    displayName: "&fPrize Pottery Sherd"
+    material: PRIZE_POTTERY_SHERD
+    price: 28.05
+    sell-price: 7.02
+    max-stack: 64
+  scrape_pottery_sherd:
+    slot: 81
+    displayName: "&fScrape Pottery Sherd"
+    material: SCRAPE_POTTERY_SHERD
+    price: 32.05
+    sell-price: 8.02
+    max-stack: 64
+  sheaf_pottery_sherd:
+    slot: 82
+    displayName: "&fSheaf Pottery Sherd"
+    material: SHEAF_POTTERY_SHERD
+    price: 29.39
+    sell-price: 7.35
+    max-stack: 64
+  shelter_pottery_sherd:
+    slot: 83
+    displayName: "&fShelter Pottery Sherd"
+    material: SHELTER_POTTERY_SHERD
+    price: 29.91
+    sell-price: 7.48
+    max-stack: 64
+  skull_pottery_sherd:
+    slot: 84
+    displayName: "&fSkull Pottery Sherd"
+    material: SKULL_POTTERY_SHERD
+    price: 28.05
+    sell-price: 7.02
+    max-stack: 64
+  snort_pottery_sherd:
+    slot: 85
+    displayName: "&fSnort Pottery Sherd"
+    material: SNORT_POTTERY_SHERD
+    price: 29.91
+    sell-price: 7.48
+    max-stack: 64

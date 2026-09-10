@@ -1,0 +1,528 @@
+Title: "SHOP - NATURAL"
+Size: 54
+items:
+  dirt:
+    slot: 0
+    displayName: "&fDirt"
+    material: DIRT
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  coarse_dirt:
+    slot: 1
+    displayName: "&fCoarse Dirt"
+    material: COARSE_DIRT
+    price: 5.78
+    sell-price: 1.45
+    max-stack: 64
+  rooted_dirt:
+    slot: 2
+    displayName: "&fRooted Dirt"
+    material: ROOTED_DIRT
+    price: 1
+    sell-price: 0.25
+    max-stack: 64
+  grass_block:
+    slot: 3
+    displayName: "&fGrass Block"
+    material: GRASS_BLOCK
+    price: 8
+    sell-price: 2
+    max-stack: 64
+  moss_block:
+    slot: 4
+    displayName: "&fMoss Block"
+    material: MOSS_BLOCK
+    price: 1
+    sell-price: 0.25
+    max-stack: 64
+  podzol:
+    slot: 5
+    displayName: "&fPodzol"
+    material: PODZOL
+    price: 8
+    sell-price: 2
+    max-stack: 64
+  mycelium:
+    slot: 6
+    displayName: "&fMycelium"
+    material: MYCELIUM
+    price: 8
+    sell-price: 2
+    max-stack: 64
+  sand:
+    slot: 7
+    displayName: "&fSand"
+    material: SAND
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  red_sand:
+    slot: 8
+    displayName: "&fRed Sand"
+    material: RED_SAND
+    price: 8
+    sell-price: 2
+    max-stack: 64
+  gravel:
+    slot: 9
+    displayName: "&fGravel"
+    material: GRAVEL
+    price: 8
+    sell-price: 2
+    max-stack: 64
+  clay:
+    slot: 10
+    displayName: "&fClay"
+    material: CLAY
+    price: 21
+    sell-price: 5.25
+    max-stack: 64
+  mud:
+    slot: 11
+    displayName: "&fMud"
+    material: MUD
+    price: 3.19
+    sell-price: 0.8
+    max-stack: 64
+  packed_mud:
+    slot: 12
+    displayName: "&fPacked Mud"
+    material: PACKED_MUD
+    price: 8.6
+    sell-price: 2.15
+    max-stack: 64
+  mud_bricks:
+    slot: 13
+    displayName: "&fMud Bricks"
+    material: MUD_BRICKS
+    price: 9.03
+    sell-price: 2.26
+    max-stack: 64
+  mud_brick_stairs:
+    slot: 14
+    displayName: "&fMud Brick Stairs"
+    material: MUD_BRICK_STAIRS
+    price: 9.48
+    sell-price: 2.37
+    max-stack: 64
+  mud_brick_slab:
+    slot: 15
+    displayName: "&fMud Brick Slab"
+    material: MUD_BRICK_SLAB
+    price: 4.74
+    sell-price: 1.19
+    max-stack: 64
+  crying_obsidian:
+    slot: 16
+    displayName: "&fCrying Obsidian"
+    material: CRYING_OBSIDIAN
+    price: 62.5
+    sell-price: 15.63
+    max-stack: 64
+  obsidian:
+    slot: 17
+    displayName: "&fObsidian"
+    material: OBSIDIAN
+    price: 31.25
+    sell-price: 7.82
+    max-stack: 64
+  netherrack:
+    slot: 18
+    displayName: "&fNetherrack"
+    material: NETHERRACK
+    price: 0.2
+    sell-price: 0.05
+    max-stack: 64
+  crimson_nylium:
+    slot: 19
+    displayName: "&fCrimson Nylium"
+    material: CRIMSON_NYLIUM
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  warped_nylium:
+    slot: 20
+    displayName: "&fWarped Nylium"
+    material: WARPED_NYLIUM
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  soul_sand:
+    slot: 21
+    displayName: "&fSoul Sand"
+    material: SOUL_SAND
+    price: 10
+    sell-price: 2.5
+    max-stack: 64
+  soul_soil:
+    slot: 22
+    displayName: "&fSoul Soil"
+    material: SOUL_SOIL
+    price: 10
+    sell-price: 2.5
+    max-stack: 64
+  ice:
+    slot: 23
+    displayName: "&fIce"
+    material: ICE
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  packed_ice:
+    slot: 24
+    displayName: "&fPacked Ice"
+    material: PACKED_ICE
+    price: 13.5
+    sell-price: 3.38
+    max-stack: 64
+  blue_ice:
+    slot: 25
+    displayName: "&fBlue Ice"
+    material: BLUE_ICE
+    price: 60.75
+    sell-price: 15.19
+    max-stack: 64
+  sea_lantern:
+    slot: 26
+    displayName: "&fSea Lantern"
+    material: SEA_LANTERN
+    price: 66.15
+    sell-price: 16.54
+    max-stack: 64
+  snow_block:
+    slot: 27
+    displayName: "&fSnow Block"
+    material: SNOW_BLOCK
+    price: 12.6
+    sell-price: 3.15
+    max-stack: 64
+  ochre_froglight:
+    slot: 28
+    displayName: "&fOchre Froglight"
+    material: OCHRE_FROGLIGHT
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  pearlescent_froglight:
+    slot: 29
+    displayName: "&fPearlescent Froglight"
+    material: PEARLESCENT_FROGLIGHT
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  verdant_froglight:
+    slot: 30
+    displayName: "&fVerdant Froglight"
+    material: VERDANT_FROGLIGHT
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  mangrove_roots:
+    slot: 31
+    displayName: "&fMangrove Roots"
+    material: MANGROVE_ROOTS
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  muddy_mangrove_roots:
+    slot: 32
+    displayName: "&fMuddy Mangrove Roots"
+    material: MUDDY_MANGROVE_ROOTS
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  acacia_leaves:
+    slot: 33
+    displayName: "&fAcacia Leaves"
+    material: ACACIA_LEAVES
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  azalea_leaves:
+    slot: 34
+    displayName: "&fAzalea Leaves"
+    material: AZALEA_LEAVES
+    price: 3.15
+    sell-price: 0.79
+    max-stack: 64
+  birch_leaves:
+    slot: 35
+    displayName: "&fBirch Leaves"
+    material: BIRCH_LEAVES
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  cherry_leaves:
+    slot: 36
+    displayName: "&fCherry Leaves"
+    material: CHERRY_LEAVES
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  dark_oak_leaves:
+    slot: 37
+    displayName: "&fDark Oak Leaves"
+    material: DARK_OAK_LEAVES
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  flowering_azalea_leaves:
+    slot: 38
+    displayName: "&fFlowering Azalea Leaves"
+    material: FLOWERING_AZALEA_LEAVES
+    price: 3.15
+    sell-price: 0.79
+    max-stack: 64
+  jungle_leaves:
+    slot: 39
+    displayName: "&fJungle Leaves"
+    material: JUNGLE_LEAVES
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  oak_leaves:
+    slot: 40
+    displayName: "&fOak Leaves"
+    material: OAK_LEAVES
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  spruce_leaves:
+    slot: 41
+    displayName: "&fSpruce Leaves"
+    material: SPRUCE_LEAVES
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  mangrove_leaves:
+    slot: 42
+    displayName: "&fMangrove Leaves"
+    material: MANGROVE_LEAVES
+    price: 3
+    sell-price: 0.75
+    max-stack: 64
+  dripstone_block:
+    slot: 43
+    displayName: "&fDripstone Block"
+    material: DRIPSTONE_BLOCK
+    price: 1
+    sell-price: 0.25
+    max-stack: 64
+  sponge:
+    slot: 44
+    displayName: "&fSponge"
+    material: SPONGE
+    price: 525
+    sell-price: 131.25
+    max-stack: 64
+  slime_block:
+    slot: 45
+    displayName: "&fSlime Block"
+    material: SLIME_BLOCK
+    price: 47.25
+    sell-price: 11.82
+    max-stack: 64
+  honey_block:
+    slot: 46
+    displayName: "&fHoney Block"
+    material: HONEY_BLOCK
+    price: 33.34
+    sell-price: 8.34
+    max-stack: 64
+  honeycomb_block:
+    slot: 47
+    displayName: "&fHoneycomb Block"
+    material: HONEYCOMB_BLOCK
+    price: 13.23
+    sell-price: 3.31
+    max-stack: 64
+  magma_block:
+    slot: 48
+    displayName: "&fMagma Block"
+    material: MAGMA_BLOCK
+    price: 33.63
+    sell-price: 8.41
+    max-stack: 64
+  resin_bricks:
+    slot: 49
+    displayName: "&fResin Bricks"
+    material: RESIN_BRICKS
+    price: 16.16
+    sell-price: 1.62
+    max-stack: 64
+  resin_brick_stairs:
+    slot: 50
+    displayName: "&fResin Brick Stairs"
+    material: RESIN_BRICK_STAIRS
+    price: 16.16
+    sell-price: 1.62
+    max-stack: 64
+  resin_brick_slab:
+    slot: 51
+    displayName: "&fResin Brick Slab"
+    material: RESIN_BRICK_SLAB
+    price: 16.16
+    sell-price: 1.62
+    max-stack: 64
+  chiseled_sandstone:
+    slot: 52
+    displayName: "&fChiseled Sandstone"
+    material: CHISELED_SANDSTONE
+    price: 12.6
+    sell-price: 3.15
+    max-stack: 64
+  sandstone:
+    slot: 53
+    displayName: "&fSandstone"
+    material: SANDSTONE
+    price: 12
+    sell-price: 3
+    max-stack: 64
+  sandstone_stairs:
+    slot: 54
+    displayName: "&fSandstone Stairs"
+    material: SANDSTONE_STAIRS
+    price: 12.6
+    sell-price: 3.15
+    max-stack: 64
+  sandstone_slab:
+    slot: 55
+    displayName: "&fSandstone Slab"
+    material: SANDSTONE_SLAB
+    price: 6.3
+    sell-price: 1.58
+    max-stack: 64
+  smooth_sandstone:
+    slot: 56
+    displayName: "&fSmooth Sandstone"
+    material: SMOOTH_SANDSTONE
+    price: 12.6
+    sell-price: 3.15
+    max-stack: 64
+  smooth_sandstone_stairs:
+    slot: 57
+    displayName: "&fSmooth Sandstone Stairs"
+    material: SMOOTH_SANDSTONE_STAIRS
+    price: 13.23
+    sell-price: 3.31
+    max-stack: 64
+  smooth_sandstone_slab:
+    slot: 58
+    displayName: "&fSmooth Sandstone Slab"
+    material: SMOOTH_SANDSTONE_SLAB
+    price: 6.62
+    sell-price: 1.66
+    max-stack: 64
+  chiseled_red_sandstone:
+    slot: 59
+    displayName: "&fChiseled Red Sandstone"
+    material: CHISELED_RED_SANDSTONE
+    price: 35.28
+    sell-price: 8.82
+    max-stack: 64
+  red_sandstone:
+    slot: 60
+    displayName: "&fRed Sandstone"
+    material: RED_SANDSTONE
+    price: 33.6
+    sell-price: 8.4
+    max-stack: 64
+  red_sandstone_stairs:
+    slot: 61
+    displayName: "&fRed Sandstone Stairs"
+    material: RED_SANDSTONE_STAIRS
+    price: 35.28
+    sell-price: 8.82
+    max-stack: 64
+  red_sandstone_slab:
+    slot: 62
+    displayName: "&fRed Sandstone Slab"
+    material: RED_SANDSTONE_SLAB
+    price: 17.64
+    sell-price: 4.41
+    max-stack: 64
+  smooth_red_sandstone:
+    slot: 63
+    displayName: "&fSmooth Red Sandstone"
+    material: SMOOTH_RED_SANDSTONE
+    price: 35.28
+    sell-price: 8.82
+    max-stack: 64
+  smooth_red_sandstone_stairs:
+    slot: 64
+    displayName: "&fSmooth Red Sandstone Stairs"
+    material: SMOOTH_RED_SANDSTONE_STAIRS
+    price: 37.05
+    sell-price: 9.27
+    max-stack: 64
+  smooth_red_sandstone_slab:
+    slot: 65
+    displayName: "&fSmooth Red Sandstone Slab"
+    material: SMOOTH_RED_SANDSTONE_SLAB
+    price: 18.53
+    sell-price: 4.64
+    max-stack: 64
+  prismarine:
+    slot: 66
+    displayName: "&fPrismarine"
+    material: PRISMARINE
+    price: 29.4
+    sell-price: 7.35
+    max-stack: 64
+  prismarine_stairs:
+    slot: 67
+    displayName: "&fPrismarine Stairs"
+    material: PRISMARINE_STAIRS
+    price: 30.87
+    sell-price: 7.72
+    max-stack: 64
+  prismarine_slab:
+    slot: 68
+    displayName: "&fPrismarine Slab"
+    material: PRISMARINE_SLAB
+    price: 15.44
+    sell-price: 3.86
+    max-stack: 64
+  prismarine_bricks:
+    slot: 69
+    displayName: "&fPrismarine Bricks"
+    material: PRISMARINE_BRICKS
+    price: 66.15
+    sell-price: 16.54
+    max-stack: 64
+  prismarine_brick_stairs:
+    slot: 70
+    displayName: "&fPrismarine Brick Stairs"
+    material: PRISMARINE_BRICK_STAIRS
+    price: 69.46
+    sell-price: 17.37
+    max-stack: 64
+  prismarine_brick_slab:
+    slot: 71
+    displayName: "&fPrismarine Brick Slab"
+    material: PRISMARINE_BRICK_SLAB
+    price: 34.73
+    sell-price: 8.69
+    max-stack: 64
+  dark_prismarine:
+    slot: 72
+    displayName: "&fDark Prismarine"
+    material: DARK_PRISMARINE
+    price: 64.05
+    sell-price: 16.02
+    max-stack: 64
+  dark_prismarine_stairs:
+    slot: 73
+    displayName: "&fDark Prismarine Stairs"
+    material: DARK_PRISMARINE_STAIRS
+    price: 67.26
+    sell-price: 16.82
+    max-stack: 64
+  dark_prismarine_slab:
+    slot: 74
+    displayName: "&fDark Prismarine Slab"
+    material: DARK_PRISMARINE_SLAB
+    price: 33.63
+    sell-price: 8.41
+    max-stack: 64

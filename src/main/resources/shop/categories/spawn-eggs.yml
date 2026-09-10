@@ -1,0 +1,465 @@
+Title: "SHOP - SPAWN EGGS"
+Size: 54
+items:
+  allay_spawn_egg:
+    slot: 0
+    displayName: "&fAllay Spawn Egg"
+    material: ALLAY_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  armadillo_spawn_egg:
+    slot: 1
+    displayName: "&fArmadillo Spawn Egg"
+    material: ARMADILLO_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  axolotl_spawn_egg:
+    slot: 2
+    displayName: "&fAxolotl Spawn Egg"
+    material: AXOLOTL_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  bat_spawn_egg:
+    slot: 3
+    displayName: "&fBat Spawn Egg"
+    material: BAT_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  blaze_spawn_egg:
+    slot: 4
+    displayName: "&fBlaze Spawn Egg"
+    material: BLAZE_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  bogged_spawn_egg:
+    slot: 5
+    displayName: "&fBogged Spawn Egg"
+    material: BOGGED_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  breeze_spawn_egg:
+    slot: 6
+    displayName: "&fBreeze Spawn Egg"
+    material: BREEZE_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  camel_spawn_egg:
+    slot: 7
+    displayName: "&fCamel Spawn Egg"
+    material: CAMEL_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  cat_spawn_egg:
+    slot: 8
+    displayName: "&fCat Spawn Egg"
+    material: CAT_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  cave_spider_spawn_egg:
+    slot: 9
+    displayName: "&fCave Spider Spawn Egg"
+    material: CAVE_SPIDER_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  chicken_spawn_egg:
+    slot: 10
+    displayName: "&fChicken Spawn Egg"
+    material: CHICKEN_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  cod_spawn_egg:
+    slot: 11
+    displayName: "&fCod Spawn Egg"
+    material: COD_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  cow_spawn_egg:
+    slot: 12
+    displayName: "&fCow Spawn Egg"
+    material: COW_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  creeper_spawn_egg:
+    slot: 13
+    displayName: "&fCreeper Spawn Egg"
+    material: CREEPER_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  dolphin_spawn_egg:
+    slot: 14
+    displayName: "&fDolphin Spawn Egg"
+    material: DOLPHIN_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  donkey_spawn_egg:
+    slot: 15
+    displayName: "&fDonkey Spawn Egg"
+    material: DONKEY_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  drowned_spawn_egg:
+    slot: 16
+    displayName: "&fDrowned Spawn Egg"
+    material: DROWNED_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  elder_guardian_spawn_egg:
+    slot: 17
+    displayName: "&fElder Guardian Spawn Egg"
+    material: ELDER_GUARDIAN_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  enderman_spawn_egg:
+    slot: 18
+    displayName: "&fEnderman Spawn Egg"
+    material: ENDERMAN_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  endermite_spawn_egg:
+    slot: 19
+    displayName: "&fEndermite Spawn Egg"
+    material: ENDERMITE_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  evoker_spawn_egg:
+    slot: 20
+    displayName: "&fEvoker Spawn Egg"
+    material: EVOKER_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  fox_spawn_egg:
+    slot: 21
+    displayName: "&fFox Spawn Egg"
+    material: FOX_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  frog_spawn_egg:
+    slot: 22
+    displayName: "&fFrog Spawn Egg"
+    material: FROG_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  ghast_spawn_egg:
+    slot: 23
+    displayName: "&fGhast Spawn Egg"
+    material: GHAST_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  glow_squid_spawn_egg:
+    slot: 24
+    displayName: "&fGlow Squid Spawn Egg"
+    material: GLOW_SQUID_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  goat_spawn_egg:
+    slot: 25
+    displayName: "&fGoat Spawn Egg"
+    material: GOAT_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  guardian_spawn_egg:
+    slot: 26
+    displayName: "&fGuardian Spawn Egg"
+    material: GUARDIAN_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  hoglin_spawn_egg:
+    slot: 27
+    displayName: "&fHoglin Spawn Egg"
+    material: HOGLIN_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  horse_spawn_egg:
+    slot: 28
+    displayName: "&fHorse Spawn Egg"
+    material: HORSE_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  husk_spawn_egg:
+    slot: 29
+    displayName: "&fHusk Spawn Egg"
+    material: HUSK_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  iron_golem_spawn_egg:
+    slot: 30
+    displayName: "&fIron Golem Spawn Egg"
+    material: IRON_GOLEM_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  llama_spawn_egg:
+    slot: 31
+    displayName: "&fLlama Spawn Egg"
+    material: LLAMA_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  magma_cube_spawn_egg:
+    slot: 32
+    displayName: "&fMagma Cube Spawn Egg"
+    material: MAGMA_CUBE_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  mooshroom_spawn_egg:
+    slot: 33
+    displayName: "&fMooshroom Spawn Egg"
+    material: MOOSHROOM_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  mule_spawn_egg:
+    slot: 34
+    displayName: "&fMule Spawn Egg"
+    material: MULE_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  ocelot_spawn_egg:
+    slot: 35
+    displayName: "&fOcelot Spawn Egg"
+    material: OCELOT_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  panda_spawn_egg:
+    slot: 36
+    displayName: "&fPanda Spawn Egg"
+    material: PANDA_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  parrot_spawn_egg:
+    slot: 37
+    displayName: "&fParrot Spawn Egg"
+    material: PARROT_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  phantom_spawn_egg:
+    slot: 38
+    displayName: "&fPhantom Spawn Egg"
+    material: PHANTOM_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  pig_spawn_egg:
+    slot: 39
+    displayName: "&fPig Spawn Egg"
+    material: PIG_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  piglin_brute_spawn_egg:
+    slot: 40
+    displayName: "&fPiglin Brute Spawn Egg"
+    material: PIGLIN_BRUTE_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  piglin_spawn_egg:
+    slot: 41
+    displayName: "&fPiglin Spawn Egg"
+    material: PIGLIN_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  pillager_spawn_egg:
+    slot: 42
+    displayName: "&fPillager Spawn Egg"
+    material: PILLAGER_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  polar_bear_spawn_egg:
+    slot: 43
+    displayName: "&fPolar Bear Spawn Egg"
+    material: POLAR_BEAR_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  pufferfish_spawn_egg:
+    slot: 44
+    displayName: "&fPufferfish Spawn Egg"
+    material: PUFFERFISH_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  rabbit_spawn_egg:
+    slot: 45
+    displayName: "&fRabbit Spawn Egg"
+    material: RABBIT_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  ravager_spawn_egg:
+    slot: 46
+    displayName: "&fRavager Spawn Egg"
+    material: RAVAGER_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  salmon_spawn_egg:
+    slot: 47
+    displayName: "&fSalmon Spawn Egg"
+    material: SALMON_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  sheep_spawn_egg:
+    slot: 48
+    displayName: "&fSheep Spawn Egg"
+    material: SHEEP_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  shulker_spawn_egg:
+    slot: 49
+    displayName: "&fShulker Spawn Egg"
+    material: SHULKER_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  silverfish_spawn_egg:
+    slot: 50
+    displayName: "&fSilverfish Spawn Egg"
+    material: SILVERFISH_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  skeleton_horse_spawn_egg:
+    slot: 51
+    displayName: "&fSkeleton Horse Spawn Egg"
+    material: SKELETON_HORSE_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  skeleton_spawn_egg:
+    slot: 52
+    displayName: "&fSkeleton Spawn Egg"
+    material: SKELETON_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  slime_spawn_egg:
+    slot: 53
+    displayName: "&fSlime Spawn Egg"
+    material: SLIME_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  sniffer_spawn_egg:
+    slot: 54
+    displayName: "&fSniffer Spawn Egg"
+    material: SNIFFER_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  snow_golem_spawn_egg:
+    slot: 55
+    displayName: "&fSnow Golem Spawn Egg"
+    material: SNOW_GOLEM_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  spider_spawn_egg:
+    slot: 56
+    displayName: "&fSpider Spawn Egg"
+    material: SPIDER_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  squid_spawn_egg:
+    slot: 57
+    displayName: "&fSquid Spawn Egg"
+    material: SQUID_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  stray_spawn_egg:
+    slot: 58
+    displayName: "&fStray Spawn Egg"
+    material: STRAY_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  strider_spawn_egg:
+    slot: 59
+    displayName: "&fStrider Spawn Egg"
+    material: STRIDER_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  tadpole_spawn_egg:
+    slot: 60
+    displayName: "&fTadpole Spawn Egg"
+    material: TADPOLE_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  trader_llama_spawn_egg:
+    slot: 61
+    displayName: "&fTrader Llama Spawn Egg"
+    material: TRADER_LLAMA_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  tropical_fish_spawn_egg:
+    slot: 62
+    displayName: "&fTropical Fish Spawn Egg"
+    material: TROPICAL_FISH_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  turtle_spawn_egg:
+    slot: 63
+    displayName: "&fTurtle Spawn Egg"
+    material: TURTLE_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  vex_spawn_egg:
+    slot: 64
+    displayName: "&fVex Spawn Egg"
+    material: VEX_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  villager_spawn_egg:
+    slot: 65
+    displayName: "&fVillager Spawn Egg"
+    material: VILLAGER_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  vindicator_spawn_egg:
+    slot: 66
+    displayName: "&fVindicator Spawn Egg"
+    material: VINDICATOR_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  wandering_trader_spawn_egg:
+    slot: 67
+    displayName: "&fWandering Trader Spawn Egg"
+    material: WANDERING_TRADER_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  warden_spawn_egg:
+    slot: 68
+    displayName: "&fWarden Spawn Egg"
+    material: WARDEN_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  witch_spawn_egg:
+    slot: 69
+    displayName: "&fWitch Spawn Egg"
+    material: WITCH_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  wither_skeleton_spawn_egg:
+    slot: 70
+    displayName: "&fWither Skeleton Spawn Egg"
+    material: WITHER_SKELETON_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  wolf_spawn_egg:
+    slot: 71
+    displayName: "&fWolf Spawn Egg"
+    material: WOLF_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  zoglin_spawn_egg:
+    slot: 72
+    displayName: "&fZoglin Spawn Egg"
+    material: ZOGLIN_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  zombie_horse_spawn_egg:
+    slot: 73
+    displayName: "&fZombie Horse Spawn Egg"
+    material: ZOMBIE_HORSE_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  zombie_spawn_egg:
+    slot: 74
+    displayName: "&fZombie Spawn Egg"
+    material: ZOMBIE_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  zombie_villager_spawn_egg:
+    slot: 75
+    displayName: "&fZombie Villager Spawn Egg"
+    material: ZOMBIE_VILLAGER_SPAWN_EGG
+    price: 999999999
+    max-stack: 64
+  zombified_piglin_spawn_egg:
+    slot: 76
+    displayName: "&fZombified Piglin Spawn Egg"
+    material: ZOMBIFIED_PIGLIN_SPAWN_EGG
+    price: 999999999
+    max-stack: 64

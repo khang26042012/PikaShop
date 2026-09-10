@@ -1,0 +1,347 @@
+Title: SHOP - ENCHANTING
+Size: 54
+items:
+  water_worker:
+    slot: 0
+    displayName: '&bWater Worker 1'
+    material: ENCHANTED_BOOK
+    price: 160
+    sell-price: 40
+    max-stack: 64
+    enchant: WATER_WORKER:1
+  damage_arthropods:
+    slot: 1
+    displayName: '&bDamage Arthropods 5'
+    material: ENCHANTED_BOOK
+    price: 1944.81
+    sell-price: 486.21
+    max-stack: 64
+    enchant: DAMAGE_ARTHROPODS:5
+  binding_curse:
+    slot: 2
+    displayName: '&bBinding Curse 1'
+    material: ENCHANTED_BOOK
+    price: 200
+    sell-price: 50
+    max-stack: 64
+    enchant: BINDING_CURSE:1
+  breach:
+    slot: 3
+    displayName: '&bBreach 4'
+    material: ENCHANTED_BOOK
+    price: 1852.2
+    sell-price: 463.05
+    max-stack: 64
+    enchant: BREACH:4
+  protection_explosions:
+    slot: 4
+    displayName: '&bProtection Explosions 4'
+    material: ENCHANTED_BOOK
+    price: 1481.76
+    sell-price: 370.44
+    max-stack: 64
+    enchant: PROTECTION_EXPLOSIONS:4
+  channeling:
+    slot: 5
+    displayName: '&bChanneling 1'
+    material: ENCHANTED_BOOK
+    price: 200
+    sell-price: 50
+    max-stack: 64
+    enchant: CHANNELING:1
+  density:
+    slot: 6
+    displayName: '&bDensity 5'
+    material: ENCHANTED_BOOK
+    price: 3889.62
+    sell-price: 972.41
+    max-stack: 64
+    enchant: DENSITY:5
+  depth_strider:
+    slot: 7
+    displayName: '&bDepth Strider 3'
+    material: ENCHANTED_BOOK
+    price: 705.6
+    sell-price: 176.4
+    max-stack: 64
+    enchant: DEPTH_STRIDER:3
+  dig_speed:
+    slot: 8
+    displayName: '&bDig Speed 5'
+    material: ENCHANTED_BOOK
+    price: 972.41
+    sell-price: 243.11
+    max-stack: 64
+    enchant: DIG_SPEED:5
+  protection_fall:
+    slot: 9
+    displayName: '&bProtection Fall 4'
+    material: ENCHANTED_BOOK
+    price: 926.1
+    sell-price: 231.53
+    max-stack: 64
+    enchant: PROTECTION_FALL:4
+  fire_aspect:
+    slot: 10
+    displayName: '&bFire Aspect 2'
+    material: ENCHANTED_BOOK
+    price: 336
+    sell-price: 84
+    max-stack: 64
+    enchant: FIRE_ASPECT:2
+  protection_fire:
+    slot: 11
+    displayName: '&bProtection Fire 4'
+    material: ENCHANTED_BOOK
+    price: 926.1
+    sell-price: 231.53
+    max-stack: 64
+    enchant: PROTECTION_FIRE:4
+  arrow_fire:
+    slot: 12
+    displayName: '&bArrow Fire 1'
+    material: ENCHANTED_BOOK
+    price: 160
+    sell-price: 40
+    max-stack: 64
+    enchant: ARROW_FIRE:1
+  loot_bonus_blocks:
+    slot: 13
+    displayName: '&bLoot Bonus Blocks 3'
+    material: ENCHANTED_BOOK
+    price: 705.6
+    sell-price: 176.4
+    max-stack: 64
+    enchant: LOOT_BONUS_BLOCKS:3
+  frost_walker:
+    slot: 14
+    displayName: '&bFrost Walker 2'
+    material: ENCHANTED_BOOK
+    price: 336
+    sell-price: 84
+    max-stack: 64
+    enchant: FROST_WALKER:2
+  impaling:
+    slot: 15
+    displayName: '&bImpaling 5'
+    material: ENCHANTED_BOOK
+    price: 3111.7
+    sell-price: 777.93
+    max-stack: 64
+    enchant: IMPALING:5
+  arrow_infinite:
+    slot: 16
+    displayName: '&bArrow Infinite 1'
+    material: ENCHANTED_BOOK
+    price: 200
+    sell-price: 50
+    max-stack: 64
+    enchant: ARROW_INFINITE:1
+  knockback:
+    slot: 17
+    displayName: '&bKnockback 2'
+    material: ENCHANTED_BOOK
+    price: 210
+    sell-price: 52.5
+    max-stack: 64
+    enchant: KNOCKBACK:2
+  loot_bonus_mobs:
+    slot: 18
+    displayName: '&bLoot Bonus Mobs 3'
+    material: ENCHANTED_BOOK
+    price: 705.6
+    sell-price: 176.4
+    max-stack: 64
+    enchant: LOOT_BONUS_MOBS:3
+  loyalty:
+    slot: 19
+    displayName: '&bLoyalty 3'
+    material: ENCHANTED_BOOK
+    price: 441
+    sell-price: 110.25
+    max-stack: 64
+    enchant: LOYALTY:3
+  luck:
+    slot: 20
+    displayName: '&bLuck 3'
+    material: ENCHANTED_BOOK
+    price: 705.6
+    sell-price: 176.4
+    max-stack: 64
+    enchant: LUCK:3
+  lure:
+    slot: 21
+    displayName: '&bLure 3'
+    material: ENCHANTED_BOOK
+    price: 705.6
+    sell-price: 176.4
+    max-stack: 64
+    enchant: LURE:3
+  mending:
+    slot: 22
+    displayName: '&bMending 1'
+    material: ENCHANTED_BOOK
+    price: 160
+    sell-price: 40
+    max-stack: 64
+    enchant: MENDING:1
+  multishot:
+    slot: 23
+    displayName: '&bMultishot 1'
+    material: ENCHANTED_BOOK
+    price: 160
+    sell-price: 40
+    max-stack: 64
+    enchant: MULTISHOT:1
+  piercing:
+    slot: 24
+    displayName: '&bPiercing 4'
+    material: ENCHANTED_BOOK
+    price: 463.05
+    sell-price: 115.77
+    max-stack: 64
+    enchant: PIERCING:4
+  arrow_damage:
+    slot: 25
+    displayName: '&bArrow Damage 5'
+    material: ENCHANTED_BOOK
+    price: 972.41
+    sell-price: 243.11
+    max-stack: 64
+    enchant: ARROW_DAMAGE:5
+  protection_projectile:
+    slot: 26
+    displayName: '&bProtection Projectile 4'
+    material: ENCHANTED_BOOK
+    price: 926.1
+    sell-price: 231.53
+    max-stack: 64
+    enchant: PROTECTION_PROJECTILE:4
+  protection_environmental:
+    slot: 27
+    displayName: '&bProtection Environmental 4'
+    material: ENCHANTED_BOOK
+    price: 463.05
+    sell-price: 115.77
+    max-stack: 64
+    enchant: PROTECTION_ENVIRONMENTAL:4
+  arrow_knockback:
+    slot: 28
+    displayName: '&bArrow Knockback 2'
+    material: ENCHANTED_BOOK
+    price: 336
+    sell-price: 84
+    max-stack: 64
+    enchant: ARROW_KNOCKBACK:2
+  quick_charge:
+    slot: 29
+    displayName: '&bQuick Charge 3'
+    material: ENCHANTED_BOOK
+    price: 441
+    sell-price: 110.25
+    max-stack: 64
+    enchant: QUICK_CHARGE:3
+  oxygen:
+    slot: 30
+    displayName: '&bOxygen 3'
+    material: ENCHANTED_BOOK
+    price: 705.6
+    sell-price: 176.4
+    max-stack: 64
+    enchant: OXYGEN:3
+  riptide:
+    slot: 31
+    displayName: '&bRiptide 3'
+    material: ENCHANTED_BOOK
+    price: 705.6
+    sell-price: 176.4
+    max-stack: 64
+    enchant: RIPTIDE:3
+  damage_all:
+    slot: 32
+    displayName: '&bDamage All 5'
+    material: ENCHANTED_BOOK
+    price: 972.41
+    sell-price: 243.11
+    max-stack: 64
+    enchant: DAMAGE_ALL:5
+  silk_touch:
+    slot: 33
+    displayName: '&bSilk Touch 1'
+    material: ENCHANTED_BOOK
+    price: 200
+    sell-price: 50
+    max-stack: 64
+    enchant: SILK_TOUCH:1
+  damage_undead:
+    slot: 34
+    displayName: '&bDamage Undead 5'
+    material: ENCHANTED_BOOK
+    price: 1944.81
+    sell-price: 486.21
+    max-stack: 64
+    enchant: DAMAGE_UNDEAD:5
+  soul_speed:
+    slot: 35
+    displayName: '&bSoul Speed 3'
+    material: ENCHANTED_BOOK
+    price: 1102.5
+    sell-price: 275.63
+    max-stack: 64
+    enchant: SOUL_SPEED:3
+  sweeping_edge:
+    slot: 36
+    displayName: '&bSweeping Edge 3'
+    material: ENCHANTED_BOOK
+    price: 705.6
+    sell-price: 176.4
+    max-stack: 64
+    enchant: SWEEPING_EDGE:3
+  swift_sneak:
+    slot: 37
+    displayName: '&bSwift Sneak 3'
+    material: ENCHANTED_BOOK
+    price: 275.63
+    sell-price: 68.91
+    max-stack: 64
+    enchant: SWIFT_SNEAK:3
+  thorns:
+    slot: 38
+    displayName: '&bThorns 3'
+    material: ENCHANTED_BOOK
+    price: 882
+    sell-price: 220.5
+    max-stack: 64
+    enchant: THORNS:3
+  durability:
+    slot: 39
+    displayName: '&bDurability 3'
+    material: ENCHANTED_BOOK
+    price: 441
+    sell-price: 110.25
+    max-stack: 64
+    enchant: DURABILITY:3
+  vanishing_curse:
+    slot: 40
+    displayName: '&bVanishing Curse 1'
+    material: ENCHANTED_BOOK
+    price: 200
+    sell-price: 50
+    max-stack: 64
+    enchant: VANISHING_CURSE:1
+  wind_burst:
+    slot: 41
+    displayName: '&bWind Burst 3'
+    material: ENCHANTED_BOOK
+    price: 24255
+    sell-price: 6063.75
+    max-stack: 64
+    enchant: WIND_BURST:3
+  lunge:
+    slot: 42
+    displayName: '&bLunge 3'
+    material: ENCHANTED_BOOK
+    price: 18020
+    sell-price: 4450
+    max-stack: 64
+    enchant: LUNGE:3

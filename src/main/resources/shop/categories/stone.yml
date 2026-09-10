@@ -1,0 +1,647 @@
+Title: "SHOP - STONE"
+Size: 54
+items:
+  stone:
+    slot: 0
+    displayName: "&fStone"
+    material: STONE
+    price: 0.72
+    sell-price: 0.18
+    max-stack: 64
+  stone_stairs:
+    slot: 1
+    displayName: "&fStone Stairs"
+    material: STONE_STAIRS
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  stone_slab:
+    slot: 2
+    displayName: "&fStone Slab"
+    material: STONE_SLAB
+    price: 0.38
+    sell-price: 0.1
+    max-stack: 64
+  smooth_stone:
+    slot: 3
+    displayName: "&fSmooth Stone"
+    material: SMOOTH_STONE
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  smooth_stone_slab:
+    slot: 4
+    displayName: "&fSmooth Stone Slab"
+    material: SMOOTH_STONE_SLAB
+    price: 0.4
+    sell-price: 0.1
+    max-stack: 64
+  cobblestone:
+    slot: 5
+    displayName: "&fCobblestone"
+    material: COBBLESTONE
+    price: 0.68
+    sell-price: 0.17
+    max-stack: 64
+  cobblestone_stairs:
+    slot: 6
+    displayName: "&fCobblestone Stairs"
+    material: COBBLESTONE_STAIRS
+    price: 0.72
+    sell-price: 0.18
+    max-stack: 64
+  cobblestone_slab:
+    slot: 7
+    displayName: "&fCobblestone Slab"
+    material: COBBLESTONE_SLAB
+    price: 0.36
+    sell-price: 0.09
+    max-stack: 64
+  mossy_cobblestone:
+    slot: 8
+    displayName: "&fMossy Cobblestone"
+    material: MOSSY_COBBLESTONE
+    price: 7.57
+    sell-price: 1.52
+    max-stack: 64
+  mossy_cobblestone_stairs:
+    slot: 9
+    displayName: "&fMossy Cobblestone Stairs"
+    material: MOSSY_COBBLESTONE_STAIRS
+    price: 7.97
+    sell-price: 1.62
+    max-stack: 64
+  mossy_cobblestone_slab:
+    slot: 10
+    displayName: "&fMossy Cobblestone Slab"
+    material: MOSSY_COBBLESTONE_SLAB
+    price: 3.74
+    sell-price: 0.56
+    max-stack: 64
+  stone_bricks:
+    slot: 11
+    displayName: "&fStone Bricks"
+    material: STONE_BRICKS
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  stone_brick_stairs:
+    slot: 12
+    displayName: "&fStone Brick Stairs"
+    material: STONE_BRICK_STAIRS
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  stone_brick_slab:
+    slot: 13
+    displayName: "&fStone Brick Slab"
+    material: STONE_BRICK_SLAB
+    price: 0.38
+    sell-price: 0.1
+    max-stack: 64
+  mossy_stone_bricks:
+    slot: 14
+    displayName: "&fMossy Stone Bricks"
+    material: MOSSY_STONE_BRICKS
+    price: 7.64
+    sell-price: 1.54
+    max-stack: 64
+  mossy_stone_brick_stairs:
+    slot: 15
+    displayName: "&fMossy Stone Brick Stairs"
+    material: MOSSY_STONE_BRICK_STAIRS
+    price: 8.05
+    sell-price: 1.64
+    max-stack: 64
+  mossy_stone_brick_slab:
+    slot: 16
+    displayName: "&fMossy Stone Brick Slab"
+    material: MOSSY_STONE_BRICK_SLAB
+    price: 0.4
+    sell-price: 0.1
+    max-stack: 64
+  cracked_stone_bricks:
+    slot: 17
+    displayName: "&fCracked Stone Bricks"
+    material: CRACKED_STONE_BRICKS
+    price: 0.79
+    sell-price: 0.2
+    max-stack: 64
+  chiseled_stone_bricks:
+    slot: 18
+    displayName: "&fChiseled Stone Bricks"
+    material: CHISELED_STONE_BRICKS
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  andesite:
+    slot: 19
+    displayName: "&fAndesite"
+    material: ANDESITE
+    price: 0.72
+    sell-price: 0.18
+    max-stack: 64
+  andesite_stairs:
+    slot: 20
+    displayName: "&fAndesite Stairs"
+    material: ANDESITE_STAIRS
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  andesite_slab:
+    slot: 21
+    displayName: "&fAndesite Slab"
+    material: ANDESITE_SLAB
+    price: 0.38
+    sell-price: 0.1
+    max-stack: 64
+  polished_andesite:
+    slot: 22
+    displayName: "&fPolished Andesite"
+    material: POLISHED_ANDESITE
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  polished_andesite_stairs:
+    slot: 23
+    displayName: "&fPolished Andesite Stairs"
+    material: POLISHED_ANDESITE_STAIRS
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  polished_andesite_slab:
+    slot: 24
+    displayName: "&fPolished Andesite Slab"
+    material: POLISHED_ANDESITE_SLAB
+    price: 0.38
+    sell-price: 0.1
+    max-stack: 64
+  diorite:
+    slot: 25
+    displayName: "&fDiorite"
+    material: DIORITE
+    price: 0.72
+    sell-price: 0.18
+    max-stack: 64
+  diorite_stairs:
+    slot: 26
+    displayName: "&fDiorite Stairs"
+    material: DIORITE_STAIRS
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  diorite_slab:
+    slot: 27
+    displayName: "&fDiorite Slab"
+    material: DIORITE_SLAB
+    price: 0.38
+    sell-price: 0.1
+    max-stack: 64
+  polished_diorite:
+    slot: 28
+    displayName: "&fPolished Diorite"
+    material: POLISHED_DIORITE
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  polished_diorite_stairs:
+    slot: 29
+    displayName: "&fPolished Diorite Stairs"
+    material: POLISHED_DIORITE_STAIRS
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  polished_diorite_slab:
+    slot: 30
+    displayName: "&fPolished Diorite Slab"
+    material: POLISHED_DIORITE_SLAB
+    price: 0.38
+    sell-price: 0.1
+    max-stack: 64
+  granite:
+    slot: 31
+    displayName: "&fGranite"
+    material: GRANITE
+    price: 0.72
+    sell-price: 0.18
+    max-stack: 64
+  granite_stairs:
+    slot: 32
+    displayName: "&fGranite Stairs"
+    material: GRANITE_STAIRS
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  granite_slab:
+    slot: 33
+    displayName: "&fGranite Slab"
+    material: GRANITE_SLAB
+    price: 0.38
+    sell-price: 0.1
+    max-stack: 64
+  polished_granite:
+    slot: 34
+    displayName: "&fPolished Granite"
+    material: POLISHED_GRANITE
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  polished_granite_stairs:
+    slot: 35
+    displayName: "&fPolished Granite Stairs"
+    material: POLISHED_GRANITE_STAIRS
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  polished_granite_slab:
+    slot: 36
+    displayName: "&fPolished Granite Slab"
+    material: POLISHED_GRANITE_SLAB
+    price: 0.38
+    sell-price: 0.1
+    max-stack: 64
+  deepslate:
+    slot: 37
+    displayName: "&fDeepslate"
+    material: DEEPSLATE
+    price: 0.72
+    sell-price: 0.18
+    max-stack: 64
+  cobbled_deepslate:
+    slot: 38
+    displayName: "&fCobbled Deepslate"
+    material: COBBLED_DEEPSLATE
+    price: 0.68
+    sell-price: 0.17
+    max-stack: 64
+  cobbled_deepslate_stairs:
+    slot: 39
+    displayName: "&fCobbled Deepslate Stairs"
+    material: COBBLED_DEEPSLATE_STAIRS
+    price: 0.72
+    sell-price: 0.18
+    max-stack: 64
+  cobbled_deepslate_slab:
+    slot: 40
+    displayName: "&fCobbled Deepslate Slab"
+    material: COBBLED_DEEPSLATE_SLAB
+    price: 0.36
+    sell-price: 0.09
+    max-stack: 64
+  deepslate_bricks:
+    slot: 41
+    displayName: "&fDeepslate Bricks"
+    material: DEEPSLATE_BRICKS
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  deepslate_brick_stairs:
+    slot: 42
+    displayName: "&fDeepslate Brick Stairs"
+    material: DEEPSLATE_BRICK_STAIRS
+    price: 0.79
+    sell-price: 0.2
+    max-stack: 64
+  deepslate_brick_slab:
+    slot: 43
+    displayName: "&fDeepslate Brick Slab"
+    material: DEEPSLATE_BRICK_SLAB
+    price: 0.4
+    sell-price: 0.1
+    max-stack: 64
+  deepslate_tiles:
+    slot: 44
+    displayName: "&fDeepslate Tiles"
+    material: DEEPSLATE_TILES
+    price: 0.79
+    sell-price: 0.2
+    max-stack: 64
+  deepslate_tile_stairs:
+    slot: 45
+    displayName: "&fDeepslate Tile Stairs"
+    material: DEEPSLATE_TILE_STAIRS
+    price: 0.83
+    sell-price: 0.21
+    max-stack: 64
+  deepslate_tile_slab:
+    slot: 46
+    displayName: "&fDeepslate Tile Slab"
+    material: DEEPSLATE_TILE_SLAB
+    price: 0.42
+    sell-price: 0.11
+    max-stack: 64
+  chiseled_deepslate:
+    slot: 47
+    displayName: "&fChiseled Deepslate"
+    material: CHISELED_DEEPSLATE
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  cracked_deepslate_bricks:
+    slot: 48
+    displayName: "&fCracked Deepslate Bricks"
+    material: CRACKED_DEEPSLATE_BRICKS
+    price: 0.79
+    sell-price: 0.2
+    max-stack: 64
+  cracked_deepslate_tiles:
+    slot: 49
+    displayName: "&fCracked Deepslate Tiles"
+    material: CRACKED_DEEPSLATE_TILES
+    price: 0.83
+    sell-price: 0.21
+    max-stack: 64
+  blackstone:
+    slot: 50
+    displayName: "&fBlackstone"
+    material: BLACKSTONE
+    price: 0.75
+    sell-price: 0.19
+    max-stack: 64
+  blackstone_stairs:
+    slot: 51
+    displayName: "&fBlackstone Stairs"
+    material: BLACKSTONE_STAIRS
+    price: 0.79
+    sell-price: 0.2
+    max-stack: 64
+  blackstone_slab:
+    slot: 52
+    displayName: "&fBlackstone Slab"
+    material: BLACKSTONE_SLAB
+    price: 0.4
+    sell-price: 0.1
+    max-stack: 64
+  polished_blackstone:
+    slot: 53
+    displayName: "&fPolished Blackstone"
+    material: POLISHED_BLACKSTONE
+    price: 0.79
+    sell-price: 0.2
+    max-stack: 64
+  polished_blackstone_stairs:
+    slot: 54
+    displayName: "&fPolished Blackstone Stairs"
+    material: POLISHED_BLACKSTONE_STAIRS
+    price: 0.79
+    sell-price: 0.2
+    max-stack: 64
+  polished_blackstone_slab:
+    slot: 55
+    displayName: "&fPolished Blackstone Slab"
+    material: POLISHED_BLACKSTONE_SLAB
+    price: 0.4
+    sell-price: 0.1
+    max-stack: 64
+  polished_blackstone_bricks:
+    slot: 56
+    displayName: "&fPolished Blackstone Bricks"
+    material: POLISHED_BLACKSTONE_BRICKS
+    price: 0.79
+    sell-price: 0.2
+    max-stack: 64
+  polished_blackstone_brick_stairs:
+    slot: 57
+    displayName: "&fPolished Blackstone Brick Stairs"
+    material: POLISHED_BLACKSTONE_BRICK_STAIRS
+    price: 0.79
+    sell-price: 0.2
+    max-stack: 64
+  polished_blackstone_brick_slab:
+    slot: 58
+    displayName: "&fPolished Blackstone Brick Slab"
+    material: POLISHED_BLACKSTONE_BRICK_SLAB
+    price: 0.4
+    sell-price: 0.1
+    max-stack: 64
+  cracked_polished_blackstone_bricks:
+    slot: 59
+    displayName: "&fCracked Polished Blackstone Bricks"
+    material: CRACKED_POLISHED_BLACKSTONE_BRICKS
+    price: 0.83
+    sell-price: 0.21
+    max-stack: 64
+  chiseled_polished_blackstone:
+    slot: 60
+    displayName: "&fChiseled Polished Blackstone"
+    material: CHISELED_POLISHED_BLACKSTONE
+    price: 0.79
+    sell-price: 0.2
+    max-stack: 64
+  gilded_blackstone:
+    slot: 61
+    displayName: "&fGilded Blackstone"
+    material: GILDED_BLACKSTONE
+    price: 17
+    sell-price: 4.25
+    max-stack: 64
+  tuff:
+    slot: 62
+    displayName: "&fTuff"
+    material: TUFF
+    price: 2
+    sell-price: 0.5
+    max-stack: 64
+  tuff_stairs:
+    slot: 63
+    displayName: "&fTuff Stairs"
+    material: TUFF_STAIRS
+    price: 2.1
+    sell-price: 0.53
+    max-stack: 64
+  tuff_slab:
+    slot: 64
+    displayName: "&fTuff Slab"
+    material: TUFF_SLAB
+    price: 1.05
+    sell-price: 0.27
+    max-stack: 64
+  tuff_bricks:
+    slot: 65
+    displayName: "&fTuff Bricks"
+    material: TUFF_BRICKS
+    price: 2.1
+    sell-price: 0.53
+    max-stack: 64
+  tuff_brick_stairs:
+    slot: 66
+    displayName: "&fTuff Brick Stairs"
+    material: TUFF_BRICK_STAIRS
+    price: 2.1
+    sell-price: 0.53
+    max-stack: 64
+  tuff_brick_slab:
+    slot: 67
+    displayName: "&fTuff Brick Slab"
+    material: TUFF_BRICK_SLAB
+    price: 1.05
+    sell-price: 0.27
+    max-stack: 64
+  chiseled_tuff:
+    slot: 68
+    displayName: "&fChiseled Tuff"
+    material: CHISELED_TUFF
+    price: 2.1
+    sell-price: 0.53
+    max-stack: 64
+  chiseled_tuff_bricks:
+    slot: 69
+    displayName: "&fChiseled Tuff Bricks"
+    material: CHISELED_TUFF_BRICKS
+    price: 2.1
+    sell-price: 0.53
+    max-stack: 64
+  polished_tuff:
+    slot: 70
+    displayName: "&fPolished Tuff"
+    material: POLISHED_TUFF
+    price: 2.1
+    sell-price: 0.53
+    max-stack: 64
+  polished_tuff_stairs:
+    slot: 71
+    displayName: "&fPolished Tuff Stairs"
+    material: POLISHED_TUFF_STAIRS
+    price: 2.1
+    sell-price: 0.53
+    max-stack: 64
+  polished_tuff_slab:
+    slot: 72
+    displayName: "&fPolished Tuff Slab"
+    material: POLISHED_TUFF_SLAB
+    price: 1.05
+    sell-price: 0.27
+    max-stack: 64
+  basalt:
+    slot: 73
+    displayName: "&fBasalt"
+    material: BASALT
+    price: 1.43
+    sell-price: 0.92
+    max-stack: 64
+  polished_basalt:
+    slot: 74
+    displayName: "&fPolished Basalt"
+    material: POLISHED_BASALT
+    price: 3.43
+    sell-price: 1.42
+    max-stack: 64
+  smooth_basalt:
+    slot: 75
+    displayName: "&fSmooth Basalt"
+    material: SMOOTH_BASALT
+    price: 3.43
+    sell-price: 1.42
+    max-stack: 64
+  nether_bricks:
+    slot: 76
+    displayName: "&fNether Bricks"
+    material: NETHER_BRICKS
+    price: 0.89
+    sell-price: 0.23
+    max-stack: 64
+  nether_brick_stairs:
+    slot: 77
+    displayName: "&fNether Brick Stairs"
+    material: NETHER_BRICK_STAIRS
+    price: 0.93
+    sell-price: 0.24
+    max-stack: 64
+  nether_brick_slab:
+    slot: 78
+    displayName: "&fNether Brick Slab"
+    material: NETHER_BRICK_SLAB
+    price: 0.47
+    sell-price: 0.12
+    max-stack: 64
+  cracked_nether_bricks:
+    slot: 79
+    displayName: "&fCracked Nether Bricks"
+    material: CRACKED_NETHER_BRICKS
+    price: 0.93
+    sell-price: 0.24
+    max-stack: 64
+  chiseled_nether_bricks:
+    slot: 80
+    displayName: "&fChiseled Nether Bricks"
+    material: CHISELED_NETHER_BRICKS
+    price: 0.49
+    sell-price: 0.13
+    max-stack: 64
+  red_nether_bricks:
+    slot: 81
+    displayName: "&fRed Nether Bricks"
+    material: RED_NETHER_BRICKS
+    price: 8.16
+    sell-price: 2.04
+    max-stack: 64
+  red_nether_brick_stairs:
+    slot: 82
+    displayName: "&fRed Nether Brick Stairs"
+    material: RED_NETHER_BRICK_STAIRS
+    price: 8.56
+    sell-price: 2.14
+    max-stack: 64
+  red_nether_brick_slab:
+    slot: 83
+    displayName: "&fRed Nether Brick Slab"
+    material: RED_NETHER_BRICK_SLAB
+    price: 4.28
+    sell-price: 1.07
+    max-stack: 64
+  end_stone:
+    slot: 84
+    displayName: "&fEnd Stone"
+    material: END_STONE
+    price: 5
+    sell-price: 1.25
+    max-stack: 64
+  end_stone_bricks:
+    slot: 85
+    displayName: "&fEnd Stone Bricks"
+    material: END_STONE_BRICKS
+    price: 5.25
+    sell-price: 1.32
+    max-stack: 64
+  end_stone_brick_stairs:
+    slot: 86
+    displayName: "&fEnd Stone Brick Stairs"
+    material: END_STONE_BRICK_STAIRS
+    price: 5.25
+    sell-price: 1.32
+    max-stack: 64
+  end_stone_brick_slab:
+    slot: 87
+    displayName: "&fEnd Stone Brick Slab"
+    material: END_STONE_BRICK_SLAB
+    price: 2.63
+    sell-price: 0.66
+    max-stack: 64
+  calcite:
+    slot: 88
+    displayName: "&fCalcite"
+    material: CALCITE
+    price: 2
+    sell-price: 0.5
+    max-stack: 64
+  bricks:
+    slot: 89
+    displayName: "&fBricks"
+    material: BRICKS
+    price: 92.61
+    sell-price: 23.16
+    max-stack: 64
+  brick_stairs:
+    slot: 90
+    displayName: "&fBrick Stairs"
+    material: BRICK_STAIRS
+    price: 97.25
+    sell-price: 24.32
+    max-stack: 64
+  brick_slab:
+    slot: 91
+    displayName: "&fBrick Slab"
+    material: BRICK_SLAB
+    price: 48.63
+    sell-price: 12.16
+    max-stack: 64

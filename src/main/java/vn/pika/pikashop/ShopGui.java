@@ -72,32 +72,87 @@ public class ShopGui implements Listener {
         p.openInventory(inv);
     }
 
-    // ---------- menu category ----------
+    // ---------- menu category (co phan trang, hien gia buy+sell) ----------
+    private static final int PAGE_SIZE = 45; // 5 hang do, hang cuoi lam thanh dieu huong
+    private static final int NAV_PREV = 45;
+    private static final int NAV_NEXT = 53;
+    private static final int NAV_BACK = 49;
+
     public void openCategory(Player p, String categoryId) {
+        openCategory(p, categoryId, 0);
+    }
+
+    public void openCategory(Player p, String categoryId, int page) {
         ShopData.Category c = plugin.shops().categories.get(categoryId);
         if (c == null) {
             p.sendMessage(plugin.msg("messages.category-not-found"));
             return;
         }
-        Inventory inv = Bukkit.createInventory(new Holder("cat:" + categoryId), c.size, color(c.title));
-        for (ShopData.ShopItem it : c.items.values()) {
-            ItemStack icon = new ItemStack(it.material);
+        List<ShopData.ShopItem> all = new ArrayList<>(c.items.values());
+        int pages = Math.max(1, (all.size() + PAGE_SIZE - 1) / PAGE_SIZE);
+        page = Math.max(0, Math.min(page, pages - 1));
+        int size = 54;
+        String title = c.title + (pages > 1 ? " (" + (page + 1) + "/" + pages + ")" : "");
+        Inventory inv = Bukkit.createInventory(new Holder("cat:" + categoryId + ":" + page), size, color(title));
+        int from = page * PAGE_SIZE;
+        int to = Math.min(all.size(), from + PAGE_SIZE);
+        for (int i = from; i < to; i++) {
+            ShopData.ShopItem it = all.get(i);
+            ItemStack icon = buildShopIcon(it);
             ItemMeta meta = icon.getItemMeta();
             if (meta != null) {
                 meta.setDisplayName(color(it.displayName));
                 List<String> lore = new ArrayList<>();
                 lore.add(ChatColor.WHITE + "Gia mua: " + ChatColor.GREEN + "$" + money(it.price));
+                if (it.sellPrice > 0) {
+                    lore.add(ChatColor.WHITE + "Gia ban: " + ChatColor.GOLD + "$" + money(it.sellPrice));
+                }
                 lore.add(ChatColor.GRAY + "Nhan de chon so luong");
                 lore.add(ChatColor.DARK_GRAY + c.id + "/" + it.key);
                 meta.setLore(lore);
                 icon.setItemMeta(meta);
             }
-            if (it.slot >= 0 && it.slot < inv.getSize()) inv.setItem(it.slot, icon);
+            inv.setItem(i - from, icon);
         }
-        // nut quay lai
-        ItemStack back = named(Material.RED_STAINED_GLASS_PANE, ChatColor.RED + "QUAY LAI");
-        if (BACK_SLOT < inv.getSize()) inv.setItem(BACK_SLOT, back);
+        if (page > 0) inv.setItem(NAV_PREV, named(Material.ARROW, ChatColor.YELLOW + "TRANG TRUOC"));
+        if (page < pages - 1) inv.setItem(NAV_NEXT, named(Material.ARROW, ChatColor.YELLOW + "TRANG SAU"));
+        inv.setItem(NAV_BACK, named(Material.RED_STAINED_GLASS_PANE, ChatColor.RED + "QUAY LAI"));
         p.openInventory(inv);
+    }
+
+    /** Dung NBT that cho item hien thi + mua ve: potion/enchant/spawner (tu viet). */
+    private ItemStack buildShopIcon(ShopData.ShopItem it) {
+        ItemStack icon = new ItemStack(it.material);
+        try {
+            if (it.potion != null && icon.getItemMeta() instanceof org.bukkit.inventory.meta.PotionMeta) {
+                org.bukkit.inventory.meta.PotionMeta pm = (org.bukkit.inventory.meta.PotionMeta) icon.getItemMeta();
+                org.bukkit.potion.PotionType pt = null;
+                try { pt = org.bukkit.potion.PotionType.valueOf(it.potion); } catch (IllegalArgumentException ignored) {}
+                if (pt != null) pm.setBasePotionType(pt);
+                icon.setItemMeta(pm);
+            } else if (it.enchant != null && it.enchant.contains(":")) {
+                String[] parts = it.enchant.split(":", 2);
+                org.bukkit.enchantments.Enchantment en = org.bukkit.enchantments.Enchantment.getByKey(
+                        org.bukkit.NamespacedKey.minecraft(parts[0].toLowerCase(java.util.Locale.ROOT)));
+                int lvl = 1;
+                try { lvl = Integer.parseInt(parts[1]); } catch (NumberFormatException ignored) {}
+                if (en != null) icon.addUnsafeEnchantment(en, Math.max(1, lvl));
+            } else if (it.spawner != null && icon.getItemMeta() instanceof org.bukkit.inventory.meta.BlockStateMeta) {
+                org.bukkit.inventory.meta.BlockStateMeta bm = (org.bukkit.inventory.meta.BlockStateMeta) icon.getItemMeta();
+                if (bm.getBlockState() instanceof org.bukkit.block.CreatureSpawner) {
+                    org.bukkit.block.CreatureSpawner cs = (org.bukkit.block.CreatureSpawner) bm.getBlockState();
+                    try {
+                        org.bukkit.entity.EntityType et = org.bukkit.entity.EntityType.valueOf(it.spawner);
+                        cs.setSpawnedType(et);
+                        bm.setBlockState(cs);
+                        icon.setItemMeta(bm);
+                    } catch (IllegalArgumentException ignored) {}
+                }
+            }
+        } catch (Exception ignored) {
+            // giu icon vanilla neu version khong ho tro
+        }
+        return icon;
     }
 
     // ---------- man hinh so luong ----------
@@ -161,9 +216,24 @@ public class ShopGui implements Listener {
                 }
             }
         } else if (h.kind.startsWith("cat:")) {
-            String catId = h.kind.substring(4);
-            if (slot == BACK_SLOT) {
+            String rest = h.kind.substring(4);
+            String catId = rest;
+            int page = 0;
+            int ci = rest.lastIndexOf(':');
+            if (ci >= 0) {
+                try { page = Integer.parseInt(rest.substring(ci + 1)); catId = rest.substring(0, ci); }
+                catch (NumberFormatException ignored) {}
+            }
+            if (slot == NAV_BACK) {
                 openMain(p);
+                return;
+            }
+            if (slot == NAV_PREV) {
+                openCategory(p, catId, page - 1);
+                return;
+            }
+            if (slot == NAV_NEXT) {
+                openCategory(p, catId, page + 1);
                 return;
             }
             ItemStack cur = e.getCurrentItem();
@@ -231,7 +301,9 @@ public class ShopGui implements Listener {
             p.sendMessage(plugin.msg("messages.not-enough-balance"));
             return;
         }
-        Map<Integer, ItemStack> overflow = p.getInventory().addItem(new ItemStack(it.material, amount));
+        ItemStack give = buildShopIcon(it);
+        give.setAmount(amount);
+        Map<Integer, ItemStack> overflow = p.getInventory().addItem(give);
         if (!overflow.isEmpty()) {
             // hiem khi xay ra (ai do nhan do giua chung): go phan da them + hoan tien
             int added = amount;

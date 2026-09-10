@@ -1,58 +1,199 @@
-# Gian FOOD (mat hang mac dinh DonutShop, gia goc giu nguyen).
 Title: "SHOP - FOOD"
-Size: 27
+Size: 54
 items:
-  potato:
-    slot: 9
-    displayName: "&fPotato"
-    material: POTATO
-    price: 25
-    max-stack: 64
-  sweet-berries:
-    slot: 10
-    displayName: "&fSweet Berries"
-    material: SWEET_BERRIES
-    price: 15
-    max-stack: 64
-  melon-slice:
-    slot: 11
-    displayName: "&fMelon Slice"
-    material: MELON_SLICE
-    price: 10
-    max-stack: 64
-  carrot:
-    slot: 12
-    displayName: "&fCarrot"
-    material: CARROT
-    price: 25
-    max-stack: 64
-  apple:
-    slot: 13
-    displayName: "&fApple"
-    material: APPLE
-    price: 25
-    max-stack: 64
-  cooked-chicken:
-    slot: 14
+  cookie:
+    slot: 0
+    displayName: "&fCookie"
+    material: COOKIE
+    price: 33.6
+    sell-price: 8.48
+    max-stack: 16
+  bread:
+    slot: 1
+    displayName: "&fBread"
+    material: BREAD
+    price: 252
+    sell-price: 63.04
+    max-stack: 16
+  baked_potato:
+    slot: 2
+    displayName: "&fBaked Potato"
+    material: BAKED_POTATO
+    price: 84
+    sell-price: 21.12
+    max-stack: 16
+  cooked_beef:
+    slot: 3
+    displayName: "&fCooked Beef"
+    material: COOKED_BEEF
+    price: 50.4
+    sell-price: 12.64
+    max-stack: 8
+  cooked_mutton:
+    slot: 4
+    displayName: "&fCooked Mutton"
+    material: COOKED_MUTTON
+    price: 50.4
+    sell-price: 12.64
+    max-stack: 8
+  cooked_porkchop:
+    slot: 5
+    displayName: "&fCooked Porkchop"
+    material: COOKED_PORKCHOP
+    price: 50.4
+    sell-price: 12.64
+    max-stack: 8
+  cooked_chicken:
+    slot: 6
     displayName: "&fCooked Chicken"
     material: COOKED_CHICKEN
-    price: 30
-    max-stack: 64
-  steak:
-    slot: 15
-    displayName: "&fSteak"
-    material: COOKED_BEEF
-    price: 35
-    max-stack: 64
-  golden-carrot:
-    slot: 16
+    price: 50.4
+    sell-price: 12.64
+    max-stack: 8
+  cooked_cod:
+    slot: 7
+    displayName: "&fCooked Cod"
+    material: COOKED_COD
+    price: 50.4
+    sell-price: 12.64
+    max-stack: 8
+  cooked_salmon:
+    slot: 8
+    displayName: "&fCooked Salmon"
+    material: COOKED_SALMON
+    price: 50.4
+    sell-price: 12.64
+    max-stack: 8
+  cooked_rabbit:
+    slot: 9
+    displayName: "&fCooked Rabbit"
+    material: COOKED_RABBIT
+    price: 25.2
+    sell-price: 6.32
+    max-stack: 4
+  apple:
+    slot: 10
+    displayName: "&fApple"
+    material: APPLE
+    price: 40
+    sell-price: 10
+    max-stack: 4
+  pumpkin_pie:
+    slot: 11
+    displayName: "&fPumpkin Pie"
+    material: PUMPKIN_PIE
+    price: 42.48
+    sell-price: 10.64
+    max-stack: 4
+  golden_carrot:
+    slot: 12
     displayName: "&fGolden Carrot"
     material: GOLDEN_CARROT
-    price: 50
-    max-stack: 64
-  golden-apple-food:
-    slot: 17
-    displayName: "&bGolden Apple"
+    price: 48.8
+    sell-price: 12.2
+    max-stack: 4
+  golden_apple:
+    slot: 13
+    displayName: "&fGolden Apple"
     material: GOLDEN_APPLE
-    price: 250
+    price: 79.96
+    sell-price: 19.99
+    max-stack: 64
+  glistering_melon_slice:
+    slot: 14
+    displayName: "&fGlistering Melon Slice"
+    material: GLISTERING_MELON_SLICE
+    price: 8
+    sell-price: 2
+    max-stack: 64
+  honey_bottle:
+    slot: 15
+    displayName: "&fHoney Bottle"
+    material: HONEY_BOTTLE
+    price: 7.94
+    sell-price: 1.99
+    max-stack: 64
+  beef:
+    slot: 16
+    displayName: "&fBeef"
+    material: BEEF
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  mutton:
+    slot: 17
+    displayName: "&fMutton"
+    material: MUTTON
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  chicken:
+    slot: 18
+    displayName: "&fChicken"
+    material: CHICKEN
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  porkchop:
+    slot: 19
+    displayName: "&fPorkchop"
+    material: PORKCHOP
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  rabbit:
+    slot: 20
+    displayName: "&fRabbit"
+    material: RABBIT
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  cod:
+    slot: 21
+    displayName: "&fCod"
+    material: COD
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  salmon:
+    slot: 22
+    displayName: "&fSalmon"
+    material: SALMON
+    price: 6
+    sell-price: 1.5
+    max-stack: 64
+  melon_slice:
+    slot: 23
+    displayName: "&fMelon Slice"
+    material: MELON_SLICE
+    price: 1
+    sell-price: 0.25
+    max-stack: 64
+  beetroot_soup:
+    slot: 24
+    displayName: "&fBeetroot Soup"
+    material: BEETROOT_SOUP
+    price: 38.72
+    sell-price: 9.68
+    max-stack: 64
+  mushroom_stew:
+    slot: 25
+    displayName: "&fMushroom Stew"
+    material: MUSHROOM_STEW
+    price: 5.12
+    sell-price: 1.28
+    max-stack: 64
+  rabbit_stew:
+    slot: 26
+    displayName: "&fRabbit Stew"
+    material: RABBIT_STEW
+    price: 20.39
+    sell-price: 5.1
+    max-stack: 64
+  cake:
+    slot: 27
+    displayName: "&fCake"
+    material: CAKE
+    price: 79.32
+    sell-price: 19.83
     max-stack: 64

@@ -57,13 +57,14 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
         getServer().getPluginManager().registerEvents(multiGui, this);
         getServer().getPluginManager().registerEvents(shardListener, this);
         getServer().getPluginManager().registerEvents(shardGui, this);
-        register("pshard");
-        register("psellprice");
-        register("pshop");
-        register("psell");
-        register("psellmulti");
-        register("psellhistory");
-        register("pworth");
+        register("shard");
+        register("sellprice");
+        register("shop");
+        register("sell");
+        register("sellall");
+        register("sellmulti");
+        register("sellhistory");
+        register("worth");
         register("pikashop");
         if (vault.setup()) {
             getLogger().info("PikaShop da noi Vault Economy.");
@@ -130,31 +131,43 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
             p.sendMessage(msg("messages.no-permission"));
             return true;
         }
-        if (name.equals("pshop")) {
+        if (name.equals("shop")) {
             gui.openMain(p);
             return true;
         }
-        if (name.equals("psell")) {
+        if (name.equals("sell")) {
+            if (args.length > 0 && args[0].equalsIgnoreCase("hand")) {
+                sellGui.sellHand(p);
+                return true;
+            }
+            if (args.length > 0 && args[0].equalsIgnoreCase("all")) {
+                sellGui.sellAll(p);
+                return true;
+            }
             sellGui.open(p);
             return true;
         }
-        if (name.equals("psellhistory")) {
+        if (name.equals("sellall")) {
+            sellGui.sellAll(p);
+            return true;
+        }
+        if (name.equals("sellhistory")) {
             sellGui.showHistory(p);
             return true;
         }
-        if (name.equals("pworth")) {
+        if (name.equals("worth")) {
             boolean all = args.length > 0 && args[0].equalsIgnoreCase("all");
             sellGui.showWorth(p, all);
             return true;
         }
-        if (name.equals("psellmulti")) {
+        if (name.equals("sellmulti")) {
             multiGui.open(p);
             return true;
         }
-        if (name.equals("pshard")) {
+        if (name.equals("shard")) {
             return shardCommand(p, args);
         }
-        if (name.equals("psellprice")) {
+        if (name.equals("sellprice")) {
             if (!p.hasPermission("pikashop.admin")) {
                 p.sendMessage(msg("messages.no-permission"));
                 return true;
@@ -179,7 +192,7 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
                 p.sendMessage(msg("messages.sellprice-usage"));
                 return true;
             }
-            String catId = sells.setPrice(hand.getType(), price);
+            String catId = sells.setPrice(this, hand.getType(), price);
             java.util.Map<String, String> ph = new java.util.HashMap<>();
             ph.put("item", hand.getType().name());
             ph.put("price", String.valueOf(price));
@@ -191,7 +204,7 @@ public class PikaShop extends JavaPlugin implements CommandExecutor {
         return true;
     }
 
-    /** /pshard <balance|pay|shop|top|afk|set|give|take|see|setafk>. */
+    /** /shard <balance|pay|shop|top|afk|set|give|take|see|setafk>. */
     public boolean shardCommand(Player p, String[] args) {
         if (args.length == 0 || args[0].equalsIgnoreCase("balance")) {
             java.util.Map<String, String> ph = new java.util.HashMap<>();

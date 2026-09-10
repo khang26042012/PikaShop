@@ -7,28 +7,31 @@ description: Shop rieng cua PikaMC (shop 2 buoc, sell tha do, multiplier, shard 
 depend: [Vault]
 softdepend: [PlaceholderAPI]
 commands:
-  pshop:
+  shop:
     description: Mo menu shop chinh (PikaShop)
-    usage: /pshop
-  psell:
-    description: Mo GUI ban do (PikaShop)
-    usage: /psell
-  psellmulti:
+    usage: /shop
+  sell:
+    description: Mo GUI ban do (PikaShop) | /sell hand|all
+    usage: /sell [hand|all]
+  sellall:
+    description: Ban het do ban duoc trong tui (PikaShop)
+    usage: /sellall
+  sellmulti:
     description: Xem tien trinh multiplier (PikaShop)
-    usage: /psellmulti
-  psellhistory:
+    usage: /sellmulti
+  sellhistory:
     description: Xem lich su ban (PikaShop)
-    usage: /psellhistory
-  pworth:
+    usage: /sellhistory
+  worth:
     description: Xem gia tri vat pham (PikaShop)
-    usage: /pworth
-  psellprice:
+    usage: /worth
+  sellprice:
     description: Dat gia sell cho vat pham dang cam (admin)
-    usage: /psellprice <gia>
+    usage: /sellprice <gia>
     permission: pikashop.admin
-  pshard:
+  shard:
     description: Tien Shard (PikaShop v2)
-    usage: /pshard <balance|pay|shop|top|afk>
+    usage: /shard <balance|pay|shop|top|afk>
   pikashop:
     description: Lenh admin PikaShop
     usage: /pikashop reload

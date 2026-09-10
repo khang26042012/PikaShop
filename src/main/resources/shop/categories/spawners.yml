@@ -1,0 +1,276 @@
+Title: SHOP - SPAWNERS
+Size: 54
+items:
+  allay_spawner:
+    slot: 0
+    displayName: '&eAllay Spawner'
+    material: SPAWNER
+    price: 225000
+    max-stack: 64
+    spawner: ALLAY
+  axolotl_spawner:
+    slot: 1
+    displayName: '&eAxolotl Spawner'
+    material: SPAWNER
+    price: 150000
+    max-stack: 64
+    spawner: AXOLOTL
+  bat_spawner:
+    slot: 2
+    displayName: '&eBat Spawner'
+    material: SPAWNER
+    price: 10000
+    max-stack: 64
+    spawner: BAT
+  blaze_spawner:
+    slot: 3
+    displayName: '&eBlaze Spawner'
+    material: SPAWNER
+    price: 125000
+    max-stack: 64
+    spawner: BLAZE
+  bogged_spawner:
+    slot: 4
+    displayName: '&eBogged Spawner'
+    material: SPAWNER
+    price: 100000
+    max-stack: 64
+    spawner: BOGGED
+  breeze_spawner:
+    slot: 5
+    displayName: '&eBreeze Spawner'
+    material: SPAWNER
+    price: 100000
+    max-stack: 64
+    spawner: BREEZE
+  camel_spawner:
+    slot: 6
+    displayName: '&eCamel Spawner'
+    material: SPAWNER
+    price: 50000
+    max-stack: 64
+    spawner: CAMEL
+  cat_spawner:
+    slot: 7
+    displayName: '&eCat Spawner'
+    material: SPAWNER
+    price: 25000
+    max-stack: 64
+    spawner: CAT
+  cave_spider_spawner:
+    slot: 8
+    displayName: '&eCave Spider Spawner'
+    material: SPAWNER
+    price: 50000
+    max-stack: 64
+    spawner: CAVE_SPIDER
+  chicken_spawner:
+    slot: 9
+    displayName: '&eChicken Spawner'
+    material: SPAWNER
+    price: 15000
+    max-stack: 64
+    spawner: CHICKEN
+  cod_spawner:
+    slot: 10
+    displayName: '&eCod Spawner'
+    material: SPAWNER
+    price: 10000
+    max-stack: 64
+    spawner: COD
+  cow_spawner:
+    slot: 11
+    displayName: '&eCow Spawner'
+    material: SPAWNER
+    price: 100000
+    max-stack: 64
+    spawner: COW
+  creeper_spawner:
+    slot: 12
+    displayName: '&eCreeper Spawner'
+    material: SPAWNER
+    price: 150000
+    max-stack: 64
+    spawner: CREEPER
+  enderman_spawner:
+    slot: 13
+    displayName: '&eEnderman Spawner'
+    material: SPAWNER
+    price: 175000
+    max-stack: 64
+    spawner: ENDERMAN
+  frog_spawner:
+    slot: 14
+    displayName: '&eFrog Spawner'
+    material: SPAWNER
+    price: 395000
+    max-stack: 64
+    spawner: FROG
+  glow_squid_spawner:
+    slot: 15
+    displayName: '&eGlow Squid Spawner'
+    material: SPAWNER
+    price: 100000
+    max-stack: 64
+    spawner: GLOW_SQUID
+  goat_spawner:
+    slot: 16
+    displayName: '&eGoat Spawner'
+    material: SPAWNER
+    price: 120000
+    max-stack: 64
+    spawner: GOAT
+  horse_spawner:
+    slot: 17
+    displayName: '&eHorse Spawner'
+    material: SPAWNER
+    price: 65000
+    max-stack: 64
+    spawner: HORSE
+  husk_spawner:
+    slot: 18
+    displayName: '&eHusk Spawner'
+    material: SPAWNER
+    price: 125000
+    max-stack: 64
+    spawner: HUSK
+  iron_golem_spawner:
+    slot: 19
+    displayName: '&eIron Golem Spawner'
+    material: SPAWNER
+    price: 1000000
+    max-stack: 64
+    spawner: IRON_GOLEM
+  magma_cube_spawner:
+    slot: 20
+    displayName: '&eMagma Cube Spawner'
+    material: SPAWNER
+    price: 500000
+    max-stack: 64
+    spawner: MAGMA_CUBE
+  mushroom_cow_spawner:
+    slot: 21
+    displayName: '&eMushroom Cow Spawner'
+    material: SPAWNER
+    price: 125000
+    max-stack: 64
+    spawner: MUSHROOM_COW
+  panda_spawner:
+    slot: 22
+    displayName: '&ePanda Spawner'
+    material: SPAWNER
+    price: 50000
+    max-stack: 64
+    spawner: PANDA
+  parrot_spawner:
+    slot: 23
+    displayName: '&eParrot Spawner'
+    material: SPAWNER
+    price: 30000
+    max-stack: 64
+    spawner: PARROT
+  phantom_spawner:
+    slot: 24
+    displayName: '&ePhantom Spawner'
+    material: SPAWNER
+    price: 250000
+    max-stack: 64
+    spawner: PHANTOM
+  piglin_brute_spawner:
+    slot: 25
+    displayName: '&ePiglin Brute Spawner'
+    material: SPAWNER
+    price: 2000000
+    max-stack: 64
+    spawner: PIGLIN_BRUTE
+  rabbit_spawner:
+    slot: 26
+    displayName: '&eRabbit Spawner'
+    material: SPAWNER
+    price: 45000
+    max-stack: 64
+    spawner: RABBIT
+  sheep_spawner:
+    slot: 27
+    displayName: '&eSheep Spawner'
+    material: SPAWNER
+    price: 45000
+    max-stack: 64
+    spawner: SHEEP
+  shulker_spawner:
+    slot: 28
+    displayName: '&eShulker Spawner'
+    material: SPAWNER
+    price: 500000
+    max-stack: 64
+    spawner: SHULKER
+  skeleton_spawner:
+    slot: 29
+    displayName: '&eSkeleton Spawner'
+    material: SPAWNER
+    price: 125000
+    max-stack: 64
+    spawner: SKELETON
+  slime_spawner:
+    slot: 30
+    displayName: '&eSlime Spawner'
+    material: SPAWNER
+    price: 550000
+    max-stack: 64
+    spawner: SLIME
+  sniffer_spawner:
+    slot: 31
+    displayName: '&eSniffer Spawner'
+    material: SPAWNER
+    price: 45000
+    max-stack: 64
+    spawner: SNIFFER
+  spider_spawner:
+    slot: 32
+    displayName: '&eSpider Spawner'
+    material: SPAWNER
+    price: 45000
+    max-stack: 64
+    spawner: SPIDER
+  squid_spawner:
+    slot: 33
+    displayName: '&eSquid Spawner'
+    material: SPAWNER
+    price: 100000
+    max-stack: 64
+    spawner: SQUID
+  strider_spawner:
+    slot: 34
+    displayName: '&eStrider Spawner'
+    material: SPAWNER
+    price: 45000
+    max-stack: 64
+    spawner: STRIDER
+  witch_spawner:
+    slot: 35
+    displayName: '&eWitch Spawner'
+    material: SPAWNER
+    price: 500000
+    max-stack: 64
+    spawner: WITCH
+  wolf_spawner:
+    slot: 36
+    displayName: '&eWolf Spawner'
+    material: SPAWNER
+    price: 250000
+    max-stack: 64
+    spawner: WOLF
+  zombie_spawner:
+    slot: 37
+    displayName: '&eZombie Spawner'
+    material: SPAWNER
+    price: 120000
+    max-stack: 64
+    spawner: ZOMBIE
+  zombified_piglin_spawner:
+    slot: 38
+    displayName: '&eZombified Piglin Spawner'
+    material: SPAWNER
+    price: 120000
+    max-stack: 64
+    spawner: ZOMBIFIED_PIGLIN
